@@ -1,0 +1,43 @@
+{
+ "tag": "layer1_v3",
+ "frozen_at": "2026-10-06T19:25:25",
+ "source": "FrameNet 1.7 (ICSI Berkeley) via nltk framenet_v17",
+ "license_verified": true,
+ "counts": {
+  "frames": 1221,
+  "frame_elements": 11416,
+  "fe_source_empty_excluded": 12,
+  "relations": 2070,
+  "fe_name_terms": 1285,
+  "grammar_terms": 17,
+  "names": 2044
+ },
+ "core_type_distribution": {
+  "Core": 3496,
+  "Extra-Thematic": 2779,
+  "Peripheral": 5018,
+  "Core-Unexpressed": 123
+ },
+ "files": {
+  "APPROVAL_LOG.txt": "e1ea52c0510d39b21a008c073fadd7087b4824bab74664fca12a596301254e31",
+  "LICENSE.txt": "1a17bb4c41476e7c0c3bbb29bf8a73dac0423684aca05908ad6cceb2af17bbd6",
+  "README.md": "8e308abd7992f3a8b5180749162d12403d79cd2512e21f37c74e51598cfe419e",
+  "fe_glossary.tsv": "54e985dc302c4a2e96c5218d08166d0f75b74ea1e9764bc2eb9baf16f50925d7",
+  "frame_elements_ar.jsonl": "febd834b399dc7f8069bcfc67657397eecc00410b5028e859b9be1ae640b307e",
+  "frame_names.tsv": "e65ab9cbbcbc2c2510b1a9b70621aedef9f33c93b0c76c5fb031b24fb2178b29",
+  "frame_relations.jsonl": "e4f334b0efb52c455d7073ec279b0f5f37abee9acea60dfe6932272cb46299a3",
+  "frames_ar.jsonl": "556fdfe898c49e380b8c56db903acbee696a50b5db7332572128fb28978710c1",
+  "grammar_glossary.tsv": "039aa6f4c47de957b17a59b87606600bdcbdaf1078037dec5cabb6581b19841e",
+  "names_map.tsv": "914a395ac9b16093fce5753d0671144445c74bd165e6a61f1917c9db16fac16d",
+  "relation_types.tsv": "03b2fc23d297a47c17b9fbef485feed446630d2c68b355b8a942cec6b629dae4"
+ },
+ "upstream_fingerprints": {
+  "full_frames_ar.jsonl": "0d816ef9e7367934a222e7425bd975bf7200e84cba6a7dd5cda20b4718271a72",
+  "full_fes_ar.jsonl": "e727bb2d2fdf6e13b5078a8e9077d0bd450313229d5c0f710745d06d798f37da"
+ },
+ "derived_from": {
+  "tag": "layer1_v2",
+  "manifest_sha256": "d7a7b300bef676a6426aa50afdeb930644af1f2c4b23d17e9c3cd41b6b836baa",
+  "change": "fe_glossary.tsv: removed third-party column mac_dict_candidate (OWNER_DECISION_PUB_001); all other files byte-identical"
+ }
+}

@@ -1,0 +1,2071 @@
+﻿rel_id,type,type_ar,super_frame_id,super,super_ar,sub_frame_id,sub,sub_ar
+3440,Inheritance,الوراثة,262,Abounding_with,الامتلاء بـ,1904,Lively_place,المكان النابض
+2234,Inheritance,الوراثة,1602,Abundance,الوفرة,1603,Scarcity,الندرة
+138,Inheritance,الوراثة,124,Activity,النشاط,236,Apply_heat,تسليط الحرارة
+4862,Inheritance,الوراثة,165,Activity_finish,إنهاء النشاط,2193,Finish_game,إنهاء المباراة
+4789,Inheritance,الوراثة,164,Activity_ongoing,النشاط الجاري,2800,Retaining,الاستبقاء
+4673,Inheritance,الوراثة,169,Activity_ready_state,حالة الاستعداد للنشاط,2723,Be_on_alert,التأهب
+1396,Inheritance,الوراثة,166,Activity_stop,إيقاف النشاط,1024,Halt,التوقف
+4466,Inheritance,الوراثة,103,Aggregate,المجموع,2597,Convoy,القافلة
+4458,Inheritance,الوراثة,103,Aggregate,المجموع,2591,Entourage,الحاشية
+2464,Inheritance,الوراثة,103,Aggregate,المجموع,1371,Organization,المنظمة
+4758,Inheritance,الوراثة,103,Aggregate,المجموع,2524,Product_line,خط المنتجات
+2182,Inheritance,الوراثة,103,Aggregate,المجموع,1511,Store,المتجر
+4903,Inheritance,الوراثة,103,Aggregate,المجموع,2828,Team,الفريق
+5131,Inheritance,الوراثة,2950,Alternativity,البديلية,2902,Conditional_scenario,السيناريو المشروط
+5130,Inheritance,الوراثة,2950,Alternativity,البديلية,2860,Negation,النفي
+3487,Inheritance,الوراثة,1925,Appointing,التعيين,72,Change_of_leadership,تغيّر القيادة
+1397,Inheritance,الوراثة,971,Architectural_part,الجزء المعماري,1025,Connecting_architecture,البنية الواصلة
+4034,Inheritance,الوراثة,2234,Arithmetic,الحساب,2245,Arithmetic_commutative,الحساب التبادلي
+4037,Inheritance,الوراثة,2234,Arithmetic,الحساب,2236,Arithmetic_non-commutative,الحساب غير التبادلي
+4668,Inheritance,الوراثة,2234,Arithmetic,الحساب,2719,Mathematical_relationship,العلاقة الرياضية
+4542,Inheritance,الوراثة,54,Arriving,الوصول,2642,Vehicle_landing,هبوط المركبة
+3539,Inheritance,الوراثة,54,Arriving,الوصول,1943,Visiting_scenario_arrival,سيناريو الزيارة: الوصول
+942,Inheritance,الوراثة,421,Artifact,المصنوع,158,Accoutrements,العُدَد
+2192,Inheritance,الوراثة,421,Artifact,المصنوع,1565,Ammunition,الذخيرة
+2685,Inheritance,الوراثة,421,Artifact,المصنوع,299,Body_decoration,زينة الجسم
+1384,Inheritance,الوراثة,421,Artifact,المصنوع,173,Buildings,المباني
+350,Inheritance,الوراثة,421,Artifact,المصنوع,134,Clothing,الملابس
+114,Inheritance,الوراثة,421,Artifact,المصنوع,419,Connectors,الروابط
+4563,Inheritance,الوراثة,421,Artifact,المصنوع,2654,Controller_object,الشيء المتحكَّم به
+2228,Inheritance,الوراثة,421,Artifact,المصنوع,1598,Fastener,المثبِّت
+5135,Inheritance,الوراثة,421,Artifact,المصنوع,2837,Fire_break,حاجز النار
+4561,Inheritance,الوراثة,421,Artifact,المصنوع,2653,Information_display,عرض المعلومات
+2475,Inheritance,الوراثة,421,Artifact,المصنوع,1481,Infrastructure,البنية التحتية
+4691,Inheritance,الوراثة,421,Artifact,المصنوع,2743,Key,المفتاح
+1338,Inheritance,الوراثة,421,Artifact,المصنوع,950,Law,القانون
+4866,Inheritance,الوراثة,421,Artifact,المصنوع,257,Medical_instruments,الأدوات الطبية
+3450,Inheritance,الوراثة,421,Artifact,المصنوع,1761,Money,المال
+1385,Inheritance,الوراثة,421,Artifact,المصنوع,1017,Noise_makers,مُحدِثات الضجيج
+4872,Inheritance,الوراثة,421,Artifact,المصنوع,1656,Physical_artworks,الأعمال الفنية المادية
+3181,Inheritance,الوراثة,421,Artifact,المصنوع,298,Text,النص
+2626,Inheritance,الوراثة,421,Artifact,المصنوع,429,Vehicle,المركبة
+101,Inheritance,الوراثة,421,Artifact,المصنوع,426,Weapon,السلاح
+3628,Inheritance,الوراثة,391,Assistance,المساعدة,2000,Supporting,الدعم
+3295,Inheritance,الوراثة,424,Attack,الهجوم,1817,Besieging,الحصار
+4608,Inheritance,الوراثة,424,Attack,الهجوم,2677,Counterattack,الهجوم المضاد
+3661,Inheritance,الوراثة,424,Attack,الهجوم,2022,Invading,الغزو
+4568,Inheritance,الوراثة,424,Attack,الهجوم,2658,Suicide_attack,الهجوم الانتحاري
+3730,Inheritance,الوراثة,116,Attempt,المحاولة,87,Attempt_suasion,محاولة الإقناع
+3402,Inheritance,الوراثة,116,Attempt,المحاولة,1892,Work,العمل
+3425,Inheritance,الوراثة,1900,Attempt_distant_interaction_scenario,سيناريو محاولة التفاعل عن بعد,1727,Shooting_scenario,سيناريو الإطلاق
+3643,Inheritance,الوراثة,2007,Attempt_obtain_food_scenario,سيناريو محاولة الحصول على الطعام,2012,Agriculture,الزراعة
+3637,Inheritance,الوراثة,2007,Attempt_obtain_food_scenario,سيناريو محاولة الحصول على الطعام,2009,Hunting_scenario,سيناريو الصيد
+4867,Inheritance,الوراثة,2221,Attempt_obtain_mineral_scenario,سيناريو محاولة الحصول على المعدن,2285,Mining,التعدين
+3420,Inheritance,الوراثة,1683,Attempting_and_resolving_scenario,سيناريو المحاولة والحسم,1900,Attempt_distant_interaction_scenario,سيناريو محاولة التفاعل عن بعد
+3642,Inheritance,الوراثة,1683,Attempting_and_resolving_scenario,سيناريو المحاولة والحسم,2007,Attempt_obtain_food_scenario,سيناريو محاولة الحصول على الطعام
+4000,Inheritance,الوراثة,1683,Attempting_and_resolving_scenario,سيناريو المحاولة والحسم,2221,Attempt_obtain_mineral_scenario,سيناريو محاولة الحصول على المعدن
+4918,Inheritance,الوراثة,964,Attributes,الصفات,1015,Gradable_attributes,الصفات المتدرِّجة
+5020,Inheritance,الوراثة,964,Attributes,الصفات,2251,Race_descriptor,واصف العِرق
+3490,Inheritance,الوراثة,964,Attributes,الصفات,1927,Scope,النطاق
+1915,Inheritance,الوراثة,274,Avoiding,التجنب,1303,Dodging,المراوغة
+188,Inheritance,الوراثة,274,Avoiding,التجنب,275,Evading,التهرب
+2849,Inheritance,الوراثة,19,Awareness,الوعي,26,Expectation,التوقع
+2552,Inheritance,الوراثة,19,Awareness,الوعي,979,Grasp,الإمساك
+3211,Inheritance,الوراثة,1160,Basis_for_attribute,أساس الصفة,199,Locative_relation,العلاقة المكانية
+3410,Inheritance,الوراثة,1160,Basis_for_attribute,أساس الصفة,1895,Temporal_collocation,التموضع الزمني
+3212,Inheritance,الوراثة,1160,Basis_for_attribute,أساس الصفة,379,Time_vector,المتجه الزمني
+2210,Inheritance,الوراثة,1380,Be_in_agreement_on_action,الاتفاق على الفعل,1577,Having_commercial_agreement,وجود اتفاق تجاري
+3390,Inheritance,الوراثة,1818,Be_subset_of,كونه مجموعة جزئية من,1026,Membership,العضوية
+5162,Inheritance,الوراثة,2971,Becoming,الصيرورة,2972,Transition_to_a_quality,الانتقال إلى صفة
+3346,Inheritance,الوراثة,1863,Becoming_separated,الانفصال,1861,Fragmentation_scenario,سيناريو التفتت
+4644,Inheritance,الوراثة,1560,Being_at_risk,كونه في خطر,2703,Precariousness,الهشاشة
+4605,Inheritance,الوراثة,2672,Being_in_captivity,كونه في الأسر,2673,Being_incarcerated,كونه مسجوناً
+3282,Inheritance,الوراثة,1800,Being_in_control,كونه متحكِّماً,1796,Dominate_competitor,التغلب على المنافس
+3302,Inheritance,الوراثة,1822,Being_included,كونه مشمولاً,1818,Be_subset_of,كونه مجموعة جزئية من
+3310,Inheritance,الوراثة,1822,Being_included,كونه مشمولاً,142,Part_piece,القطعة الجزئية
+3482,Inheritance,الوراثة,960,Being_located,كونه في موضع,1922,Presence,الحضور الوجودي
+3454,Inheritance,الوراثة,960,Being_located,كونه في موضع,1911,Visiting,الزيارة
+4853,Inheritance,الوراثة,228,Being_named,كونه مسمّىً,2390,Appellations,الألقاب
+4936,Inheritance,الوراثة,2567,Biological_entity,الكيان الأحيائي,2840,Animals,الحيوانات
+4435,Inheritance,الوراثة,2567,Biological_entity,الكيان الأحيائي,304,People,الناس
+5017,Inheritance,الوراثة,2567,Biological_entity,الكيان الأحيائي,2850,Plants,النباتات
+3672,Inheritance,الوراثة,2019,Bounded_region,المنطقة المحدودة,2027,Region_with_portal,المنطقة ذات المنفذ
+3096,Inheritance,الوراثة,240,Bringing,الإحضار,175,Smuggling,التهريب
+3442,Inheritance,الوراثة,990,Capability,القدرة,1200,Being_operational,كونه صالحاً للتشغيل
+2069,Inheritance,الوراثة,990,Capability,القدرة,1440,Being_up_to_it,كونه أهلاً للمهمة
+3887,Inheritance,الوراثة,990,Capability,القدرة,2138,Capacity,السعة
+4437,Inheritance,الوراثة,990,Capability,القدرة,2569,Gusto,الحماسة
+3348,Inheritance,الوراثة,990,Capability,القدرة,1870,Having_or_lacking_access,وجود إمكانية الوصول أو انعدامها
+4829,Inheritance,الوراثة,5,Causation,التسبيب,381,Cause_to_start,التسبب في البدء
+4207,Inheritance,الوراثة,2320,Cause_bodily_experience,التسبب في تجربة جسدية,112,Cause_harm,التسبب في الأذى
+3228,Inheritance,الوراثة,683,Cause_change,التسبب في التغيير,1770,Change_event_duration,تغيير مدة الحدث
+2589,Inheritance,الوراثة,683,Cause_change,التسبب في التغيير,691,Change_event_time,تغيير زمن الحدث
+3955,Inheritance,الوراثة,683,Cause_change,التسبب في التغيير,1184,Exchange_currency,صرف العملة
+3444,Inheritance,الوراثة,96,Cause_change_of_position_on_a_scale,التسبب في تغيير الموقع على مقياس,1905,Cause_proliferation_in_number,التسبب في التكاثر عدداً
+3249,Inheritance,الوراثة,1781,Cause_change_of_strength,التسبب في تغيير القوة,1782,Change_resistance,تغيير المقاومة
+2757,Inheritance,الوراثة,112,Cause_harm,التسبب في الأذى,222,Corporal_punishment,العقوبة البدنية
+2556,Inheritance,الوراثة,55,Cause_motion,التسبب في الحركة,920,Cause_fluidic_motion,التسبب في حركة مائع
+3749,Inheritance,الوراثة,55,Cause_motion,التسبب في الحركة,2071,Passing,التجاوز
+3414,Inheritance,الوراثة,55,Cause_motion,التسبب في الحركة,289,Shoot_projectiles,إطلاق القذائف
+3918,Inheritance,الوراثة,2161,Cause_to_perceive,التسبب في الإدراك,6,Communication,التواصل
+3814,Inheritance,الوراثة,2104,Ceasing_to_be,الزوال,53,Death,الموت
+2997,Inheritance,الوراثة,141,Certainty,اليقين,1731,Trust,الثقة
+4836,Inheritance,الوراثة,91,Change_position_on_a_scale,تغيّر الموقع على مقياس,797,Change_of_temperature,تغيّر الحرارة
+2231,Inheritance,الوراثة,91,Change_position_on_a_scale,تغيّر الموقع على مقياس,1599,Proliferating_in_number,التكاثر عدداً
+2588,Inheritance,الوراثة,910,Chatting,الدردشة,34,Discussion,النقاش
+1475,Inheritance,الوراثة,1086,Clemency,الرأفة,681,Pardon,العفو
+2544,Inheritance,الوراثة,22,Cogitation,التأمل,519,Assessing,التقدير
+2400,Inheritance,الوراثة,22,Cogitation,التأمل,45,Emotion_active,الانفعال الفاعل
+3040,Inheritance,الوراثة,22,Cogitation,التأمل,1132,Memorization,الحفظ
+4879,Inheritance,الوراثة,720,Cognitive_connection,الربط الذهني,2530,Being_relevant,كونه ذا صلة
+3738,Inheritance,الوراثة,720,Cognitive_connection,الربط الذهني,2060,Relating_concepts,ربط المفاهيم
+4021,Inheritance,الوراثة,730,Come_together,الاجتماع,2237,Assemble,التجمّع
+4858,Inheritance,الوراثة,730,Come_together,الاجتماع,2249,Encounter,اللقاء
+2576,Inheritance,الوراثة,316,Coming_to_be,التكوّن,793,Being_born,الولادة
+5139,Inheritance,الوراثة,23,Coming_to_believe,الاقتناع,2574,See_through,الكشف عن الخديعة
+2994,Inheritance,الوراثة,171,Commerce_buy,التجارة: الشراء,1728,Renting,الاستئجار
+3357,Inheritance,الوراثة,210,Commerce_collect,التجارة: التحصيل,1873,Earnings_and_losses,المكاسب والخسائر
+2993,Inheritance,الوراثة,172,Commerce_sell,التجارة: البيع,1729,Renting_out,التأجير
+849,Inheritance,الوراثة,700,Committing_crime,ارتكاب الجريمة,482,Abusing,الإساءة
+519,Inheritance,الوراثة,700,Committing_crime,ارتكاب الجريمة,122,Kidnapping,الاختطاف
+523,Inheritance,الوراثة,700,Committing_crime,ارتكاب الجريمة,123,Piracy,القرصنة
+522,Inheritance,الوراثة,700,Committing_crime,ارتكاب الجريمة,127,Rape,الاغتصاب
+876,Inheritance,الوراثة,700,Committing_crime,ارتكاب الجريمة,99,Robbery,السطو
+520,Inheritance,الوراثة,700,Committing_crime,ارتكاب الجريمة,175,Smuggling,التهريب
+518,Inheritance,الوراثة,700,Committing_crime,ارتكاب الجريمة,94,Theft,السرقة
+2398,Inheritance,الوراثة,6,Communication,التواصل,38,Communication_manner,كيفية التواصل
+7,Inheritance,الوراثة,6,Communication,التواصل,39,Communication_noise,التواصل الصوتي
+2772,Inheritance,الوراثة,6,Communication,التواصل,42,Communication_response,الاستجابة التواصلية
+2396,Inheritance,الوراثة,6,Communication,التواصل,36,Gesture,الإيماءة
+2009,Inheritance,الوراثة,6,Communication,التواصل,1378,Reassuring,الطمأنة
+3071,Inheritance,الوراثة,6,Communication,التواصل,1722,Summarizing,التلخيص
+5200,Inheritance,الوراثة,2150,Concessive,الاستدراك,2500,Contrary_circumstances,الظروف المعاكسة
+5008,Inheritance,الوراثة,2902,Conditional_scenario,السيناريو المشروط,2910,Preferred_alternative_scenario,سيناريو البديل المفضَّل
+4718,Inheritance,الوراثة,491,Conduct,السلوك,2770,Treating_and_mistreating,حسن المعاملة وسوؤها
+4133,Inheritance,الوراثة,2303,Container_focused_placing,الوضع المركَّز على الوعاء,59,Filling,الملء
+4126,Inheritance,الوراثة,2301,Container_focused_removing,الإزالة المركَّزة على الوعاء,58,Emptying,الإفراغ
+2596,Inheritance,الوراثة,900,Contingency,التوقف على,1491,Have_as_requirement,الاشتراط
+3279,Inheritance,الوراثة,1799,Control,التحكم,1800,Being_in_control,كونه متحكِّماً
+2219,Inheritance,الوراثة,319,Creating,الإنشاء,280,Intentionally_create,الإنشاء المتعمَّد
+3818,Inheritance,الوراثة,2100,Cycle_of_existence_scenario,سيناريو دورة الوجود,2106,Cycle_of_life_and_death,دورة الحياة والموت
+170,Inheritance,الوراثة,415,Damaging,الإتلاف,344,Reshaping,إعادة التشكيل
+5138,Inheritance,الوراثة,310,Dead_or_alive,حي أو ميت,2560,Subsisting,الاقتيات
+4749,Inheritance,الوراثة,2614,Deception_end,انتهاء الخداع,2573,Deception_success,نجاح الخداع
+4483,Inheritance,الوراثة,2614,Deception_end,انتهاء الخداع,2570,Intentional_deception,الخداع المتعمَّد
+3034,Inheritance,الوراثة,363,Deciding,اتخاذ القرار,352,Choosing,الاختيار
+2200,Inheritance,الوراثة,1344,Delivery,التسليم,1570,Product_delivery,تسليم المنتَج
+1801,Inheritance,الوراثة,57,Departing,المغادرة,273,Escaping,الهروب
+2344,Inheritance,الوراثة,57,Departing,المغادرة,1644,Quitting_a_place,مغادرة المكان نهائياً
+3540,Inheritance,الوراثة,57,Departing,المغادرة,1944,Visiting_scenario_departing,سيناريو الزيارة: المغادرة
+2677,Inheritance,الوراثة,354,Desirability,الاستحباب,1016,Aesthetics,الجماليات
+3219,Inheritance,الوراثة,354,Desirability,الاستحباب,1383,Desirable_event,الحدث المرغوب
+4873,Inheritance,الوراثة,354,Desirability,الاستحباب,2380,Popularity,الشعبية
+4570,Inheritance,الوراثة,354,Desirability,الاستحباب,2660,Social_desirability,الاستحباب الاجتماعي
+2272,Inheritance,الوراثة,366,Desiring,الرغبة,1626,Preference,التفضيل
+4489,Inheritance,الوراثة,108,Dimension,البُعد,2604,Quantity,الكمية
+4906,Inheritance,الوراثة,2830,Disaster_scenario,سيناريو الكارثة,2833,Fire_emergency_scenario,سيناريو طوارئ الحريق
+2587,Inheritance,الوراثة,34,Discussion,النقاش,710,Quarreling,المشاجرة
+2540,Inheritance,الوراثة,11,Duplication,النسخ,1661,Forging,التزوير
+3683,Inheritance,الوراثة,1712,Emotions,الانفعالات,2042,Emotions_by_stimulus,الانفعالات بحسب المثير
+3707,Inheritance,الوراثة,2051,Emotions_by_possibility,الانفعالات بحسب الاحتمال,2052,Fear,الخوف
+3702,Inheritance,الوراثة,2042,Emotions_by_stimulus,الانفعالات بحسب المثير,2049,Annoyance,الإزعاج
+3705,Inheritance,الوراثة,2042,Emotions_by_stimulus,الانفعالات بحسب المثير,2051,Emotions_by_possibility,الانفعالات بحسب الاحتمال
+3687,Inheritance,الوراثة,2042,Emotions_by_stimulus,الانفعالات بحسب المثير,2045,Emotions_of_mental_activity,انفعالات النشاط الذهني
+3684,Inheritance,الوراثة,2042,Emotions_by_stimulus,الانفعالات بحسب المثير,2043,Emotions_success_or_failure,انفعالات النجاح أو الفشل
+3703,Inheritance,الوراثة,2042,Emotions_by_stimulus,الانفعالات بحسب المثير,2050,Just_found_out,العلم للتو
+3700,Inheritance,الوراثة,2042,Emotions_by_stimulus,الانفعالات بحسب المثير,2048,Others_situation_as_stimulus,وضع الآخرين مثيراً
+2749,Inheritance,الوراثة,872,Employment_end,انتهاء التوظيف,326,Firing,الفصل من العمل
+3262,Inheritance,الوراثة,872,Employment_end,انتهاء التوظيف,325,Quitting,الاستقالة
+4500,Inheritance,الوراثة,2622,Endeavor_failure,فشل المسعى,2590,Business_closure,إغلاق المنشأة
+4851,Inheritance,الوراثة,251,Entity,الكيان,1580,Actually_occurring_entity,الكيان الواقع فعلاً
+2470,Inheritance,الوراثة,251,Entity,الكيان,421,Artifact,المصنوع
+4434,Inheritance,الوراثة,251,Entity,الكيان,2567,Biological_entity,الكيان الأحيائي
+202,Inheritance,الوراثة,251,Entity,الكيان,302,Physical_entity,الكيان المادي
+4807,Inheritance,الوراثة,187,Event,الحدث,2811,Birth_scenario,سيناريو الولادة
+2,Inheritance,الوراثة,187,Event,الحدث,341,Change_of_consistency,تغيّر القوام
+4834,Inheritance,الوراثة,187,Event,الحدث,91,Change_position_on_a_scale,تغيّر الموقع على مقياس
+4856,Inheritance,الوراثة,187,Event,الحدث,1812,Coincidence,المصادفة
+4802,Inheritance,الوراثة,187,Event,الحدث,730,Come_together,الاجتماع
+4832,Inheritance,الوراثة,187,Event,الحدث,316,Coming_to_be,التكوّن
+2845,Inheritance,الوراثة,187,Event,الحدث,23,Coming_to_believe,الاقتناع
+5140,Inheritance,الوراثة,187,Event,الحدث,2831,Emergency,الطوارئ
+3106,Inheritance,الوراثة,187,Event,الحدث,88,Eventive_affecting,التأثير الحدثي
+869,Inheritance,الوراثة,187,Event,الحدث,384,Experience_bodily_harm,التعرض لأذى جسدي
+2958,Inheritance,الوراثة,187,Event,الحدث,179,Getting,الحصول
+3885,Inheritance,الوراثة,187,Event,الحدث,2137,Go_into_shape,اتخاذ الهيئة
+2832,Inheritance,الوراثة,187,Event,الحدث,198,Intentionally_act,الفعل المتعمَّد
+5141,Inheritance,الوراثة,187,Event,الحدث,2196,Losing_someone,فقدان شخص
+2607,Inheritance,الوراثة,187,Event,الحدث,1100,Misdeed,الفعلة المشينة
+4390,Inheritance,الوراثة,187,Event,الحدث,7,Motion,الحركة
+4389,Inheritance,الوراثة,187,Event,الحدث,1084,Objective_influence,التأثير الموضوعي
+2773,Inheritance,الوراثة,187,Event,الحدث,232,Process_end,انتهاء العملية
+3164,Inheritance,الوراثة,187,Event,الحدث,1765,Process_pause,إيقاف العملية مؤقتاً
+58,Inheritance,الوراثة,187,Event,الحدث,148,Process_resume,استئناف العملية
+137,Inheritance,الوراثة,187,Event,الحدث,133,Process_start,بدء العملية
+143,Inheritance,الوراثة,187,Event,الحدث,144,Process_stop,إيقاف العملية
+4,Inheritance,الوراثة,187,Event,الحدث,340,Rotting,التعفن
+1448,Inheritance,الوراثة,187,Event,الحدث,1070,Transition_to_state,الانتقال إلى حالة
+4880,Inheritance,الوراثة,187,Event,الحدث,1310,Traversing,العبور
+5154,Inheritance,الوراثة,187,Event,الحدث,1725,Undergoing,الخضوع
+3177,Inheritance,الوراثة,187,Event,الحدث,295,Waking_up,الاستيقاظ
+3480,Inheritance,الوراثة,88,Eventive_affecting,التأثير الحدثي,1919,Aging,التقدم في العمر
+4168,Inheritance,الوراثة,88,Eventive_affecting,التأثير الحدثي,54,Arriving,الوصول
+3033,Inheritance,الوراثة,88,Eventive_affecting,التأثير الحدثي,5,Causation,التسبيب
+5311,Inheritance,الوراثة,88,Eventive_affecting,التأثير الحدثي,3016,Come_down_with,الإصابة بمرض
+4169,Inheritance,الوراثة,88,Eventive_affecting,التأثير الحدثي,57,Departing,المغادرة
+4857,Inheritance,الوراثة,88,Eventive_affecting,التأثير الحدثي,1801,Destiny,المصير
+4833,Inheritance,الوراثة,88,Eventive_affecting,التأثير الحدثي,98,Eventive_cognizer_affecting,التأثير الحدثي في المُدرِك
+4869,Inheritance,الوراثة,88,Eventive_affecting,التأثير الحدثي,2577,Explosion,الانفجار
+3446,Inheritance,الوراثة,88,Eventive_affecting,التأثير الحدثي,1908,Historic_event,الحدث التاريخي
+87,Inheritance,الوراثة,88,Eventive_affecting,التأثير الحدثي,206,Lose_possession,فقدان الملكية
+4166,Inheritance,الوراثة,88,Eventive_affecting,التأثير الحدثي,1302,Response,الاستجابة
+76,Inheritance,الوراثة,88,Eventive_affecting,التأثير الحدثي,178,Transfer,النقل
+3732,Inheritance,الوراثة,98,Eventive_cognizer_affecting,التأثير الحدثي في المُدرِك,89,Suasion,الإقناع
+3291,Inheritance,الوراثة,1726,Execute_plan,تنفيذ الخطة,1813,Enforcing,الإنفاذ
+4486,Inheritance,الوراثة,660,Existence,الوجود,2612,Circumscribed_existence,الوجود المحدود
+4659,Inheritance,الوراثة,1619,Expected_location_of_person,الموضع المتوقَّع للشخص,2709,Temporary_leave,الإجازة المؤقتة
+4164,Inheritance,الوراثة,48,Experiencer_focus,التركيز على المُستشعِر,366,Desiring,الرغبة
+3701,Inheritance,الوراثة,48,Experiencer_focus,التركيز على المُستشعِر,2044,Mental_stimulus_exp_focus,المثير الذهني: التركيز على المُستشعِر
+3985,Inheritance,الوراثة,2193,Finish_game,إنهاء المباراة,798,Finish_competition,إنهاء المنافسة
+4908,Inheritance,الوراثة,2824,Fire_burning,اشتعال النار,2835,Emergency_fire,حريق الطوارئ
+2110,Inheritance,الوراثة,179,Getting,الحصول,1482,Amassing,التكديس
+3075,Inheritance,الوراثة,179,Getting,الحصول,171,Commerce_buy,التجارة: الشراء
+111,Inheritance,الوراثة,179,Getting,الحصول,210,Commerce_collect,التجارة: التحصيل
+1640,Inheritance,الوراثة,179,Getting,الحصول,411,Receiving,التلقي
+2278,Inheritance,الوراثة,179,Getting,الحصول,410,Taking,الأخذ
+1639,Inheritance,الوراثة,1191,Getting_scenario,سيناريو الحصول,1180,Receiving_scenario,سيناريو التلقي
+80,Inheritance,الوراثة,139,Giving,الإعطاء,180,Commerce_pay,التجارة: الدفع
+74,Inheritance,الوراثة,139,Giving,الإعطاء,172,Commerce_sell,التجارة: البيع
+4733,Inheritance,الوراثة,139,Giving,الإعطاء,2781,Lending,الإقراض
+2153,Inheritance,الوراثة,139,Giving,الإعطاء,1521,Submitting_documents,تقديم الوثائق
+1972,Inheritance,الوراثة,139,Giving,الإعطاء,1346,Supply,الإمداد
+2138,Inheritance,الوراثة,139,Giving,الإعطاء,1500,Surrendering_possession,التنازل عن الملكية
+4566,Inheritance,الوراثة,2655,Government_institution,المؤسسة الحكومية,2656,Law_enforcement_agency,جهة إنفاذ القانون
+2233,Inheritance,الوراثة,1015,Gradable_attributes,الصفات المتدرِّجة,1602,Abundance,الوفرة
+1672,Inheritance,الوراثة,1015,Gradable_attributes,الصفات المتدرِّجة,213,Addiction,الإدمان
+2854,Inheritance,الوراثة,1015,Gradable_attributes,الصفات المتدرِّجة,1660,Artificiality,الاصطناعية
+2834,Inheritance,الوراثة,1015,Gradable_attributes,الصفات المتدرِّجة,1540,Being_active,كونه نشطاً
+2547,Inheritance,الوراثة,1015,Gradable_attributes,الصفات المتدرِّجة,1560,Being_at_risk,كونه في خطر
+2922,Inheritance,الوراثة,1015,Gradable_attributes,الصفات المتدرِّجة,338,Being_dry,كونه جافاً
+3231,Inheritance,الوراثة,1015,Gradable_attributes,الصفات المتدرِّجة,346,Being_rotted,كونه متعفناً
+3230,Inheritance,الوراثة,1015,Gradable_attributes,الصفات المتدرِّجة,332,Being_wet,كونه مبتلاً
+2924,Inheritance,الوراثة,1015,Gradable_attributes,الصفات المتدرِّجة,394,Biological_urge,الدافع الأحيائي
+2683,Inheritance,الوراثة,1015,Gradable_attributes,الصفات المتدرِّجة,157,Body_description_holistic,وصف الجسم كلياً
+2682,Inheritance,الوراثة,1015,Gradable_attributes,الصفات المتدرِّجة,235,Body_description_part,وصف الجسم جزئياً
+2584,Inheritance,الوراثة,1015,Gradable_attributes,الصفات المتدرِّجة,990,Capability,القدرة
+2862,Inheritance,الوراثة,1015,Gradable_attributes,الصفات المتدرِّجة,141,Certainty,اليقين
+2940,Inheritance,الوراثة,1015,Gradable_attributes,الصفات المتدرِّجة,271,Chemical-sense_description,وصف الحاسة الكيميائية
+4675,Inheritance,الوراثة,1015,Gradable_attributes,الصفات المتدرِّجة,2724,Chemical_potency,الفاعلية الكيميائية
+2631,Inheritance,الوراثة,1015,Gradable_attributes,الصفات المتدرِّجة,423,Color,اللون
+4092,Inheritance,الوراثة,1015,Gradable_attributes,الصفات المتدرِّجة,2270,Color_qualities,صفات اللون
+2925,Inheritance,الوراثة,1015,Gradable_attributes,الصفات المتدرِّجة,360,Compatibility,التوافق
+3110,Inheritance,الوراثة,1015,Gradable_attributes,الصفات المتدرِّجة,1534,Completeness,الاكتمال
+2465,Inheritance,الوراثة,1015,Gradable_attributes,الصفات المتدرِّجة,1512,Correctness,الصواب
+2678,Inheritance,الوراثة,1015,Gradable_attributes,الصفات المتدرِّجة,354,Desirability,الاستحباب
+2621,Inheritance,الوراثة,1015,Gradable_attributes,الصفات المتدرِّجة,375,Difficulty,الصعوبة
+5191,Inheritance,الوراثة,1015,Gradable_attributes,الصفات المتدرِّجة,2440,Dynamism,الدينامية
+2432,Inheritance,الوراثة,1015,Gradable_attributes,الصفات المتدرِّجة,1597,Familiarity,الألفة
+2955,Inheritance,الوراثة,1015,Gradable_attributes,الصفات المتدرِّجة,80,Frequency,التواتر
+2960,Inheritance,الوراثة,1015,Gradable_attributes,الصفات المتدرِّجة,244,Fullness,الامتلاء
+4671,Inheritance,الوراثة,1015,Gradable_attributes,الصفات المتدرِّجة,2722,Gradable_artistic_quality,الصفة الفنية المتدرِّجة
+2910,Inheritance,الوراثة,1015,Gradable_attributes,الصفات المتدرِّجة,377,Inclination,الميل
+2686,Inheritance,الوراثة,1015,Gradable_attributes,الصفات المتدرِّجة,214,Intoxication,السُّكر
+4669,Inheritance,الوراثة,1015,Gradable_attributes,الصفات المتدرِّجة,2720,Judgment_of_intensity,الحكم على الشدة
+2190,Inheritance,الوراثة,1015,Gradable_attributes,الصفات المتدرِّجة,1563,Level_of_force_exertion,مستوى بذل القوة
+4870,Inheritance,الوراثة,1015,Gradable_attributes,الصفات المتدرِّجة,2061,Level_of_force_resistance,مستوى مقاومة القوة
+4657,Inheritance,الوراثة,1015,Gradable_attributes,الصفات المتدرِّجة,2712,Level_of_light,مستوى الضوء
+2658,Inheritance,الوراثة,1015,Gradable_attributes,الصفات المتدرِّجة,114,Likelihood,الأرجحية
+3438,Inheritance,الوراثة,1015,Gradable_attributes,الصفات المتدرِّجة,1904,Lively_place,المكان النابض
+3453,Inheritance,الوراثة,1015,Gradable_attributes,الصفات المتدرِّجة,1811,Luck,الحظ
+2189,Inheritance,الوراثة,1015,Gradable_attributes,الصفات المتدرِّجة,1562,Margin_of_resolution,هامش الحسم
+1382,Inheritance,الوراثة,1015,Gradable_attributes,الصفات المتدرِّجة,965,Measurable_attributes,الصفات القابلة للقياس
+2896,Inheritance,الوراثة,1015,Gradable_attributes,الصفات المتدرِّجة,239,Medical_conditions,الحالات الطبية
+5145,Inheritance,الوراثة,1015,Gradable_attributes,الصفات المتدرِّجة,2542,Notability,الشأن
+3382,Inheritance,الوراثة,1015,Gradable_attributes,الصفات المتدرِّجة,1881,Obscurity,الغموض
+1988,Inheritance,الوراثة,1015,Gradable_attributes,الصفات المتدرِّجة,1360,Obviousness,الوضوح
+4300,Inheritance,الوراثة,1015,Gradable_attributes,الصفات المتدرِّجة,2411,Personal_success,النجاح الشخصي
+2447,Inheritance,الوراثة,1015,Gradable_attributes,الصفات المتدرِّجة,95,Position_on_a_scale,الموقع على مقياس
+2088,Inheritance,الوراثة,1015,Gradable_attributes,الصفات المتدرِّجة,1460,Prominence,البروز
+3153,Inheritance,الوراثة,1015,Gradable_attributes,الصفات المتدرِّجة,1762,Risky_situation,الوضع المحفوف بالخطر
+1870,Inheritance,الوراثة,1015,Gradable_attributes,الصفات المتدرِّجة,1271,Sharpness,الحِدَّة
+2468,Inheritance,الوراثة,1015,Gradable_attributes,الصفات المتدرِّجة,481,Similarity,التشابه
+2430,Inheritance,الوراثة,1015,Gradable_attributes,الصفات المتدرِّجة,369,Social_behavior_evaluation,تقييم السلوك الاجتماعي
+2695,Inheritance,الوراثة,1015,Gradable_attributes,الصفات المتدرِّجة,368,Suitability,الملاءمة
+5098,Inheritance,الوراثة,1015,Gradable_attributes,الصفات المتدرِّجة,2434,System_complexity,تعقيد النظام
+3089,Inheritance,الوراثة,1015,Gradable_attributes,الصفات المتدرِّجة,967,Taking_time,استغراق الوقت
+5341,Inheritance,الوراثة,1015,Gradable_attributes,الصفات المتدرِّجة,1134,Typicality,النمطية
+2944,Inheritance,الوراثة,1015,Gradable_attributes,الصفات المتدرِّجة,726,Usefulness,النفع
+2651,Inheritance,الوراثة,1015,Gradable_attributes,الصفات المتدرِّجة,85,Wealthiness,الثراء
+3829,Inheritance,الوراثة,2110,History_scenario,سيناريو التاريخ,2102,Socially_significant_history_scenario,سيناريو التاريخ ذي الدلالة الاجتماعية
+3236,Inheritance,الوراثة,93,Hostile_encounter,المواجهة العدائية,563,Fighting_activity,نشاط القتال
+3660,Inheritance,الوراثة,2016,Image_schema,مخطط الصورة,2020,Alignment_image_schema,مخطط صورة المحاذاة
+3659,Inheritance,الوراثة,2016,Image_schema,مخطط الصورة,2019,Bounded_region,المنطقة المحدودة
+3657,Inheritance,الوراثة,2016,Image_schema,مخطط الصورة,2018,Collocation_image_schema,مخطط صورة التموضع
+3663,Inheritance,الوراثة,2016,Image_schema,مخطط الصورة,2024,Contact_image_schema,مخطط صورة التماس
+3656,Inheritance,الوراثة,2016,Image_schema,مخطط الصورة,2017,Proximity_image_schema,مخطط صورة القرب
+4569,Inheritance,الوراثة,2623,Improvised_explosive_device,العبوة الناسفة المرتجلة,2659,Distant_operated_IED,العبوة الناسفة المشغَّلة عن بعد
+4507,Inheritance,الوراثة,2623,Improvised_explosive_device,العبوة الناسفة المرتجلة,2624,Victim_operated_IED,العبوة الناسفة التي يشغّلها الضحية
+3435,Inheritance,الوراثة,377,Inclination,الميل,1903,Accuracy,الدقة
+2920,Inheritance,الوراثة,377,Inclination,الميل,52,Health_response,الاستجابة الصحية
+4504,Inheritance,الوراثة,377,Inclination,الميل,74,Sociability,الاجتماعية
+4503,Inheritance,الوراثة,377,Inclination,الميل,44,Volubility,الثرثرة
+3303,Inheritance,الوراثة,1821,Inclusion_scenario,سيناريو الإدراج,1823,Set_relation,علاقة المجموعات
+3309,Inheritance,الوراثة,1821,Inclusion_scenario,سيناريو الإدراج,1830,Wholes_and_parts,الكليات والأجزاء
+3834,Inheritance,الوراثة,1906,Individual_history,تاريخ الفرد,2113,History,التاريخ
+4361,Inheritance,الوراثة,2450,Influencing_potential,كامن التأثير,2451,Authority,السلطة
+3340,Inheritance,الوراثة,386,Ingest_substance,تعاطي المادة,263,Ingestion,التناول
+4666,Inheritance,الوراثة,2716,Inherent_purpose,الغرض الأصيل,2717,Tool_purpose,غرض الأداة
+1501,Inheritance,الوراثة,245,Inhibit_movement,كبح الحركة,1111,Imprisonment,السجن
+4479,Inheritance,الوراثة,1262,Inspecting,التفتيش,2611,Patrolling,الدورية
+3889,Inheritance,الوراثة,132,Instance,المصداق,2140,Event_instance,مصداق الحدث
+4061,Inheritance,الوراثة,132,Instance,المصداق,2252,Exemplar,النموذج المثالي
+4565,Inheritance,الوراثة,1604,Institutions,المؤسسات,2655,Government_institution,المؤسسة الحكومية
+2237,Inheritance,الوراثة,1604,Institutions,المؤسسات,1607,Judicial_body,الهيئة القضائية
+955,Inheritance,الوراثة,198,Intentionally_act,الفعل المتعمَّد,165,Activity_finish,إنهاء النشاط
+4804,Inheritance,الوراثة,198,Intentionally_act,الفعل المتعمَّد,2237,Assemble,التجمّع
+2842,Inheritance,الوراثة,198,Intentionally_act,الفعل المتعمَّد,391,Assistance,المساعدة
+2857,Inheritance,الوراثة,198,Intentionally_act,الفعل المتعمَّد,388,Atonement,التكفير
+5344,Inheritance,الوراثة,198,Intentionally_act,الفعل المتعمَّد,116,Attempt,المحاولة
+4839,Inheritance,الوراثة,198,Intentionally_act,الفعل المتعمَّد,1683,Attempting_and_resolving_scenario,سيناريو المحاولة والحسم
+4840,Inheritance,الوراثة,198,Intentionally_act,الفعل المتعمَّد,2030,Attending,الحضور
+185,Inheritance,الوراثة,198,Intentionally_act,الفعل المتعمَّد,274,Avoiding,التجنب
+2759,Inheritance,الوراثة,198,Intentionally_act,الفعل المتعمَّد,121,Bail_decision,قرار الكفالة
+2998,Inheritance,الوراثة,198,Intentionally_act,الفعل المتعمَّد,1733,Becoming_a_member,الانضمام عضواً
+2646,Inheritance,الوراثة,198,Intentionally_act,الفعل المتعمَّد,770,Change_posture,تغيير الوضعية
+1594,Inheritance,الوراثة,198,Intentionally_act,الفعل المتعمَّد,1173,Change_tool,تغيير الأداة
+226,Inheritance,الوراثة,198,Intentionally_act,الفعل المتعمَّد,352,Choosing,الاختيار
+1474,Inheritance,الوراثة,198,Intentionally_act,الفعل المتعمَّد,1086,Clemency,الرأفة
+2635,Inheritance,الوراثة,198,Intentionally_act,الفعل المتعمَّد,418,Collaboration,التعاون
+3713,Inheritance,الوراثة,198,Intentionally_act,الفعل المتعمَّد,2054,Confronting_problem,مواجهة المشكلة
+5068,Inheritance,الوراثة,198,Intentionally_act,الفعل المتعمَّد,286,Contacting,الاتصال
+2909,Inheritance,الوراثة,198,Intentionally_act,الفعل المتعمَّد,374,Daring,التحدي بالجرأة
+3083,Inheritance,الوراثة,198,Intentionally_act,الفعل المتعمَّد,107,Examination,الامتحان
+1588,Inheritance,الوراثة,198,Intentionally_act,الفعل المتعمَّد,1170,Exchange,التبادل
+2984,Inheritance,الوراثة,198,Intentionally_act,الفعل المتعمَّد,1726,Execute_plan,تنفيذ الخطة
+4861,Inheritance,الوراثة,198,Intentionally_act,الفعل المتعمَّد,2400,Exercising,التمرين
+2586,Inheritance,الوراثة,198,Intentionally_act,الفعل المتعمَّد,723,Forming_relationships,تكوين العلاقات
+3037,Inheritance,الوراثة,198,Intentionally_act,الفعل المتعمَّد,1734,Front_for,الواجهة الساترة
+1464,Inheritance,الوراثة,198,Intentionally_act,الفعل المتعمَّد,324,Get_a_job,الحصول على وظيفة
+3016,Inheritance,الوراثة,198,Intentionally_act,الفعل المتعمَّد,139,Giving,الإعطاء
+1420,Inheritance,الوراثة,198,Intentionally_act,الفعل المتعمَّد,1054,Heralding,البشارة
+3235,Inheritance,الوراثة,198,Intentionally_act,الفعل المتعمَّد,93,Hostile_encounter,المواجهة العدائية
+216,Inheritance,الوراثة,198,Intentionally_act,الفعل المتعمَّد,386,Ingest_substance,تعاطي المادة
+130,Inheritance,الوراثة,198,Intentionally_act,الفعل المتعمَّد,230,Intentionally_affect,التأثير المتعمَّد
+195,Inheritance,الوراثة,198,Intentionally_act,الفعل المتعمَّد,280,Intentionally_create,الإنشاء المتعمَّد
+2461,Inheritance,الوراثة,198,Intentionally_act,الفعل المتعمَّد,1522,Intercepting,الاعتراض
+3759,Inheritance,الوراثة,198,Intentionally_act,الفعل المتعمَّد,2076,Legal_rulings,الأحكام القانونية
+5151,Inheritance,الوراثة,198,Intentionally_act,الفعل المتعمَّد,17,Manipulation,المعالجة باليد
+4606,Inheritance,الوراثة,198,Intentionally_act,الفعل المتعمَّد,2676,Military_operation,العملية العسكرية
+17,Inheritance,الوراثة,198,Intentionally_act,الفعل المتعمَّد,221,Name_conferral,منح الاسم
+3221,Inheritance,الوراثة,198,Intentionally_act,الفعل المتعمَّد,1671,Passing_off,التمرير احتيالاً
+850,Inheritance,الوراثة,198,Intentionally_act,الفعل المتعمَّد,66,Perception_active,الإدراك الحسي القاصد
+3095,Inheritance,الوراثة,198,Intentionally_act,الفعل المتعمَّد,123,Piracy,القرصنة
+1348,Inheritance,الوراثة,198,Intentionally_act,الفعل المتعمَّد,962,Practice,الممارسة
+1465,Inheritance,الوراثة,198,Intentionally_act,الفعل المتعمَّد,325,Quitting,الاستقالة
+2460,Inheritance,الوراثة,198,Intentionally_act,الفعل المتعمَّد,1523,Resolve_problem,حل المشكلة
+785,Inheritance,الوراثة,198,Intentionally_act,الفعل المتعمَّد,64,Self_motion,الحركة الذاتية
+3466,Inheritance,الوراثة,198,Intentionally_act,الفعل المتعمَّد,1911,Visiting,الزيارة
+4473,Inheritance,الوراثة,198,Intentionally_act,الفعل المتعمَّد,2603,Working_a_post,شغل المنصب بالعمل
+4838,Inheritance,الوراثة,230,Intentionally_affect,التأثير المتعمَّد,2031,Abandonment,الهجر
+2499,Inheritance,الوراثة,230,Intentionally_affect,التأثير المتعمَّد,1376,Adjusting,الضبط
+135,Inheritance,الوراثة,230,Intentionally_affect,التأثير المتعمَّد,236,Apply_heat,تسليط الحرارة
+4830,Inheritance,الوراثة,230,Intentionally_affect,التأثير المتعمَّد,1925,Appointing,التعيين
+1890,Inheritance,الوراثة,230,Intentionally_affect,التأثير المتعمَّد,921,Arranging,الترتيب
+3888,Inheritance,الوراثة,230,Intentionally_affect,التأثير المتعمَّد,202,Arrest,القبض
+152,Inheritance,الوراثة,230,Intentionally_affect,التأثير المتعمَّد,197,Attaching,الربط
+140,Inheritance,الوراثة,230,Intentionally_affect,التأثير المتعمَّد,424,Attack,الهجوم
+4844,Inheritance,الوراثة,230,Intentionally_affect,التأثير المتعمَّد,2665,Breaking_out_captive,تهريب الأسير
+4821,Inheritance,الوراثة,230,Intentionally_affect,التأثير المتعمَّد,2041,Cause_emotion,التسبب في انفعال
+2803,Inheritance,الوراثة,230,Intentionally_affect,التأثير المتعمَّد,13,Cause_to_amalgamate,التسبب في الاندماج
+211,Inheritance,الوراثة,230,Intentionally_affect,التأثير المتعمَّد,288,Cause_to_experience,التسبب في التجربة
+4828,Inheritance,الوراثة,230,Intentionally_affect,التأثير المتعمَّد,1349,Cause_to_make_progress,التسبب في التقدم
+3925,Inheritance,الوراثة,230,Intentionally_affect,التأثير المتعمَّد,2161,Cause_to_perceive,التسبب في الإدراك
+4623,Inheritance,الوراثة,230,Intentionally_affect,التأثير المتعمَّد,2686,Change_accessibility,تغيير إمكانية الوصول
+4831,Inheritance,الوراثة,230,Intentionally_affect,التأثير المتعمَّد,1688,Change_operational_state,تغيير حالة التشغيل
+2823,Inheritance,الوراثة,230,Intentionally_affect,التأثير المتعمَّد,254,Closure,الإغلاق
+78,Inheritance,الوراثة,230,Intentionally_affect,التأثير المتعمَّد,265,Cutting,القطع
+4819,Inheritance,الوراثة,230,Intentionally_affect,التأثير المتعمَّد,1390,Detaching,الفصل
+3210,Inheritance,الوراثة,230,Intentionally_affect,التأثير المتعمَّد,111,Education_teaching,التعليم والتدريس
+2504,Inheritance,الوراثة,230,Intentionally_affect,التأثير المتعمَّد,1370,Extradition,تسليم المطلوبين
+1463,Inheritance,الوراثة,230,Intentionally_affect,التأثير المتعمَّد,326,Firing,الفصل من العمل
+2828,Inheritance,الوراثة,230,Intentionally_affect,التأثير المتعمَّد,260,Gathering_up,اللملمة
+2673,Inheritance,الوراثة,230,Intentionally_affect,التأثير المتعمَّد,159,Grooming,العناية بالمظهر
+2543,Inheritance,الوراثة,230,Intentionally_affect,التأثير المتعمَّد,1673,Hiding_objects,إخفاء الأشياء
+207,Inheritance,الوراثة,230,Intentionally_affect,التأثير المتعمَّد,322,Hiring,التعاقد للعمل
+2618,Inheritance,الوراثة,230,Intentionally_affect,التأثير المتعمَّد,485,Hit_target,إصابة الهدف
+162,Inheritance,الوراثة,230,Intentionally_affect,التأثير المتعمَّد,250,Immobilization,التثبيت
+153,Inheritance,الوراثة,230,Intentionally_affect,التأثير المتعمَّد,245,Inhibit_movement,كبح الحركة
+4837,Inheritance,الوراثة,230,Intentionally_affect,التأثير المتعمَّد,2714,Limiting,التقييد
+4928,Inheritance,الوراثة,230,Intentionally_affect,التأثير المتعمَّد,2839,Making_arrangements,اتخاذ الترتيبات
+2942,Inheritance,الوراثة,230,Intentionally_affect,التأثير المتعمَّد,92,Manipulate_into_doing,الحمل على الفعل بالتلاعب
+3884,Inheritance,الوراثة,230,Intentionally_affect,التأثير المتعمَّد,2136,Manipulate_into_shape,التشكيل باليد
+3136,Inheritance,الوراثة,230,Intentionally_affect,التأثير المتعمَّد,620,Processing_materials,معالجة المواد
+5027,Inheritance,الوراثة,230,Intentionally_affect,التأثير المتعمَّد,2616,Publishing,النشر
+875,Inheritance,الوراثة,230,Intentionally_affect,التأثير المتعمَّد,127,Rape,الاغتصاب
+2831,Inheritance,الوراثة,230,Intentionally_affect,التأثير المتعمَّد,317,Releasing,الإطلاق
+232,Inheritance,الوراثة,230,Intentionally_affect,التأثير المتعمَّد,400,Reparation,جبر الضرر
+1518,Inheritance,الوراثة,230,Intentionally_affect,التأثير المتعمَّد,1121,Replacing,الاستبدال
+4938,Inheritance,الوراثة,230,Intentionally_affect,التأثير المتعمَّد,2841,Rescuing,الإنقاذ
+57,Inheritance,الوراثة,230,Intentionally_affect,التأثير المتعمَّد,216,Rewards_and_punishments,المكافآت والعقوبات
+4845,Inheritance,الوراثة,230,Intentionally_affect,التأثير المتعمَّد,15,Separating,الفصل بين
+5110,Inheritance,الوراثة,230,Intentionally_affect,التأثير المتعمَّد,2180,Short_selling,البيع على المكشوف
+27,Inheritance,الوراثة,230,Intentionally_affect,التأثير المتعمَّد,285,Silencing,الإسكات
+2911,Inheritance,الوراثة,230,Intentionally_affect,التأثير المتعمَّد,333,Soaking,النقع
+3009,Inheritance,الوراثة,230,Intentionally_affect,التأثير المتعمَّد,410,Taking,الأخذ
+3433,Inheritance,الوراثة,230,Intentionally_affect,التأثير المتعمَّد,1141,Using,الاستعمال
+952,Inheritance,الوراثة,280,Intentionally_create,الإنشاء المتعمَّد,403,Achieving_first,السبق إلى الإنجاز
+992,Inheritance,الوراثة,280,Intentionally_create,الإنشاء المتعمَّد,259,Building,البناء
+3385,Inheritance,الوراثة,280,Intentionally_create,الإنشاء المتعمَّد,268,Cooking_creation,إعداد الطعام
+2403,Inheritance,الوراثة,280,Intentionally_create,الإنشاء المتعمَّد,1658,Create_physical_artwork,إنشاء العمل الفني المادي
+3031,Inheritance,الوراثة,280,Intentionally_create,الإنشاء المتعمَّد,11,Duplication,النسخ
+2768,Inheritance,الوراثة,280,Intentionally_create,الإنشاء المتعمَّد,247,Knot_creation,عقد العقدة
+179,Inheritance,الوراثة,280,Intentionally_create,الإنشاء المتعمَّد,408,Manufacturing,التصنيع
+196,Inheritance,الوراثة,280,Intentionally_create,الإنشاء المتعمَّد,278,Text_creation,إنشاء النص
+3223,Inheritance,الوراثة,280,Intentionally_create,الإنشاء المتعمَّد,1645,Translating,الترجمة
+5187,Inheritance,الوراثة,1178,Interior_profile_relation,علاقة الملمح الداخلي,1176,Being_contained_within,كونه محتوىً داخل
+2266,Inheritance,الوراثة,219,Judgment_communication,إبلاغ الحكم التقييمي,1624,Bragging,التفاخر
+1977,Inheritance,الوراثة,219,Judgment_communication,إبلاغ الحكم التقييمي,711,Judgment_direct_address,الحكم التقييمي بالخطاب المباشر
+868,Inheritance,الوراثة,590,Killing,القتل,225,Execution,الإعدام
+3757,Inheritance,الوراثة,2076,Legal_rulings,الأحكام القانونية,318,Verdict,قرار الحكم
+2657,Inheritance,الوراثة,114,Likelihood,الأرجحية,378,Run_risk,المجازفة
+4517,Inheritance,الوراثة,192,Locale,الموقع الجغرافي,2628,Assigned_location,الموضع المخصَّص
+99,Inheritance,الوراثة,192,Locale,الموقع الجغرافي,193,Biological_area,المنطقة الأحيائية
+4624,Inheritance,الوراثة,192,Locale,الموقع الجغرافي,2687,Locale_by_characteristic_entity,الموقع الجغرافي بحسب الكيان المميِّز
+3930,Inheritance,الوراثة,192,Locale,الموقع الجغرافي,2171,Locale_by_ownership,الموقع الجغرافي بحسب الملكية
+28,Inheritance,الوراثة,192,Locale,الموقع الجغرافي,196,Locale_by_use,الموقع الجغرافي بحسب الاستعمال
+100,Inheritance,الوراثة,192,Locale,الموقع الجغرافي,191,Natural_features,المعالم الطبيعية
+4508,Inheritance,الوراثة,192,Locale,الموقع الجغرافي,2625,Relational_location,الموضع العلائقي
+4513,Inheritance,الوراثة,2626,Locale_by_collocation,الموقع الجغرافي بحسب التموضع,1921,Locale_by_event,الموقع الجغرافي بحسب الحدث
+4572,Inheritance,الوراثة,1921,Locale_by_event,الموقع الجغرافي بحسب الحدث,2662,Firing_point,نقطة الإطلاق
+3931,Inheritance,الوراثة,2171,Locale_by_ownership,الموقع الجغرافي بحسب الملكية,195,Political_locales,المواقع السياسية
+2688,Inheritance,الوراثة,196,Locale_by_use,الموقع الجغرافي بحسب الاستعمال,387,Prison,السجن (المكان)
+2864,Inheritance,الوراثة,196,Locale_by_use,الموقع الجغرافي بحسب الاستعمال,203,Roadways,الطرق
+4501,Inheritance,الوراثة,2620,Locale_closure,إغلاق الموقع الجغرافي,2590,Business_closure,إغلاق المنشأة
+3891,Inheritance,الوراثة,2141,Location_in_time,الموضع في الزمن,229,Calendric_unit,الوحدة التقويمية
+940,Inheritance,الوراثة,199,Locative_relation,العلاقة المكانية,262,Abounding_with,الامتلاء بـ
+4979,Inheritance,الوراثة,199,Locative_relation,العلاقة المكانية,2891,Adjacency,المجاورة
+2887,Inheritance,الوراثة,199,Locative_relation,العلاقة المكانية,397,Containing,الاحتواء
+5033,Inheritance,الوراثة,199,Locative_relation,العلاقة المكانية,2912,Directional_locative_relation,العلاقة المكانية الاتجاهية
+3036,Inheritance,الوراثة,199,Locative_relation,العلاقة المكانية,76,Distributed_position,الموقع الموزَّع
+2250,Inheritance,الوراثة,199,Locative_relation,العلاقة المكانية,1619,Expected_location_of_person,الموضع المتوقَّع للشخص
+3495,Inheritance,الوراثة,199,Locative_relation,العلاقة المكانية,1177,Goal,المقصد
+4992,Inheritance,الوراثة,199,Locative_relation,العلاقة المكانية,2900,Gradable_proximity,القرب المتدرِّج
+4969,Inheritance,الوراثة,199,Locative_relation,العلاقة المكانية,1178,Interior_profile_relation,علاقة الملمح الداخلي
+5069,Inheritance,الوراثة,199,Locative_relation,العلاقة المكانية,2940,Location_on_path,الموضع على المسار
+4968,Inheritance,الوراثة,199,Locative_relation,العلاقة المكانية,2880,Non-gradable_proximity,القرب غير المتدرِّج
+5001,Inheritance,الوراثة,199,Locative_relation,العلاقة المكانية,2905,Spatial_co-location,التشارك المكاني
+4978,Inheritance,الوراثة,199,Locative_relation,العلاقة المكانية,2890,Spatial_contact,التماس المكاني
+2089,Inheritance,الوراثة,199,Locative_relation,العلاقة المكانية,1461,Within_distance,ضمن المسافة
+75,Inheritance,الوراثة,206,Lose_possession,فقدان الملكية,139,Giving,الإعطاء
+2959,Inheritance,الوراثة,212,Lose_possession_scenario,سيناريو فقدان الملكية,1190,Giving_scenario,سيناريو الإعطاء
+4864,Inheritance,الوراثة,2199,Losing_track_of_theme,فقدان أثر الموضوع,2197,Losing,الخسارة
+4625,Inheritance,الوراثة,1342,Make_agreement_on_action,عقد الاتفاق على الفعل,2688,Make_compromise,عقد التسوية
+2656,Inheritance,الوراثة,92,Manipulate_into_doing,الحمل على الفعل بالتلاعب,90,Talking_into,الإقناع بالكلام
+3883,Inheritance,الوراثة,2136,Manipulate_into_shape,التشكيل باليد,246,Rope_manipulation,معالجة الحبل
+3424,Inheritance,الوراثة,17,Manipulation,المعالجة باليد,1901,Aiming,التصويب
+3338,Inheritance,الوراثة,17,Manipulation,المعالجة باليد,263,Ingestion,التناول
+3491,Inheritance,الوراثة,1790,Means,الوسيلة,1928,Preliminaries,التمهيدات
+1360,Inheritance,الوراثة,965,Measurable_attributes,الصفات القابلة للقياس,972,Age,العمر
+4320,Inheritance,الوراثة,965,Measurable_attributes,الصفات القابلة للقياس,79,Duration_description,وصف المدة
+3926,Inheritance,الوراثة,965,Measurable_attributes,الصفات القابلة للقياس,105,Location_of_light,موضع الضوء
+4319,Inheritance,الوراثة,965,Measurable_attributes,الصفات القابلة للقياس,2421,Rate_description,وصف المعدل
+4882,Inheritance,الوراثة,965,Measurable_attributes,الصفات القابلة للقياس,2282,Size,الحجم
+3938,Inheritance,الوراثة,965,Measurable_attributes,الصفات القابلة للقياس,2170,Sound_level,مستوى الصوت
+1351,Inheritance,الوراثة,965,Measurable_attributes,الصفات القابلة للقياس,966,Speed_description,وصف السرعة
+1418,Inheritance,الوراثة,965,Measurable_attributes,الصفات القابلة للقياس,1050,Temperature,درجة الحرارة
+2236,Inheritance,الوراثة,965,Measurable_attributes,الصفات القابلة للقياس,1606,Unemployment_rate,معدل البطالة
+3853,Inheritance,الوراثة,1687,Measure_scenario,سيناريو القياس,2122,Duration_scenario,سيناريو المدة
+2563,Inheritance,الوراثة,1686,Measures,المقاييس,156,Measure_area,قياس المساحة
+2564,Inheritance,الوراثة,1686,Measures,المقاييس,810,Measure_by_action,القياس بالفعل
+2565,Inheritance,الوراثة,1686,Measures,المقاييس,224,Measure_duration,قياس المدة
+2566,Inheritance,الوراثة,1686,Measures,المقاييس,154,Measure_linear_extent,قياس الامتداد الطولي
+2567,Inheritance,الوراثة,1686,Measures,المقاييس,147,Measure_mass,قياس الكتلة
+2568,Inheritance,الوراثة,1686,Measures,المقاييس,155,Measure_volume,قياس الحجم
+4014,Inheritance,الوراثة,2235,Meet_specifications,استيفاء المواصفات,1441,Rising_to_a_challenge,الارتقاء إلى التحدي
+2840,Inheritance,الوراثة,1710,Mental_activity,النشاط الذهني,19,Awareness,الوعي
+3789,Inheritance,الوراثة,2080,Mention,الذكر,2090,Indicating,الإشارة إلى
+2606,Inheritance,الوراثة,1100,Misdeed,الفعلة المشينة,700,Committing_crime,ارتكاب الجريمة
+3599,Inheritance,الوراثة,7,Motion,الحركة,345,Fluidic_motion,حركة المائع
+147,Inheritance,الوراثة,7,Motion,الحركة,284,Mass_motion,الحركة الجماعية
+222,Inheritance,الوراثة,7,Motion,الحركة,362,Motion_directional,الحركة الاتجاهية
+3598,Inheritance,الوراثة,7,Motion,الحركة,60,Motion_noise,ضجيج الحركة
+2363,Inheritance,الوراثة,7,Motion,الحركة,64,Self_motion,الحركة الذاتية
+2118,Inheritance,الوراثة,191,Natural_features,المعالم الطبيعية,1490,Relational_natural_features,المعالم الطبيعية العلائقية
+3272,Inheritance,الوراثة,1084,Objective_influence,التأثير الموضوعي,1799,Control,التحكم
+2796,Inheritance,الوراثة,1084,Objective_influence,التأثير الموضوعي,10,Transitive_action,الفعل المتعدي
+3092,Inheritance,الوراثة,432,Offenses,الجرائم,138,Arson,الحرق العمد
+2510,Inheritance,الوراثة,1495,Operating_a_system,تشغيل النظام,65,Operate_vehicle,قيادة المركبة
+2472,Inheritance,الوراثة,1371,Organization,المنظمة,1604,Institutions,المؤسسات
+2463,Inheritance,الوراثة,1371,Organization,المنظمة,1514,Military,الجيش
+4455,Inheritance,الوراثة,1371,Organization,المنظمة,2588,Temporary_group,المجموعة المؤقتة
+2184,Inheritance,الوراثة,1103,Origin,المنشأ,1552,Indigenous_origin,الأصل المحلي
+2693,Inheritance,الوراثة,142,Part_piece,القطعة الجزئية,140,Part_whole,الجزء والكل
+2690,Inheritance,الوراثة,140,Part_whole,الجزء والكل,330,Part_edge,الجزء الطرفي
+2691,Inheritance,الوراثة,140,Part_whole,الجزء والكل,327,Part_inner_outer,الجزء الداخلي والخارجي
+2692,Inheritance,الوراثة,140,Part_whole,الجزء والكل,331,Part_ordered_segments,الأجزاء المرتَّبة
+2099,Inheritance,الوراثة,140,Part_whole,الجزء والكل,143,Part_orientational,الجزء التوجيهي
+2858,Inheritance,الوراثة,140,Part_whole,الجزء والكل,1000,Rest,الراحة
+1358,Inheritance,الوراثة,140,Part_whole,الجزء والكل,970,Shaped_part,الجزء المشكَّل
+4456,Inheritance,الوراثة,140,Part_whole,الجزء والكل,2588,Temporary_group,المجموعة المؤقتة
+4328,Inheritance,الوراثة,140,Part_whole,الجزء والكل,2426,Vehicle_subpart,الجزء الفرعي من المركبة
+2412,Inheritance,الوراثة,1671,Passing_off,التمرير احتيالاً,1670,Posing_as,الانتحال
+4469,Inheritance,الوراثة,304,People,الناس,2598,Irregular_combatants,المقاتلون غير النظاميين
+4484,Inheritance,الوراثة,304,People,الناس,2615,Noncombatant,غير المقاتل
+2191,Inheritance,الوراثة,304,People,الناس,1564,People_along_political_spectrum,الناس بحسب الطيف السياسي
+1361,Inheritance,الوراثة,304,People,الناس,973,People_by_age,الناس بحسب العمر
+1395,Inheritance,الوراثة,304,People,الناس,1023,People_by_jurisdiction,الناس بحسب الولاية
+1496,Inheritance,الوراثة,304,People,الناس,1102,People_by_morality,الناس بحسب الأخلاق
+1364,Inheritance,الوراثة,304,People,الناس,974,People_by_origin,الناس بحسب الأصل
+1389,Inheritance,الوراثة,304,People,الناس,1021,People_by_religion,الناس بحسب الدين
+2867,Inheritance,الوراثة,304,People,الناس,1143,People_by_residence,الناس بحسب الإقامة
+1449,Inheritance,الوراثة,304,People,الناس,1071,People_by_vocation,الناس بحسب المهنة
+3128,Inheritance,الوراثة,1071,People_by_vocation,الناس بحسب المهنة,255,Medical_professionals,المهنيون الطبيون
+4588,Inheritance,الوراثة,1071,People_by_vocation,الناس بحسب المهنة,2670,Member_of_military,العسكري
+1458,Inheritance,الوراثة,1071,People_by_vocation,الناس بحسب المهنة,1080,Performers,المؤدّون
+4610,Inheritance,الوراثة,1071,People_by_vocation,الناس بحسب المهنة,2678,Representative,الممثِّل
+95,Inheritance,الوراثة,8,Perception,الإدراك الحسي,20,Becoming_aware,التنبّه
+93,Inheritance,الوراثة,8,Perception,الإدراك الحسي,67,Give_impression,إعطاء الانطباع
+92,Inheritance,الوراثة,8,Perception,الإدراك الحسي,66,Perception_active,الإدراك الحسي القاصد
+94,Inheritance,الوراثة,8,Perception,الإدراك الحسي,70,Perception_experience,تجربة الإدراك الحسي
+97,Inheritance,الوراثة,8,Perception,الإدراك الحسي,71,Sensation,الإحساس
+3445,Inheritance,الوراثة,66,Perception_active,الإدراك الحسي القاصد,1907,Touring,الجولة السياحية
+3755,Inheritance,الوراثة,70,Perception_experience,تجربة الإدراك الحسي,2075,Punctual_perception,الإدراك الحسي اللحظي
+4301,Inheritance,الوراثة,2411,Personal_success,النجاح الشخصي,1880,Fame,الشهرة
+3452,Inheritance,الوراثة,302,Physical_entity,الكيان المادي,393,Body_mark,علامة الجسم
+201,Inheritance,الوراثة,302,Physical_entity,الكيان المادي,237,Bounded_entity,الكيان المحدود
+2890,Inheritance,الوراثة,302,Physical_entity,الكيان المادي,277,Food,الطعام
+4871,Inheritance,الوراثة,302,Physical_entity,الكيان المادي,390,Intoxicants,المُسكِرات
+1949,Inheritance,الوراثة,302,Physical_entity,الكيان المادي,1321,Substance,المادة الكيميائية
+4690,Inheritance,الوراثة,62,Placing,الوضع,2740,Burying,الدفن
+2917,Inheritance,الوراثة,62,Placing,الوضع,267,Dispersal,التشتيت
+2111,Inheritance,الوراثة,195,Political_locales,المواقع السياسية,1483,Foreign_or_domestic_country,البلد الأجنبي أو المحلي
+3387,Inheritance,الوراثة,195,Political_locales,المواقع السياسية,1883,Relational_political_locales,المواقع السياسية العلائقية
+2931,Inheritance,الوراثة,95,Position_on_a_scale,الموقع على مقياس,353,Evaluative_comparison,المقارنة التقييمية
+2930,Inheritance,الوراثة,95,Position_on_a_scale,الموقع على مقياس,342,Sufficiency,الكفاية
+2932,Inheritance,الوراثة,95,Position_on_a_scale,الموقع على مقياس,358,Surpassing,التفوق
+2446,Inheritance,الوراثة,95,Position_on_a_scale,الموقع على مقياس,1532,Used_up,المستنفَد
+1616,Inheritance,الوراثة,118,Possession,الملكية,1185,Post_getting,ما بعد الحصول
+107,Inheritance,الوراثة,118,Possession,الملكية,208,Post_lose_possession,ما بعد فقدان الملكية
+1620,Inheritance,الوراثة,118,Possession,الملكية,1189,Post_transfer,ما بعد النقل
+1615,Inheritance,الوراثة,118,Possession,الملكية,1183,Pre_getting,ما قبل الحصول
+52,Inheritance,الوراثة,118,Possession,الملكية,207,Pre_lose_possession,ما قبل فقدان الملكية
+1619,Inheritance,الوراثة,118,Possession,الملكية,1188,Pre_transfer,ما قبل النقل
+4788,Inheritance,الوراثة,118,Possession,الملكية,2800,Retaining,الاستبقاء
+3849,Inheritance,الوراثة,2120,Possibility,الإمكان,990,Capability,القدرة
+1642,Inheritance,الوراثة,1185,Post_getting,ما بعد الحصول,1182,Post_receiving,ما بعد التلقي
+2742,Inheritance,الوراثة,208,Post_lose_possession,ما بعد فقدان الملكية,1187,Post_giving,ما بعد الإعطاء
+1641,Inheritance,الوراثة,1183,Pre_getting,ما قبل الحصول,1181,Pre_receiving,ما قبل التلقي
+2741,Inheritance,الوراثة,207,Pre_lose_possession,ما قبل فقدان الملكية,1186,Pre_giving,ما قبل الإعطاء
+3721,Inheritance,الوراثة,516,Preventing_or_letting,المنع أو الترك,2056,Prevent_or_allow_possession,منع الملكية أو السماح بها
+4560,Inheritance,الوراثة,516,Preventing_or_letting,المنع أو الترك,2651,Self_control,ضبط النفس
+5338,Inheritance,الوراثة,516,Preventing_or_letting,المنع أو الترك,518,Thwarting,الإحباط
+63,Inheritance,الوراثة,233,Process,العملية,124,Activity,النشاط
+34,Inheritance,الوراثة,233,Process,العملية,120,Arraignment,توجيه الاتهام
+206,Inheritance,الوراثة,233,Process,العملية,314,Precipitation,الهطول
+3169,Inheritance,الوراثة,234,Process_completed_state,حالة العملية المكتملة,182,Activity_done_state,حالة النشاط المنجَز
+64,Inheritance,الوراثة,145,Process_continue,استمرار العملية,164,Activity_ongoing,النشاط الجاري
+51,Inheritance,الوراثة,145,Process_continue,استمرار العملية,264,Sleep,النوم
+3170,Inheritance,الوراثة,232,Process_end,انتهاء العملية,165,Activity_finish,إنهاء النشاط
+68,Inheritance,الوراثة,152,Process_initial_state,الحالة الابتدائية للعملية,169,Activity_ready_state,حالة الاستعداد للنشاط
+3165,Inheritance,الوراثة,1765,Process_pause,إيقاف العملية مؤقتاً,167,Activity_pause,إيقاف النشاط مؤقتاً
+1557,Inheritance,الوراثة,148,Process_resume,استئناف العملية,1156,Activity_resume,استئناف النشاط
+66,Inheritance,الوراثة,133,Process_start,بدء العملية,146,Activity_start,بدء النشاط
+5062,Inheritance,الوراثة,133,Process_start,بدء العملية,2931,Come_into_effect,دخول حيز النفاذ
+3171,Inheritance,الوراثة,144,Process_stop,إيقاف العملية,166,Activity_stop,إيقاف النشاط
+3166,Inheritance,الوراثة,153,Process_stopped_state,حالة العملية الموقوفة,181,Activity_paused_state,حالة النشاط الموقوف مؤقتاً
+3168,Inheritance,الوراثة,1764,Process_uncompleted_state,حالة العملية غير المكتملة,168,Activity_abandoned_state,حالة النشاط المهجور
+3378,Inheritance,الوراثة,620,Processing_materials,معالجة المواد,339,Preserving,الحفظ من التلف
+4633,Inheritance,الوراثة,1340,Progression,التقدم,2693,Ontogeny,النشوء الفردي
+2359,Inheritance,الوراثة,1644,Quitting_a_place,مغادرة المكان نهائياً,1650,Setting_out,الانطلاق
+4914,Inheritance,الوراثة,2836,Reading_activity,نشاط القراءة,2202,Reading_aloud,القراءة الجهرية
+4911,Inheritance,الوراثة,2836,Reading_activity,نشاط القراءة,279,Reading_perception,إدراك المقروء
+4734,Inheritance,الوراثة,411,Receiving,التلقي,2783,Borrowing,الاقتراض
+1884,Inheritance,الوراثة,9,Reciprocality,التبادلية,790,Amalgamation,الاندماج
+4854,Inheritance,الوراثة,9,Reciprocality,التبادلية,2234,Arithmetic,الحساب
+1893,Inheritance,الوراثة,9,Reciprocality,التبادلية,307,Being_attached,كونه مربوطاً
+3147,Inheritance,الوراثة,9,Reciprocality,التبادلية,910,Chatting,الدردشة
+2634,Inheritance,الوراثة,9,Reciprocality,التبادلية,418,Collaboration,التعاون
+2785,Inheritance,الوراثة,9,Reciprocality,التبادلية,177,Commercial_transaction,المعاملة التجارية
+1589,Inheritance,الوراثة,9,Reciprocality,التبادلية,1170,Exchange,التبادل
+2536,Inheritance,الوراثة,9,Reciprocality,التبادلية,1085,Make_acquaintance,التعارف
+4798,Inheritance,الوراثة,9,Reciprocality,التبادلية,2810,Sharing,المشاركة في
+3146,Inheritance,الوراثة,9,Reciprocality,التبادلية,481,Similarity,التشابه
+2520,Inheritance,الوراثة,1253,Referring_by_name,الإحالة بالاسم,1250,Labeling,الوسم
+941,Inheritance,الوراثة,248,Relation,العلاقة,258,Accompaniment,المصاحبة
+3232,Inheritance,الوراثة,248,Relation,العلاقة,1160,Basis_for_attribute,أساس الصفة
+3854,Inheritance,الوراثة,248,Relation,العلاقة,2121,Duration_relation,علاقة المدة
+5299,Inheritance,الوراثة,248,Relation,العلاقة,1029,Identicality,التطابق
+1370,Inheritance,الوراثة,248,Relation,العلاقة,982,Idiosyncrasy,الخصوصية
+4665,Inheritance,الوراثة,248,Relation,العلاقة,2716,Inherent_purpose,الغرض الأصيل
+1378,Inheritance,الوراثة,248,Relation,العلاقة,1010,Partitive,التبعيضي
+3173,Inheritance,الوراثة,248,Relation,العلاقة,1689,Relation_between_individuals,العلاقة بين الأفراد
+3175,Inheritance,الوراثة,248,Relation,العلاقة,81,Relative_time,الزمن النسبي
+3881,Inheritance,الوراثة,248,Relation,العلاقة,2135,Sequence,التسلسل
+3412,Inheritance,الوراثة,248,Relation,العلاقة,1897,Simultaneity,التزامن
+4868,Inheritance,الوراثة,1689,Relation_between_individuals,العلاقة بين الأفراد,1890,Guest_and_host,الضيف والمضيف
+2863,Inheritance,الوراثة,1689,Relation_between_individuals,العلاقة بين الأفراد,253,Social_connection,الصلة الاجتماعية
+4512,Inheritance,الوراثة,2625,Relational_location,الموضع العلائقي,2626,Locale_by_collocation,الموقع الجغرافي بحسب التموضع
+4510,Inheritance,الوراثة,2625,Relational_location,الموضع العلائقي,1490,Relational_natural_features,المعالم الطبيعية العلائقية
+4331,Inheritance,الوراثة,2427,Relational_quantity,الكمية العلائقية,2430,Price_per_unit,سعر الوحدة
+4330,Inheritance,الوراثة,2427,Relational_quantity,الكمية العلائقية,2431,Proportion,النسبة
+4332,Inheritance,الوراثة,2427,Relational_quantity,الكمية العلائقية,2425,Rate_quantification,تكميم المعدل
+2980,Inheritance,الوراثة,317,Releasing,الإطلاق,1724,Releasing_from_custody,الإفراج
+4638,Inheritance,الوراثة,41,Request,الطلب,2700,Request_entity,طلب الكيان
+2457,Inheritance,الوراثة,1381,Required_event,الحدث المطلوب,1493,Obligation_scenario,سيناريو الالتزام
+4258,Inheritance,الوراثة,1152,Research,البحث العلمي,2340,Trying_out,التجريب الاختباري
+3473,Inheritance,الوراثة,110,Residence,الإقامة,1885,Temporary_stay,الإقامة المؤقتة
+2267,Inheritance,الوراثة,1623,Respond_to_proposal,الرد على المقترح,1625,Agree_or_refuse_to_act,الموافقة أو الرفض على الفعل
+2771,Inheritance,الوراثة,1302,Response,الاستجابة,42,Communication_response,الاستجابة التواصلية
+4607,Inheritance,الوراثة,1302,Response,الاستجابة,216,Rewards_and_punishments,المكافآت والعقوبات
+116,Inheritance,الوراثة,216,Rewards_and_punishments,المكافآت والعقوبات,222,Corporal_punishment,العقوبة البدنية
+118,Inheritance,الوراثة,216,Rewards_and_punishments,المكافآت والعقوبات,225,Execution,الإعدام
+30,Inheritance,الوراثة,216,Rewards_and_punishments,المكافآت والعقوبات,223,Fining,التغريم
+213,Inheritance,الوراثة,216,Rewards_and_punishments,المكافآت والعقوبات,347,Revenge,الانتقام
+4012,Inheritance,الوراثة,2233,Satisfying,الإرضاء,117,Compliance,الامتثال
+4013,Inheritance,الوراثة,2233,Satisfying,الإرضاء,2235,Meet_specifications,استيفاء المواصفات
+5351,Inheritance,الوراثة,2838,Scheduling,الجدولة,2679,Reserving,الحجز
+2515,Inheritance,الوراثة,1684,Scrutinizing_for,التفحص بحثاً عن,1262,Inspecting,التفتيش
+2516,Inheritance,الوراثة,1684,Scrutinizing_for,التفحص بحثاً عن,1263,Scouring,التمشيط
+194,Inheritance,الوراثة,31,Scrutiny,التفحص,279,Reading_perception,إدراك المقروء
+4161,Inheritance,الوراثة,31,Scrutiny,التفحص,1152,Research,البحث العلمي
+2514,Inheritance,الوراثة,31,Scrutiny,التفحص,1684,Scrutinizing_for,التفحص بحثاً عن
+1758,Inheritance,الوراثة,31,Scrutiny,التفحص,1230,Verification,التحقق
+3383,Inheritance,الوراثة,269,Seeking,السعي,1882,Shopping,التسوق
+3401,Inheritance,الوراثة,1480,Seeking_to_achieve,السعي إلى التحقيق,269,Seeking,السعي
+50,Inheritance,الوراثة,64,Self_motion,الحركة الذاتية,56,Cotheme,الموضوع المصاحب
+2380,Inheritance,الوراثة,64,Self_motion,الحركة الذاتية,1659,Fleeing,الفرار
+2351,Inheritance,الوراثة,64,Self_motion,الحركة الذاتية,1642,Intentional_traversing,العبور المتعمَّد
+2358,Inheritance,الوراثة,64,Self_motion,الحركة الذاتية,343,Travel,السفر
+2248,Inheritance,الوراثة,1617,Set_of_interrelated_entities,مجموعة الكيانات المترابطة,1610,System,النظام
+4905,Inheritance,الوراثة,283,Setting_fire,إضرام النار,2829,Setting_back_burn,إشعال النار المضادة
+5035,Inheritance,الوراثة,2913,Sex,الجنس,2914,Procreative_sex,الجماع الإنجابي
+1359,Inheritance,الوراثة,970,Shaped_part,الجزء المشكَّل,971,Architectural_part,الجزء المعماري
+3278,Inheritance,الوراثة,970,Shaped_part,الجزء المشكَّل,119,Body_parts,أعضاء الجسم
+5134,Inheritance,الوراثة,428,Sign,الإشارة الدالة,2501,Leaving_traces,ترك الآثار
+2633,Inheritance,الوراثة,428,Sign,الإشارة الدالة,412,Omen,الفأل
+2133,Inheritance,الوراثة,481,Similarity,التشابه,1496,Be_in_agreement_on_assessment,الاتفاق على التقدير
+3405,Inheritance,الوراثة,481,Similarity,التشابه,1893,Diversity,التنوع
+5018,Inheritance,الوراثة,369,Social_behavior_evaluation,تقييم السلوك الاجتماعي,2713,Attitude_description,وصف الموقف النفسي
+2599,Inheritance,الوراثة,369,Social_behavior_evaluation,تقييم السلوك الاجتماعي,531,Being_questionable,كونه مشكوكاً فيه
+864,Inheritance,الوراثة,369,Social_behavior_evaluation,تقييم السلوك الاجتماعي,117,Compliance,الامتثال
+2429,Inheritance,الوراثة,369,Social_behavior_evaluation,تقييم السلوك الاجتماعي,1612,Disgraceful_situation,الوضع المشين
+2672,Inheritance,الوراثة,369,Social_behavior_evaluation,تقييم السلوك الاجتماعي,136,Expertise,الخبرة
+3060,Inheritance,الوراثة,369,Social_behavior_evaluation,تقييم السلوك الاجتماعي,84,Frugality,التقتير
+1488,Inheritance,الوراثة,369,Social_behavior_evaluation,تقييم السلوك الاجتماعي,29,Mental_property,الخاصية الذهنية
+1489,Inheritance,الوراثة,369,Social_behavior_evaluation,تقييم السلوك الاجتماعي,370,Morality_evaluation,التقييم الأخلاقي
+2640,Inheritance,الوراثة,369,Social_behavior_evaluation,تقييم السلوك الاجتماعي,399,Praiseworthiness,استحقاق المدح
+2441,Inheritance,الوراثة,369,Social_behavior_evaluation,تقييم السلوك الاجتماعي,1581,Rashness,التهور
+1490,Inheritance,الوراثة,369,Social_behavior_evaluation,تقييم السلوك الاجتماعي,372,Social_interaction_evaluation,تقييم التفاعل الاجتماعي
+3389,Inheritance,الوراثة,369,Social_behavior_evaluation,تقييم السلوك الاجتماعي,1884,Trendiness,الرواج
+4094,Inheritance,الوراثة,125,Social_event,المناسبة الاجتماعية,2281,Social_event_collective,المناسبة الاجتماعية الجماعية
+4095,Inheritance,الوراثة,125,Social_event,المناسبة الاجتماعية,2280,Social_event_individuals,المناسبة الاجتماعية للأفراد
+3585,Inheritance,الوراثة,372,Social_interaction_evaluation,تقييم التفاعل الاجتماعي,1970,Hospitality,الضيافة
+3582,Inheritance,الوراثة,372,Social_interaction_evaluation,تقييم التفاعل الاجتماعي,349,Partiality,الانحياز
+3587,Inheritance,الوراثة,372,Social_interaction_evaluation,تقييم التفاعل الاجتماعي,724,Stinginess,البخل
+3584,Inheritance,الوراثة,372,Social_interaction_evaluation,تقييم التفاعل الاجتماعي,75,Strictness,الصرامة
+3318,Inheritance,الوراثة,850,Sounds,الأصوات,1840,Vocalizations,الأصوات المنطوقة
+2580,Inheritance,الوراثة,150,State,الحالة,791,Attention,الانتباه
+857,Inheritance,الوراثة,150,State,الحالة,470,Bearing_arms,حمل السلاح
+2835,Inheritance,الوراثة,150,State,الحالة,307,Being_attached,كونه مربوطاً
+2561,Inheritance,الوراثة,150,State,الحالة,880,Being_in_operation,كونه في حالة تشغيل
+2554,Inheritance,الوراثة,150,State,الحالة,960,Being_located,كونه في موضع
+4646,Inheritance,الوراثة,150,State,الحالة,2705,Chaos,الفوضى
+229,Inheritance,الوراثة,150,State,الحالة,310,Dead_or_alive,حي أو ميت
+3719,Inheritance,الوراثة,150,State,الحالة,2055,Dying,الاحتضار
+4820,Inheritance,الوراثة,150,State,الحالة,1712,Emotions,الانفعالات
+84,Inheritance,الوراثة,150,State,الحالة,186,Event_endstate,الحالة النهائية للحدث
+83,Inheritance,الوراثة,150,State,الحالة,185,Event_initial_state,الحالة الابتدائية للحدث
+2590,Inheritance,الوراثة,150,State,الحالة,660,Existence,الوجود
+5,Inheritance,الوراثة,150,State,الحالة,199,Locative_relation,العلاقة المكانية
+2645,Inheritance,الوراثة,150,State,الحالة,18,Posture,الوضعية
+3134,Inheritance,الوراثة,150,State,الحالة,234,Process_completed_state,حالة العملية المكتملة
+47,Inheritance,الوراثة,150,State,الحالة,152,Process_initial_state,الحالة الابتدائية للعملية
+59,Inheritance,الوراثة,150,State,الحالة,153,Process_stopped_state,حالة العملية الموقوفة
+3157,Inheritance,الوراثة,150,State,الحالة,1764,Process_uncompleted_state,حالة العملية غير المكتملة
+2431,Inheritance,الوراثة,150,State,الحالة,1600,State_of_entity,حالة الكيان
+3238,Inheritance,الوراثة,150,State,الحالة,1771,Thriving,الازدهار
+4548,Inheritance,الوراثة,150,State,الحالة,2645,Transportation_status,حالة النقل
+2962,Inheritance,الوراثة,1600,State_of_entity,حالة الكيان,300,Predicament,المأزق
+5182,Inheritance,الوراثة,43,Statement,القول,2974,Affirm_or_deny,الإثبات أو النفي
+2260,Inheritance,الوراثة,43,Statement,القول,1621,Complaining,الشكوى
+4699,Inheritance,الوراثة,43,Statement,القول,425,Predicting,التنبؤ
+4754,Inheritance,الوراثة,43,Statement,القول,2202,Reading_aloud,القراءة الجهرية
+2427,Inheritance,الوراثة,43,Statement,القول,1615,Recording,التسجيل
+1551,Inheritance,الوراثة,43,Statement,القول,1146,Reveal_secret,كشف السر
+2581,Inheritance,الوراثة,43,Statement,القول,750,Telling,الإخبار
+3494,Inheritance,الوراثة,364,Stimulus_focus,التركيز على المثير,1930,Ineffability,تعذّر الوصف
+4446,Inheritance,الوراثة,1511,Store,المتجر,2576,Cache,المخبأ
+2074,Inheritance,الوراثة,1321,Substance,المادة الكيميائية,1322,Active_substance,المادة الفعّالة
+4859,Inheritance,الوراثة,1388,Success_or_failure,النجاح أو الفشل,2622,Endeavor_failure,فشل المسعى
+3427,Inheritance,الوراثة,1388,Success_or_failure,النجاح أو الفشل,1902,Hit_or_miss,الإصابة أو الإخفاق
+3266,Inheritance,الوراثة,1388,Success_or_failure,النجاح أو الفشل,1792,Surviving,النجاة
+5184,Inheritance,الوراثة,1346,Supply,الإمداد,2982,Funding,التمويل
+880,Inheritance,الوراثة,410,Taking,الأخذ,94,Theft,السرقة
+4846,Inheritance,الوراثة,750,Telling,الإخبار,89,Suasion,الإقناع
+4678,Inheritance,الوراثة,750,Telling,الإخبار,2730,Warning,التحذير
+1419,Inheritance,الوراثة,1050,Temperature,درجة الحرارة,1052,Ambient_temperature,درجة الحرارة المحيطة
+3182,Inheritance,الوراثة,298,Text,النص,560,Documents,الوثائق
+5137,Inheritance,الوراثة,298,Text,النص,2680,Records,السجلات
+1555,Inheritance,الوراثة,278,Text_creation,إنشاء النص,1151,Sign_agreement,توقيع الاتفاق
+2535,Inheritance,الوراثة,518,Thwarting,الإحباط,1090,Subversion,التقويض
+4108,Inheritance,الوراثة,2142,Timespan,المدى الزمني,2290,Time_period_of_action,الفترة الزمنية للفعل
+109,Inheritance,الوراثة,178,Transfer,النقل,211,Commerce_goods-transfer,التجارة: نقل البضاعة
+110,Inheritance,الوراثة,178,Transfer,النقل,209,Commerce_money-transfer,التجارة: نقل المال
+4732,Inheritance,الوراثة,1192,Transfer_scenario,سيناريو النقل,2780,Temporary_transfer_scenario,سيناريو النقل المؤقت
+5163,Inheritance,الوراثة,2972,Transition_to_a_quality,الانتقال إلى صفة,830,Absorb_heat,امتصاص الحرارة
+5164,Inheritance,الوراثة,2972,Transition_to_a_quality,الانتقال إلى صفة,306,Becoming_attached,الالتحام
+5166,Inheritance,الوراثة,2972,Transition_to_a_quality,الانتقال إلى صفة,1391,Becoming_detached,الانفصال عن الاتصال
+5165,Inheritance,الوراثة,2972,Transition_to_a_quality,الانتقال إلى صفة,2029,Becoming_dry,الجفاف
+5167,Inheritance,الوراثة,2972,Transition_to_a_quality,الانتقال إلى صفة,2582,Becoming_visible,الظهور للعيان
+5158,Inheritance,الوراثة,1070,Transition_to_state,الانتقال إلى حالة,2971,Becoming,الصيرورة
+5153,Inheritance,الوراثة,1070,Transition_to_state,الانتقال إلى حالة,2104,Ceasing_to_be,الزوال
+5178,Inheritance,الوراثة,1070,Transition_to_state,الانتقال إلى حالة,2980,Transition_to_a_situation,الانتقال إلى وضع
+5156,Inheritance,الوراثة,1070,Transition_to_state,الانتقال إلى حالة,1172,Undergo_change,الخضوع للتغيير
+4209,Inheritance,الوراثة,10,Transitive_action,الفعل المتعدي,2320,Cause_bodily_experience,التسبب في تجربة جسدية
+3250,Inheritance,الوراثة,10,Transitive_action,الفعل المتعدي,683,Cause_change,التسبب في التغيير
+2822,Inheritance,الوراثة,10,Transitive_action,الفعل المتعدي,383,Cause_change_of_consistency,التسبب في تغيير القوام
+2797,Inheritance,الوراثة,10,Transitive_action,الفعل المتعدي,335,Cause_change_of_phase,التسبب في تغيير الطور
+2798,Inheritance,الوراثة,10,Transitive_action,الفعل المتعدي,96,Cause_change_of_position_on_a_scale,التسبب في تغيير الموقع على مقياس
+3248,Inheritance,الوراثة,10,Transitive_action,الفعل المتعدي,1781,Cause_change_of_strength,التسبب في تغيير القوة
+3209,Inheritance,الوراثة,10,Transitive_action,الفعل المتعدي,77,Cause_expansion,التسبب في التمدد
+2800,Inheritance,الوراثة,10,Transitive_action,الفعل المتعدي,395,Cause_impact,التسبب في صدم
+2801,Inheritance,الوراثة,10,Transitive_action,الفعل المتعدي,55,Cause_motion,التسبب في الحركة
+2802,Inheritance,الوراثة,10,Transitive_action,الفعل المتعدي,334,Cause_temperature_change,التسبب في تغيير الحرارة
+2804,Inheritance,الوراثة,10,Transitive_action,الفعل المتعدي,337,Cause_to_be_dry,التجفيف
+4089,Inheritance,الوراثة,10,Transitive_action,الفعل المتعدي,2230,Cause_to_be_included,التسبب في الإدراج
+2805,Inheritance,الوراثة,10,Transitive_action,الفعل المتعدي,1291,Cause_to_be_sharp,الشحذ
+2806,Inheritance,الوراثة,10,Transitive_action,الفعل المتعدي,309,Cause_to_be_wet,التبليل
+2807,Inheritance,الوراثة,10,Transitive_action,الفعل المتعدي,1060,Cause_to_continue,التسبب في الاستمرار
+2808,Inheritance,الوراثة,10,Transitive_action,الفعل المتعدي,1149,Cause_to_end,الإنهاء
+2810,Inheritance,الوراثة,10,Transitive_action,الفعل المتعدي,414,Cause_to_fragment,التكسير
+2811,Inheritance,الوراثة,10,Transitive_action,الفعل المتعدي,801,Cause_to_make_noise,التسبب في إحداث الضجيج
+2813,Inheritance,الوراثة,10,Transitive_action,الفعل المتعدي,276,Cause_to_move_in_place,التحريك في المكان
+2814,Inheritance,الوراثة,10,Transitive_action,الفعل المتعدي,1372,Cause_to_resume,التسبب في الاستئناف
+4029,Inheritance,الوراثة,10,Transitive_action,الفعل المتعدي,2248,Cause_to_rot,التسبب في التعفن
+2815,Inheritance,الوراثة,10,Transitive_action,الفعل المتعدي,293,Cause_to_wake,الإيقاظ
+4132,Inheritance,الوراثة,10,Transitive_action,الفعل المتعدي,2303,Container_focused_placing,الوضع المركَّز على الوعاء
+4125,Inheritance,الوراثة,10,Transitive_action,الفعل المتعدي,2301,Container_focused_removing,الإزالة المركَّزة على الوعاء
+2826,Inheritance,الوراثة,10,Transitive_action,الفعل المتعدي,350,Corroding_caused,التآكل المتسبَّب فيه
+4170,Inheritance,الوراثة,10,Transitive_action,الفعل المتعدي,319,Creating,الإنشاء
+2816,Inheritance,الوراثة,10,Transitive_action,الفعل المتعدي,50,Cure,الشفاء
+2819,Inheritance,الوراثة,10,Transitive_action,الفعل المتعدي,415,Damaging,الإتلاف
+2817,Inheritance,الوراثة,10,Transitive_action,الفعل المتعدي,417,Destroying,التدمير
+4541,Inheritance,الوراثة,10,Transitive_action,الفعل المتعدي,2641,Downing,الإسقاط
+3199,Inheritance,الوراثة,10,Transitive_action,الفعل المتعدي,631,Endangering,التعريض للخطر
+4860,Inheritance,الوراثة,10,Transitive_action,الفعل المتعدي,2481,Erasing,المحو
+3742,Inheritance,الوراثة,10,Transitive_action,الفعل المتعدي,351,Grinding,الطحن
+3215,Inheritance,الوراثة,10,Transitive_action,الفعل المتعدي,1494,Imposing_obligation,فرض الالتزام
+5136,Inheritance,الوراثة,10,Transitive_action,الفعل المتعدي,2851,Infecting,العدوى
+2795,Inheritance,الوراثة,10,Transitive_action,الفعل المتعدي,230,Intentionally_affect,التأثير المتعمَّد
+3409,Inheritance,الوراثة,10,Transitive_action,الفعل المتعدي,1894,Interrupt_process,مقاطعة العملية
+3008,Inheritance,الوراثة,10,Transitive_action,الفعل المتعدي,590,Killing,القتل
+4129,Inheritance,الوراثة,10,Transitive_action,الفعل المتعدي,62,Placing,الوضع
+2821,Inheritance,الوراثة,10,Transitive_action,الفعل المتعدي,1614,Rejuvenation,التجديد
+4128,Inheritance,الوراثة,10,Transitive_action,الفعل المتعدي,63,Removing,الإزالة
+3229,Inheritance,الوراثة,10,Transitive_action,الفعل المتعدي,416,Render_nonfunctional,التعطيل
+2893,Inheritance,الوراثة,10,Transitive_action,الفعل المتعدي,283,Setting_fire,إضرام النار
+4453,Inheritance,الوراثة,2578,Trap,الفخ,2586,Prank,المقلب
+2348,Inheritance,الوراثة,1310,Traversing,العبور,1642,Intentional_traversing,العبور المتعمَّد
+4251,Inheritance,الوراثة,2340,Trying_out,التجريب الاختباري,2330,Tasting,التذوق
+4639,Inheritance,الوراثة,128,Type,النوع,2701,Biological_classification,التصنيف الأحيائي
+5309,Inheritance,الوراثة,1172,Undergo_change,الخضوع للتغيير,3012,Improvement_or_decline,التحسن أو التدهور
+3489,Inheritance,الوراثة,1172,Undergo_change,الخضوع للتغيير,1926,Nuclear_process,العملية النووية
+5168,Inheritance,الوراثة,1172,Undergo_change,الخضوع للتغيير,2973,Undergo_transformation,الخضوع للتحول
+5343,Inheritance,الوراثة,1141,Using,الاستعمال,2132,Attempt_means,وسيلة المحاولة
+4445,Inheritance,الوراثة,1141,Using,الاستعمال,2575,Detonate_explosive,تفجير المتفجِّر
+3998,Inheritance,الوراثة,1141,Using,الاستعمال,2220,Expend_resource,استنفاد المورد
+2509,Inheritance,الوراثة,1141,Using,الاستعمال,1495,Operating_a_system,تشغيل النظام
+3431,Inheritance,الوراثة,1141,Using,الاستعمال,290,Use_firearm,استعمال السلاح الناري
+3469,Inheritance,الوراثة,1911,Visiting,الزيارة,1885,Temporary_stay,الإقامة المؤقتة
+3520,Inheritance,الوراثة,1941,Visiting_scenario,سيناريو الزيارة,1942,Visitor_and_host,الزائر والمضيف
+3558,Inheritance,الوراثة,1943,Visiting_scenario_arrival,سيناريو الزيارة: الوصول,1947,Visit_host_arrival,وصول زيارة المضيف
+3526,Inheritance,الوراثة,1943,Visiting_scenario_arrival,سيناريو الزيارة: الوصول,1913,Visitor_arrival,وصول الزائر
+3557,Inheritance,الوراثة,1944,Visiting_scenario_departing,سيناريو الزيارة: المغادرة,1949,Visit_host_departure,مغادرة زيارة المضيف
+3527,Inheritance,الوراثة,1944,Visiting_scenario_departing,سيناريو الزيارة: المغادرة,1914,Visitor_departure,مغادرة الزائر
+3559,Inheritance,الوراثة,1945,Visiting_scenario_stay,سيناريو الزيارة: المكوث,1948,Visit_host_stay,مكوث زيارة المضيف
+3531,Inheritance,الوراثة,1945,Visiting_scenario_stay,سيناريو الزيارة: المكوث,1911,Visiting,الزيارة
+3535,Inheritance,الوراثة,1913,Visitor_arrival,وصول الزائر,1946,Drop_in_on,الزيارة العابرة
+3518,Inheritance,الوراثة,1912,Visitor_scenario,سيناريو الزائر,1940,Visit_host,زيارة المضيف
+4528,Inheritance,الوراثة,1561,Waiting,الانتظار,2630,Standing_by,الاستعداد
+4502,Inheritance,الوراثة,426,Weapon,السلاح,2623,Improvised_explosive_device,العبوة الناسفة المرتجلة
+3403,Inheritance,الوراثة,1892,Work,العمل,1480,Seeking_to_achieve,السعي إلى التحقيق
+257,Subframe,الإطار الفرعي,124,Activity,النشاط,168,Activity_abandoned_state,حالة النشاط المهجور
+258,Subframe,الإطار الفرعي,124,Activity,النشاط,182,Activity_done_state,حالة النشاط المنجَز
+247,Subframe,الإطار الفرعي,124,Activity,النشاط,165,Activity_finish,إنهاء النشاط
+248,Subframe,الإطار الفرعي,124,Activity,النشاط,164,Activity_ongoing,النشاط الجاري
+255,Subframe,الإطار الفرعي,124,Activity,النشاط,167,Activity_pause,إيقاف النشاط مؤقتاً
+259,Subframe,الإطار الفرعي,124,Activity,النشاط,181,Activity_paused_state,حالة النشاط الموقوف مؤقتاً
+254,Subframe,الإطار الفرعي,124,Activity,النشاط,170,Activity_prepare,التهيؤ للنشاط
+253,Subframe,الإطار الفرعي,124,Activity,النشاط,169,Activity_ready_state,حالة الاستعداد للنشاط
+2751,Subframe,الإطار الفرعي,124,Activity,النشاط,1156,Activity_resume,استئناف النشاط
+260,Subframe,الإطار الفرعي,124,Activity,النشاط,146,Activity_start,بدء النشاط
+256,Subframe,الإطار الفرعي,124,Activity,النشاط,166,Activity_stop,إيقاف النشاط
+3654,Subframe,الإطار الفرعي,2012,Agriculture,الزراعة,2008,Food_gathering,جمع الطعام
+3653,Subframe,الإطار الفرعي,2012,Agriculture,الزراعة,2015,Planting,الغرس
+239,Subframe,الإطار الفرعي,120,Arraignment,توجيه الاتهام,121,Bail_decision,قرار الكفالة
+241,Subframe,الإطار الفرعي,120,Arraignment,توجيه الاتهام,130,Entering_of_plea,تقديم الدفع
+240,Subframe,الإطار الفرعي,120,Arraignment,توجيه الاتهام,129,Notification_of_charges,الإبلاغ بالتهم
+4855,Subframe,الإطار الفرعي,421,Artifact,المصنوع,2470,Artifact_subpart,الجزء الفرعي من المصنوع
+3423,Subframe,الإطار الفرعي,1900,Attempt_distant_interaction_scenario,سيناريو محاولة التفاعل عن بعد,1901,Aiming,التصويب
+3428,Subframe,الإطار الفرعي,1900,Attempt_distant_interaction_scenario,سيناريو محاولة التفاعل عن بعد,1902,Hit_or_miss,الإصابة أو الإخفاق
+5346,Subframe,الإطار الفرعي,1683,Attempting_and_resolving_scenario,سيناريو المحاولة والحسم,3020,Attempt_action_scenario,سيناريو محاولة الفعل
+5325,Subframe,الإطار الفرعي,1683,Attempting_and_resolving_scenario,سيناريو المحاولة والحسم,1682,Result_of_attempt_scenario,سيناريو نتيجة المحاولة
+245,Subframe,الإطار الفرعي,173,Buildings,المباني,188,Building_subparts,أجزاء المبنى
+2937,Subframe,الإطار الفرعي,55,Cause_motion,التسبب في الحركة,62,Placing,الوضع
+2938,Subframe,الإطار الفرعي,55,Cause_motion,التسبب في الحركة,63,Removing,الإزالة
+1882,Subframe,الإطار الفرعي,1281,Change_of_phase_scenario,سيناريو تغيّر الطور,336,Change_of_phase,تغيّر الطور
+1883,Subframe,الإطار الفرعي,1281,Change_of_phase_scenario,سيناريو تغيّر الطور,385,Substance_by_phase,المادة بحسب الطور
+2222,Subframe,الإطار الفرعي,82,Commerce_scenario,سيناريو التجارة,177,Commercial_transaction,المعاملة التجارية
+2225,Subframe,الإطار الفرعي,82,Commerce_scenario,سيناريو التجارة,1577,Having_commercial_agreement,وجود اتفاق تجاري
+275,Subframe,الإطار الفرعي,177,Commercial_transaction,المعاملة التجارية,211,Commerce_goods-transfer,التجارة: نقل البضاعة
+274,Subframe,الإطار الفرعي,177,Commercial_transaction,المعاملة التجارية,209,Commerce_money-transfer,التجارة: نقل المال
+3258,Subframe,الإطار الفرعي,241,Competition,المنافسة,798,Finish_competition,إنهاء المنافسة
+517,Subframe,الإطار الفرعي,692,Crime_scenario,سيناريو الجريمة,700,Committing_crime,ارتكاب الجريمة
+516,Subframe,الإطار الفرعي,692,Crime_scenario,سيناريو الجريمة,500,Criminal_investigation,التحقيق الجنائي
+515,Subframe,الإطار الفرعي,692,Crime_scenario,سيناريو الجريمة,200,Criminal_process,الإجراء الجنائي
+237,Subframe,الإطار الفرعي,200,Criminal_process,الإجراء الجنائي,120,Arraignment,توجيه الاتهام
+264,Subframe,الإطار الفرعي,200,Criminal_process,الإجراء الجنائي,202,Arrest,القبض
+236,Subframe,الإطار الفرعي,200,Criminal_process,الإجراء الجنائي,297,Sentencing,إصدار الحكم
+238,Subframe,الإطار الفرعي,200,Criminal_process,الإجراء الجنائي,201,Trial,المحاكمة
+3808,Subframe,الإطار الفرعي,2100,Cycle_of_existence_scenario,سيناريو دورة الوجود,2104,Ceasing_to_be,الزوال
+3804,Subframe,الإطار الفرعي,2100,Cycle_of_existence_scenario,سيناريو دورة الوجود,316,Coming_to_be,التكوّن
+3807,Subframe,الإطار الفرعي,2100,Cycle_of_existence_scenario,سيناريو دورة الوجود,660,Existence,الوجود
+3810,Subframe,الإطار الفرعي,2100,Cycle_of_existence_scenario,سيناريو دورة الوجود,2105,Out_of_existence,الخروج من الوجود
+3827,Subframe,الإطار الفرعي,2106,Cycle_of_life_and_death,دورة الحياة والموت,793,Being_born,الولادة
+3820,Subframe,الإطار الفرعي,2106,Cycle_of_life_and_death,دورة الحياة والموت,310,Dead_or_alive,حي أو ميت
+3821,Subframe,الإطار الفرعي,2106,Cycle_of_life_and_death,دورة الحياة والموت,53,Death,الموت
+4482,Subframe,الإطار الفرعي,2613,Deception_scenario,سيناريو الخداع,2614,Deception_end,انتهاء الخداع
+261,Subframe,الإطار الفرعي,184,Dynamic_situation_scenario,سيناريو الوضع الدينامي,187,Event,الحدث
+263,Subframe,الإطار الفرعي,184,Dynamic_situation_scenario,سيناريو الوضع الدينامي,186,Event_endstate,الحالة النهائية للحدث
+262,Subframe,الإطار الفرعي,184,Dynamic_situation_scenario,سيناريو الوضع الدينامي,185,Event_initial_state,الحالة الابتدائية للحدث
+1433,Subframe,الإطار الفرعي,1061,Employee_scenario,سيناريو الموظف,282,Being_employed,كونه موظفاً
+1432,Subframe,الإطار الفرعي,1061,Employee_scenario,سيناريو الموظف,324,Get_a_job,الحصول على وظيفة
+1434,Subframe,الإطار الفرعي,1061,Employee_scenario,سيناريو الموظف,325,Quitting,الاستقالة
+1436,Subframe,الإطار الفرعي,1062,Employer_scenario,سيناريو صاحب العمل,323,Employing,التوظيف
+1437,Subframe,الإطار الفرعي,1062,Employer_scenario,سيناريو صاحب العمل,326,Firing,الفصل من العمل
+1435,Subframe,الإطار الفرعي,1062,Employer_scenario,سيناريو صاحب العمل,322,Hiring,التعاقد للعمل
+1179,Subframe,الإطار الفرعي,321,Employment_scenario,سيناريو التوظيف,871,Employment_continue,استمرار التوظيف
+1180,Subframe,الإطار الفرعي,321,Employment_scenario,سيناريو التوظيف,872,Employment_end,انتهاء التوظيف
+1178,Subframe,الإطار الفرعي,321,Employment_scenario,سيناريو التوظيف,870,Employment_start,بدء التوظيف
+4909,Subframe,الإطار الفرعي,2833,Fire_emergency_scenario,سيناريو طوارئ الحريق,2835,Emergency_fire,حريق الطوارئ
+4907,Subframe,الإطار الفرعي,2833,Fire_emergency_scenario,سيناريو طوارئ الحريق,2832,Firefighting,مكافحة الحريق
+4895,Subframe,الإطار الفرعي,2822,Fire_end_scenario,سيناريو انتهاء الحريق,2823,Fire_going_out,انطفاء النار
+4894,Subframe,الإطار الفرعي,2821,Fire_stopping_scenario,سيناريو إيقاف الحريق,2820,Putting_out_fire,إطفاء النار
+1644,Subframe,الإطار الفرعي,1191,Getting_scenario,سيناريو الحصول,179,Getting,الحصول
+1645,Subframe,الإطار الفرعي,1191,Getting_scenario,سيناريو الحصول,1185,Post_getting,ما بعد الحصول
+1643,Subframe,الإطار الفرعي,1191,Getting_scenario,سيناريو الحصول,1183,Pre_getting,ما قبل الحصول
+1625,Subframe,الإطار الفرعي,1190,Giving_scenario,سيناريو الإعطاء,139,Giving,الإعطاء
+1626,Subframe,الإطار الفرعي,1190,Giving_scenario,سيناريو الإعطاء,1187,Post_giving,ما بعد الإعطاء
+1624,Subframe,الإطار الفرعي,1190,Giving_scenario,سيناريو الإعطاء,1186,Pre_giving,ما قبل الإعطاء
+3641,Subframe,الإطار الفرعي,2009,Hunting_scenario,سيناريو الصيد,2006,Hunting,الصيد
+3640,Subframe,الإطار الفرعي,2009,Hunting_scenario,سيناريو الصيد,2010,Hunting_success_or_failure,نجاح الصيد أو فشله
+3447,Subframe,الإطار الفرعي,1906,Individual_history,تاريخ الفرد,1908,Historic_event,الحدث التاريخي
+4575,Subframe,الإطار الفرعي,2664,Inhibit_motion_scenario,سيناريو كبح الحركة,245,Inhibit_movement,كبح الحركة
+4577,Subframe,الإطار الفرعي,2664,Inhibit_motion_scenario,سيناريو كبح الحركة,317,Releasing,الإطلاق
+4576,Subframe,الإطار الفرعي,2664,Inhibit_motion_scenario,سيناريو كبح الحركة,2663,Taking_captive,الأسر
+2365,Subframe,الإطار الفرعي,1642,Intentional_traversing,العبور المتعمَّد,1644,Quitting_a_place,مغادرة المكان نهائياً
+3666,Subframe,الإطار الفرعي,2025,Invasion_scenario,سيناريو الغزو,2021,Conquering,الفتح
+3667,Subframe,الإطار الفرعي,2025,Invasion_scenario,سيناريو الغزو,2022,Invading,الغزو
+3670,Subframe,الإطار الفرعي,2025,Invasion_scenario,سيناريو الغزو,2026,Repel,الصد
+269,Subframe,الإطار الفرعي,212,Lose_possession_scenario,سيناريو فقدان الملكية,206,Lose_possession,فقدان الملكية
+267,Subframe,الإطار الفرعي,212,Lose_possession_scenario,سيناريو فقدان الملكية,208,Post_lose_possession,ما بعد فقدان الملكية
+268,Subframe,الإطار الفرعي,212,Lose_possession_scenario,سيناريو فقدان الملكية,207,Pre_lose_possession,ما قبل فقدان الملكية
+2364,Subframe,الإطار الفرعي,7,Motion,الحركة,1641,Getting_underway,الشروع في المسير
+2366,Subframe,الإطار الفرعي,7,Motion,الحركة,1024,Halt,التوقف
+4545,Subframe,الإطار الفرعي,2644,Operate_vehicle_scenario,سيناريو قيادة المركبة,2643,Cause_to_land,الإنزال
+4546,Subframe,الإطار الفرعي,2644,Operate_vehicle_scenario,سيناريو قيادة المركبة,1387,Getting_vehicle_underway,تحريك المركبة
+4544,Subframe,الإطار الفرعي,2644,Operate_vehicle_scenario,سيناريو قيادة المركبة,65,Operate_vehicle,قيادة المركبة
+250,Subframe,الإطار الفرعي,233,Process,العملية,234,Process_completed_state,حالة العملية المكتملة
+279,Subframe,الإطار الفرعي,233,Process,العملية,145,Process_continue,استمرار العملية
+280,Subframe,الإطار الفرعي,233,Process,العملية,232,Process_end,انتهاء العملية
+281,Subframe,الإطار الفرعي,233,Process,العملية,152,Process_initial_state,الحالة الابتدائية للعملية
+3161,Subframe,الإطار الفرعي,233,Process,العملية,1765,Process_pause,إيقاف العملية مؤقتاً
+282,Subframe,الإطار الفرعي,233,Process,العملية,148,Process_resume,استئناف العملية
+283,Subframe,الإطار الفرعي,233,Process,العملية,133,Process_start,بدء العملية
+284,Subframe,الإطار الفرعي,233,Process,العملية,144,Process_stop,إيقاف العملية
+285,Subframe,الإطار الفرعي,233,Process,العملية,153,Process_stopped_state,حالة العملية الموقوفة
+3158,Subframe,الإطار الفرعي,233,Process,العملية,1764,Process_uncompleted_state,حالة العملية غير المكتملة
+4931,Subframe,الإطار الفرعي,2690,Product_development_scenario,سيناريو تطوير المنتَج,403,Achieving_first,السبق إلى الإنجاز
+4932,Subframe,الإطار الفرعي,2690,Product_development_scenario,سيناريو تطوير المنتَج,408,Manufacturing,التصنيع
+4930,Subframe,الإطار الفرعي,2690,Product_development_scenario,سيناريو تطوير المنتَج,2691,Product_development,تطوير المنتَج
+3562,Subframe,الإطار الفرعي,1950,Receive_visitor_scenario,سيناريو استقبال الزائر,1951,Have_visitor_over,استقبال الزائر
+1648,Subframe,الإطار الفرعي,1180,Receiving_scenario,سيناريو التلقي,1182,Post_receiving,ما بعد التلقي
+1646,Subframe,الإطار الفرعي,1180,Receiving_scenario,سيناريو التلقي,1181,Pre_receiving,ما قبل التلقي
+1647,Subframe,الإطار الفرعي,1180,Receiving_scenario,سيناريو التلقي,411,Receiving,التلقي
+2345,Subframe,الإطار الفرعي,64,Self_motion,الحركة الذاتية,1644,Quitting_a_place,مغادرة المكان نهائياً
+5040,Subframe,الإطار الفرعي,2917,Sexual_reproduction_scenario,سيناريو التكاثر الجنسي,2811,Birth_scenario,سيناريو الولادة
+5041,Subframe,الإطار الفرعي,2917,Sexual_reproduction_scenario,سيناريو التكاثر الجنسي,2914,Procreative_sex,الجماع الإنجابي
+2481,Subframe,الإطار الفرعي,294,Sleep_wake_cycle,دورة النوم واليقظة,1681,Being_awake,اليقظة
+242,Subframe,الإطار الفرعي,294,Sleep_wake_cycle,دورة النوم واليقظة,292,Fall_asleep,الاستغراق في النوم
+2479,Subframe,الإطار الفرعي,294,Sleep_wake_cycle,دورة النوم واليقظة,1420,Getting_up,النهوض
+286,Subframe,الإطار الفرعي,294,Sleep_wake_cycle,دورة النوم واليقظة,264,Sleep,النوم
+251,Subframe,الإطار الفرعي,294,Sleep_wake_cycle,دورة النوم واليقظة,295,Waking_up,الاستيقاظ
+1635,Subframe,الإطار الفرعي,1192,Transfer_scenario,سيناريو النقل,1189,Post_transfer,ما بعد النقل
+1633,Subframe,الإطار الفرعي,1192,Transfer_scenario,سيناريو النقل,1188,Pre_transfer,ما قبل النقل
+1634,Subframe,الإطار الفرعي,1192,Transfer_scenario,سيناريو النقل,178,Transfer,النقل
+2360,Subframe,الإطار الفرعي,343,Travel,السفر,1650,Setting_out,الانطلاق
+2347,Subframe,الإطار الفرعي,1310,Traversing,العبور,54,Arriving,الوصول
+2346,Subframe,الإطار الفرعي,1310,Traversing,العبور,57,Departing,المغادرة
+862,Subframe,الإطار الفرعي,201,Trial,المحاكمة,507,Court_examination,الاستجواب في المحكمة
+299,Subframe,الإطار الفرعي,201,Trial,المحاكمة,296,Jury_deliberation,مداولة هيئة المحلفين
+297,Subframe,الإطار الفرعي,201,Trial,المحاكمة,318,Verdict,قرار الحكم
+3560,Subframe,الإطار الفرعي,1940,Visit_host,زيارة المضيف,1946,Drop_in_on,الزيارة العابرة
+3528,Subframe,الإطار الفرعي,1941,Visiting_scenario,سيناريو الزيارة,1943,Visiting_scenario_arrival,سيناريو الزيارة: الوصول
+3529,Subframe,الإطار الفرعي,1941,Visiting_scenario,سيناريو الزيارة,1944,Visiting_scenario_departing,سيناريو الزيارة: المغادرة
+3532,Subframe,الإطار الفرعي,1941,Visiting_scenario,سيناريو الزيارة,1945,Visiting_scenario_stay,سيناريو الزيارة: المكوث
+3554,Subframe,الإطار الفرعي,1942,Visitor_and_host,الزائر والمضيف,1947,Visit_host_arrival,وصول زيارة المضيف
+3556,Subframe,الإطار الفرعي,1942,Visitor_and_host,الزائر والمضيف,1949,Visit_host_departure,مغادرة زيارة المضيف
+3555,Subframe,الإطار الفرعي,1942,Visitor_and_host,الزائر والمضيف,1948,Visit_host_stay,مكوث زيارة المضيف
+3464,Subframe,الإطار الفرعي,1912,Visitor_scenario,سيناريو الزائر,1911,Visiting,الزيارة
+3463,Subframe,الإطار الفرعي,1912,Visitor_scenario,سيناريو الزائر,1913,Visitor_arrival,وصول الزائر
+3465,Subframe,الإطار الفرعي,1912,Visitor_scenario,سيناريو الزائر,1914,Visitor_departure,مغادرة الزائر
+233,Subframe,الإطار الفرعي,303,Weather,الطقس,314,Precipitation,الهطول
+1198,Using,الاستخدام,262,Abounding_with,الامتلاء بـ,83,Expensiveness,الغلاء
+848,Using,الاستخدام,262,Abounding_with,الامتلاء بـ,284,Mass_motion,الحركة الجماعية
+4514,Using,الاستخدام,1602,Abundance,الوفرة,262,Abounding_with,الامتلاء بـ
+1730,Using,الاستخدام,158,Accoutrements,العُدَد,1211,Dressing,الإلباس
+1729,Using,الاستخدام,158,Accoutrements,العُدَد,1210,Undressing,خلع الملابس
+1698,Using,الاستخدام,158,Accoutrements,العُدَد,160,Wearing,اللبس
+2168,Using,الاستخدام,164,Activity_ongoing,النشاط الجاري,1540,Being_active,كونه نشطاً
+190,Using,الاستخدام,164,Activity_ongoing,النشاط الجاري,276,Cause_to_move_in_place,التحريك في المكان
+3439,Using,الاستخدام,164,Activity_ongoing,النشاط الجاري,1904,Lively_place,المكان النابض
+4538,Using,الاستخدام,169,Activity_ready_state,حالة الاستعداد للنشاط,2630,Standing_by,الاستعداد
+5025,Using,الاستخدام,1601,Adducing,الاستشهاد,1924,Reference_text,النص المرجعي
+5028,Using,الاستخدام,1016,Aesthetics,الجماليات,2490,Artistic_style,الأسلوب الفني
+3478,Using,الاستخدام,972,Age,العمر,1919,Aging,التقدم في العمر
+1362,Using,الاستخدام,972,Age,العمر,973,People_by_age,الناس بحسب العمر
+4260,Using,الاستخدام,1931,Alternatives,البدائل,2350,Opportunity,الفرصة
+4109,Using,الاستخدام,1931,Alternatives,البدائل,2290,Time_period_of_action,الفترة الزمنية للفعل
+5327,Using,الاستخدام,2950,Alternativity,البديلية,217,Causation_scenario,سيناريو التسبيب
+1673,Using,الاستخدام,602,Amounting_to,البلوغ مقداراً,621,Adding_up,الجمع الحسابي
+177,Using,الاستخدام,236,Apply_heat,تسليط الحرارة,268,Cooking_creation,إعداد الطعام
+879,Using,الاستخدام,202,Arrest,القبض,502,Surrendering,الاستسلام
+3349,Using,الاستخدام,54,Arriving,الوصول,1870,Having_or_lacking_access,وجود إمكانية الوصول أو انعدامها
+4515,Using,الاستخدام,421,Artifact,المصنوع,1200,Being_operational,كونه صالحاً للتشغيل
+131,Using,الاستخدام,421,Artifact,المصنوع,106,Gizmo,الجهاز الصغير
+2853,Using,الاستخدام,1660,Artificiality,الاصطناعية,1661,Forging,التزوير
+3306,Using,الاستخدام,197,Attaching,الربط,419,Connectors,الروابط
+1958,Using,الاستخدام,424,Attack,الهجوم,1330,Defending,الدفاع
+2662,Using,الاستخدام,87,Attempt_suasion,محاولة الإقناع,89,Suasion,الإقناع
+3689,Using,الاستخدام,791,Attention,الانتباه,2045,Emotions_of_mental_activity,انفعالات النشاط الذهني
+2579,Using,الاستخدام,791,Attention,الانتباه,66,Perception_active,الإدراك الحسي القاصد
+2578,Using,الاستخدام,791,Attention,الانتباه,1685,Searching_scenario,سيناريو البحث
+2852,Using,الاستخدام,19,Awareness,الوعي,141,Certainty,اليقين
+2665,Using,الاستخدام,19,Awareness,الوعي,107,Examination,الامتحان
+3381,Using,الاستخدام,19,Awareness,الوعي,1880,Fame,الشهرة
+4068,Using,الاستخدام,19,Awareness,الوعي,2262,Impression,الانطباع
+1387,Using,الاستخدام,19,Awareness,الوعي,1019,Religious_belief,المعتقد الديني
+3069,Using,الاستخدام,19,Awareness,الوعي,1220,Remembering_information,تذكر المعلومة
+3984,Using,الاستخدام,19,Awareness,الوعي,2162,Representing,التمثيل
+1550,Using,الاستخدام,19,Awareness,الوعي,1145,Secrecy_status,حالة السرية
+4461,Using,الاستخدام,2592,Awareness_situation,وضع الوعي,2593,Awareness_status,حالة الوعي
+2947,Using,الاستخدام,1496,Be_in_agreement_on_assessment,الاتفاق على التقدير,1608,Point_of_dispute,محل النزاع
+2946,Using,الاستخدام,1496,Be_in_agreement_on_assessment,الاتفاق على التقدير,710,Quarreling,المشاجرة
+2989,Using,الاستخدام,470,Bearing_arms,حمل السلاح,1727,Shooting_scenario,سيناريو الإطلاق
+4252,Using,الاستخدام,20,Becoming_aware,التنبّه,31,Scrutiny,التفحص
+4451,Using,الاستخدام,2582,Becoming_visible,الظهور للعيان,8,Perception,الإدراك الحسي
+2836,Using,الاستخدام,307,Being_attached,كونه مربوطاً,1411,Being_detached,كونه منفصلاً
+5146,Using,الاستخدام,1800,Being_in_control,كونه متحكِّماً,122,Kidnapping,الاختطاف
+3292,Using,الاستخدام,1510,Being_in_effect,كونه نافذاً,1813,Enforcing,الإنفاذ
+4619,Using,الاستخدام,2673,Being_incarcerated,كونه مسجوناً,2684,Fugitive,الهارب
+3416,Using,الاستخدام,960,Being_located,كونه في موضع,237,Bounded_entity,الكيان المحدود
+1838,Using,الاستخدام,228,Being_named,كونه مسمّىً,1252,Namesake,السميّ
+2521,Using,الاستخدام,228,Being_named,كونه مسمّىً,1253,Referring_by_name,الإحالة بالاسم
+2126,Using,الاستخدام,1157,Being_necessary,كونه ضرورياً,1381,Required_event,الحدث المطلوب
+2653,Using,الاستخدام,1157,Being_necessary,كونه ضرورياً,967,Taking_time,استغراق الوقت
+4518,Using,الاستخدام,392,Being_obligated,كونه ملزَماً,2628,Assigned_location,الموضع المخصَّص
+4660,Using,الاستخدام,392,Being_obligated,كونه ملزَماً,2709,Temporary_leave,الإجازة المؤقتة
+212,Using,الاستخدام,332,Being_wet,كونه مبتلاً,346,Being_rotted,كونه متعفناً
+4640,Using,الاستخدام,2567,Biological_entity,الكيان الأحيائي,2701,Biological_classification,التصنيف الأحيائي
+4436,Using,الاستخدام,2567,Biological_entity,الكيان الأحيائي,310,Dead_or_alive,حي أو ميت
+4438,Using,الاستخدام,2567,Biological_entity,الكيان الأحيائي,2569,Gusto,الحماسة
+62,Using,الاستخدام,16,Body_movement,حركة الجسم,161,Facial_expression,تعبير الوجه
+2684,Using,الاستخدام,119,Body_parts,أعضاء الجسم,299,Body_decoration,زينة الجسم
+2681,Using,الاستخدام,119,Body_parts,أعضاء الجسم,235,Body_description_part,وصف الجسم جزئياً
+2859,Using,الاستخدام,119,Body_parts,أعضاء الجسم,393,Body_mark,علامة الجسم
+1732,Using,الاستخدام,119,Body_parts,أعضاء الجسم,16,Body_movement,حركة الجسم
+44,Using,الاستخدام,119,Body_parts,أعضاء الجسم,126,Hair_configuration,هيئة الشعر
+1738,Using,الاستخدام,119,Body_parts,أعضاء الجسم,17,Manipulation,المعالجة باليد
+2895,Using,الاستخدام,119,Body_parts,أعضاء الجسم,239,Medical_conditions,الحالات الطبية
+1689,Using,الاستخدام,119,Body_parts,أعضاء الجسم,160,Wearing,اللبس
+1318,Using,الاستخدام,329,Boundary,الحد الفاصل,237,Bounded_entity,الكيان المحدود
+129,Using,الاستخدام,237,Bounded_entity,الكيان المحدود,78,Containers,الأوعية
+141,Using,الاستخدام,237,Bounded_entity,الكيان المحدود,192,Locale,الموقع الجغرافي
+1319,Using,الاستخدام,237,Bounded_entity,الكيان المحدود,328,Shapes,الهيئات
+4763,Using,الاستخدام,2019,Bounded_region,المنطقة المحدودة,1178,Interior_profile_relation,علاقة الملمح الداخلي
+4468,Using,الاستخدام,240,Bringing,الإحضار,2597,Convoy,القافلة
+150,Using,الاستخدام,240,Bringing,الإحضار,243,Sending,الإرسال
+2680,Using,الاستخدام,229,Calendric_unit,الوحدة التقويمية,691,Change_event_time,تغيير زمن الحدث
+4358,Using,الاستخدام,990,Capability,القدرة,1535,Electricity,الكهرباء
+2505,Using,الاستخدام,990,Capability,القدرة,1350,Range,المدى
+2929,Using,الاستخدام,990,Capability,القدرة,342,Sufficiency,الكفاية
+2945,Using,الاستخدام,990,Capability,القدرة,726,Usefulness,النفع
+2935,Using,الاستخدام,218,Cardinal_numbers,الأعداد الأصلية,1147,Ordinal_numbers,الأعداد الترتيبية
+3298,Using,الاستخدام,21,Categorization,التصنيف,1820,Being_in_category,الانتماء إلى صنف
+2395,Using,الاستخدام,21,Categorization,التصنيف,796,Communicate_categorization,إبلاغ التصنيف
+5319,Using,الاستخدام,5,Causation,التسبيب,1563,Level_of_force_exertion,مستوى بذل القوة
+2500,Using,الاستخدام,683,Cause_change,التسبب في التغيير,1376,Adjusting,الضبط
+2204,Using,الاستخدام,683,Cause_change,التسبب في التغيير,1571,Reforming_a_system,إصلاح النظام
+3629,Using,الاستخدام,1781,Cause_change_of_strength,التسبب في تغيير القوة,2000,Supporting,الدعم
+2072,Using,الاستخدام,112,Cause_harm,التسبب في الأذى,482,Abusing,الإساءة
+4621,Using,الاستخدام,112,Cause_harm,التسبب في الأذى,1750,Terrorism,الإرهاب
+1578,Using,الاستخدام,112,Cause_harm,التسبب في الأذى,1163,Toxic_substance,المادة السامة
+4620,Using,الاستخدام,112,Cause_harm,التسبب في الأذى,2685,Violence,العنف
+2617,Using,الاستخدام,395,Cause_impact,التسبب في صدم,485,Hit_target,إصابة الهدف
+146,Using,الاستخدام,55,Cause_motion,التسبب في الحركة,240,Bringing,الإحضار
+178,Using,الاستخدام,55,Cause_motion,التسبب في الحركة,270,Excreting,الإخراج
+166,Using,الاستخدام,55,Cause_motion,التسبب في الحركة,260,Gathering_up,اللملمة
+173,Using,الاستخدام,55,Cause_motion,التسبب في الحركة,263,Ingestion,التناول
+4562,Using,الاستخدام,2161,Cause_to_perceive,التسبب في الإدراك,2653,Information_display,عرض المعلومات
+3748,Using,الاستخدام,381,Cause_to_start,التسبب في البدء,2070,Launch_process,إطلاق العملية
+3141,Using,الاستخدام,141,Certainty,اليقين,902,Reliance_on_expectation,الاعتماد على التوقع
+2592,Using,الاستخدام,691,Change_event_time,تغيير زمن الحدث,1576,Holding_off_on,الإرجاء
+3073,Using,الاستخدام,691,Change_event_time,تغيير زمن الحدث,1561,Waiting,الانتظار
+3988,Using,الاستخدام,91,Change_position_on_a_scale,تغيّر الموقع على مقياس,2201,Change_of_quantity_of_possession,تغيّر كمية الملكية
+2550,Using,الاستخدام,91,Change_position_on_a_scale,تغيّر الموقع على مقياس,1030,Remainder,الباقي
+2488,Using,الاستخدام,770,Change_posture,تغيير الوضعية,1420,Getting_up,النهوض
+2269,Using,الاستخدام,352,Choosing,الاختيار,1590,Adopt_selection,تبنّي الاختيار
+2212,Using,الاستخدام,352,Choosing,الاختيار,1578,Waver_between_options,التردد بين الخيارات
+2283,Using,الاستخدام,352,Choosing,الاختيار,1632,Willingness,الاستعداد النفسي
+1472,Using,الاستخدام,1086,Clemency,الرأفة,1088,Commutation,التخفيف القضائي
+1733,Using,الاستخدام,254,Closure,الإغلاق,134,Clothing,الملابس
+2227,Using,الاستخدام,254,Closure,الإغلاق,1598,Fastener,المثبِّت
+102,Using,الاستخدام,134,Clothing,الملابس,194,Clothing_parts,أجزاء الملابس
+1731,Using,الاستخدام,134,Clothing,الملابس,1211,Dressing,الإلباس
+1728,Using,الاستخدام,134,Clothing,الملابس,1210,Undressing,خلع الملابس
+1688,Using,الاستخدام,134,Clothing,الملابس,160,Wearing,اللبس
+3068,Using,الاستخدام,22,Cogitation,التأمل,1222,Remembering_experience,تذكر التجربة
+2532,Using,الاستخدام,22,Cogitation,التأمل,1152,Research,البحث العلمي
+5133,Using,الاستخدام,720,Cognitive_connection,الربط الذهني,2902,Conditional_scenario,السيناريو المشروط
+3225,Using,الاستخدام,720,Cognitive_connection,الربط الذهني,252,Make_cognitive_connection,إقامة الربط الذهني
+5002,Using,الاستخدام,2018,Collocation_image_schema,مخطط صورة التموضع,2905,Spatial_co-location,التشارك المكاني
+4441,Using,الاستخدام,23,Coming_to_believe,الاقتناع,2572,Fall_for,الانخداع
+3980,Using,الاستخدام,23,Coming_to_believe,الاقتناع,2191,Turning_out,انتهاء الأمر إلى
+2198,Using,الاستخدام,171,Commerce_buy,التجارة: الشراء,1567,Importing,الاستيراد
+3384,Using,الاستخدام,171,Commerce_buy,التجارة: الشراء,1882,Shopping,التسوق
+5183,Using,الاستخدام,210,Commerce_collect,التجارة: التحصيل,2983,Billing,الفوترة
+3358,Using,الاستخدام,210,Commerce_collect,التجارة: التحصيل,1873,Earnings_and_losses,المكاسب والخسائر
+870,Using,الاستخدام,210,Commerce_collect,التجارة: التحصيل,223,Fining,التغريم
+2201,Using,الاستخدام,211,Commerce_goods-transfer,التجارة: نقل البضاعة,1570,Product_delivery,تسليم المنتَج
+3359,Using,الاستخدام,180,Commerce_pay,التجارة: الدفع,1873,Earnings_and_losses,المكاسب والخسائر
+840,Using,الاستخدام,82,Commerce_scenario,سيناريو التجارة,365,Businesses,المنشآت التجارية
+2525,Using,الاستخدام,82,Commerce_scenario,سيناريو التجارة,1184,Exchange_currency,صرف العملة
+931,Using,الاستخدام,82,Commerce_scenario,سيناريو التجارة,83,Expensiveness,الغلاء
+3329,Using,الاستخدام,172,Commerce_sell,التجارة: البيع,1850,Carry_goods,حمل البضائع
+2199,Using,الاستخدام,172,Commerce_sell,التجارة: البيع,1568,Exporting,التصدير
+2193,Using,الاستخدام,33,Commitment,الالتزام,1566,Going_back_on_a_commitment,النكوص عن الالتزام
+1969,Using,الاستخدام,33,Commitment,الالتزام,1342,Make_agreement_on_action,عقد الاتفاق على الفعل
+872,Using,الاستخدام,700,Committing_crime,ارتكاب الجريمة,432,Offenses,الجرائم
+385,Using,الاستخدام,6,Communication,التواصل,87,Attempt_suasion,محاولة الإقناع
+402,Using,الاستخدام,6,Communication,التواصل,121,Bail_decision,قرار الكفالة
+401,Using,الاستخدام,6,Communication,التواصل,32,Candidness,الصراحة
+403,Using,الاستخدام,6,Communication,التواصل,550,Claim_ownership,ادعاء الملكية
+404,Using,الاستخدام,6,Communication,التواصل,33,Commitment,الالتزام
+405,Using,الاستخدام,6,Communication,التواصل,242,Communication_means,وسيلة التواصل
+3908,Using,الاستخدام,6,Communication,التواصل,2150,Concessive,الاستدراك
+380,Using,الاستخدام,6,Communication,التواصل,286,Contacting,الاتصال
+2175,Using,الاستخدام,6,Communication,التواصل,1543,Convey_importance,إيصال الأهمية
+408,Using,الاستخدام,6,Communication,التواصل,520,Deny_or_grant_permission,منع الإذن أو منحه
+407,Using,الاستخدام,6,Communication,التواصل,34,Discussion,النقاش
+381,Using,الاستخدام,6,Communication,التواصل,35,Encoding,الترميز
+409,Using,الاستخدام,6,Communication,التواصل,130,Entering_of_plea,تقديم الدفع
+2545,Using,الاستخدام,6,Communication,التواصل,1622,Expressing_publicly,التعبير العلني
+417,Using,الاستخدام,6,Communication,التواصل,37,Hearsay,الرواية عن الغير
+412,Using,الاستخدام,6,Communication,التواصل,512,Justifying,التسويغ
+3758,Using,الاستخدام,6,Communication,التواصل,2076,Legal_rulings,الأحكام القانونية
+413,Using,الاستخدام,6,Communication,التواصل,221,Name_conferral,منح الاسم
+414,Using,الاستخدام,6,Communication,التواصل,129,Notification_of_charges,الإبلاغ بالتهم
+416,Using,الاستخدام,6,Communication,التواصل,287,Prevarication,المراوغة في القول
+418,Using,الاستخدام,6,Communication,التواصل,40,Questioning,الاستجواب
+203,Using,الاستخدام,6,Communication,التواصل,308,Reasoning,الاستدلال
+419,Using,الاستخدام,6,Communication,التواصل,483,Reporting,الإبلاغ
+420,Using,الاستخدام,6,Communication,التواصل,41,Request,الطلب
+421,Using,الاستخدام,6,Communication,التواصل,297,Sentencing,إصدار الحكم
+422,Using,الاستخدام,6,Communication,التواصل,523,Speak_on_topic,الكلام في محور
+3950,Using,الاستخدام,6,Communication,التواصل,43,Statement,القول
+2362,Using,الاستخدام,6,Communication,التواصل,1652,Successfully_communicate_message,إيصال الرسالة بنجاح
+383,Using,الاستخدام,6,Communication,التواصل,278,Text_creation,إنشاء النص
+424,Using,الاستخدام,6,Communication,التواصل,318,Verdict,قرار الحكم
+382,Using,الاستخدام,6,Communication,التواصل,44,Volubility,الثرثرة
+2263,Using,الاستخدام,42,Communication_response,الاستجابة التواصلية,1623,Respond_to_proposal,الرد على المقترح
+2209,Using,الاستخدام,241,Competition,المنافسة,1574,Alliance,التحالف
+4398,Using,الاستخدام,241,Competition,المنافسة,2510,Sports_jargon,مصطلحات الرياضة
+883,Using,الاستخدام,117,Compliance,الامتثال,501,Legality,المشروعية
+2649,Using,الاستخدام,117,Compliance,الامتثال,75,Strictness,الصرامة
+5331,Using,الاستخدام,2902,Conditional_scenario,السيناريو المشروط,217,Causation_scenario,سيناريو التسبيب
+2642,Using,الاستخدام,491,Conduct,السلوك,12,Feigning,التظاهر
+2885,Using,الاستخدام,397,Containing,الاحتواء,78,Containers,الأوعية
+2961,Using,الاستخدام,397,Containing,الاحتواء,244,Fullness,الامتلاء
+2559,Using,الاستخدام,900,Contingency,التوقف على,901,Reliance,الاعتماد
+3443,Using,الاستخدام,1512,Correctness,الصواب,1230,Verification,التحقق
+4459,Using,الاستخدام,56,Cotheme,الموضوع المصاحب,2591,Entourage,الحاشية
+3098,Using,الاستخدام,1658,Create_physical_artwork,إنشاء العمل الفني المادي,1657,Create_representation,إنشاء التمثيل
+2506,Using,الاستخدام,319,Creating,الإنشاء,1348,Ingredients,المكوِّنات الغذائية
+2614,Using,الاستخدام,500,Criminal_investigation,التحقيق الجنائي,503,Suspicion,الاشتباه
+855,Using,الاستخدام,200,Criminal_process,الإجراء الجنائي,504,Appeal,الاستئناف
+2259,Using,الاستخدام,50,Cure,الشفاء,1620,Institutionalization,الإيداع في مؤسسة
+4653,Using,الاستخدام,50,Cure,الشفاء,2708,Medical_interaction_scenario,سيناريو التفاعل الطبي
+1369,Using,الاستخدام,380,Custom,العُرف,981,Craft,الحرفة
+2251,Using,الاستخدام,380,Custom,العُرف,1619,Expected_location_of_person,الموضع المتوقَّع للشخص
+4429,Using,الاستخدام,380,Custom,العُرف,2562,Manner_of_life,نمط الحياة
+2043,Using,الاستخدام,310,Dead_or_alive,حي أو ميت,1413,Resurrection,البعث
+3184,Using,الاستخدام,57,Departing,المغادرة,1634,Disembarking,النزول من المركبة
+2675,Using,الاستخدام,354,Desirability,الاستحباب,159,Grooming,العناية بالمظهر
+5015,Using,الاستخدام,354,Desirability,الاستحباب,2910,Preferred_alternative_scenario,سيناريو البديل المفضَّل
+4171,Using,الاستخدام,354,Desirability,الاستحباب,1771,Thriving,الازدهار
+3220,Using,الاستخدام,1383,Desirable_event,الحدث المرغوب,1306,Taking_sides,الانحياز إلى طرف
+2503,Using,الاستخدام,366,Desiring,الرغبة,1375,Needing,الاحتياج
+2847,Using,الاستخدام,366,Desiring,الرغبة,513,Purpose,الغرض
+3288,Using,الاستخدام,1801,Destiny,المصير,1811,Luck,الحظ
+209,Using,الاستخدام,417,Destroying,التدمير,414,Cause_to_fragment,التكسير
+3032,Using,الاستخدام,313,Detaining,الاحتجاز,1724,Releasing_from_custody,الإفراج
+4159,Using,الاستخدام,215,Direction,الاتجاه,1653,Change_direction,تغيير الاتجاه
+8,Using,الاستخدام,215,Direction,الاتجاه,379,Time_vector,المتجه الزمني
+2936,Using,الاستخدام,34,Discussion,النقاش,296,Jury_deliberation,مداولة هيئة المحلفين
+4024,Using,الاستخدام,34,Discussion,النقاش,2238,Meet_with,الاجتماع بـ
+2239,Using,الاستخدام,34,Discussion,النقاش,1608,Point_of_dispute,محل النزاع
+4573,Using,الاستخدام,2659,Distant_operated_IED,العبوة الناسفة المشغَّلة عن بعد,2662,Firing_point,نقطة الإطلاق
+4098,Using,الاستخدام,1893,Diversity,التنوع,1680,Delimitation_of_diversity,تحديد نطاق التنوع
+2449,Using,الاستخدام,560,Documents,الوثائق,1531,Terms_of_agreement,شروط الاتفاق
+2652,Using,الاستخدام,79,Duration_description,وصف المدة,967,Taking_time,استغراق الوقت
+1540,Using,الاستخدام,111,Education_teaching,التعليم والتدريس,1130,Studying,الدراسة
+5019,Using,الاستخدام,1712,Emotions,الانفعالات,2713,Attitude_description,وصف الموقف النفسي
+2883,Using,الاستخدام,1712,Emotions,الانفعالات,382,Contrition,الندم
+2882,Using,الاستخدام,1712,Emotions,الانفعالات,366,Desiring,الرغبة
+2876,Using,الاستخدام,1712,Emotions,الانفعالات,45,Emotion_active,الانفعال الفاعل
+2877,Using,الاستخدام,1712,Emotions,الانفعالات,46,Emotion_directed,الانفعال الموجَّه
+2878,Using,الاستخدام,1712,Emotions,الانفعالات,49,Emotion_heat,الانفعال الحار
+2879,Using,الاستخدام,1712,Emotions,الانفعالات,47,Experiencer_obj,المُستشعِر مفعولاً
+2908,Using,الاستخدام,1712,Emotions,الانفعالات,396,Feeling,الشعور
+2884,Using,الاستخدام,1712,Emotions,الانفعالات,401,Forgiveness,المسامحة
+2965,Using,الاستخدام,1712,Emotions,الانفعالات,28,Judgment,الحكم التقييمي
+2963,Using,الاستخدام,1712,Emotions,الانفعالات,300,Predicament,المأزق
+2625,Using,الاستخدام,321,Employment_scenario,سيناريو التوظيف,1345,Fields,الحقول
+3802,Using,الاستخدام,251,Entity,الكيان,2100,Cycle_of_existence_scenario,سيناريو دورة الوجود
+2150,Using,الاستخدام,1513,Estimating,التقدير الكمي,1516,Estimated_value,القيمة المقدَّرة
+2956,Using,الاستخدام,187,Event,الحدث,80,Frequency,التواتر
+2622,Using,الاستخدام,187,Event,الحدث,480,Hindering,الإعاقة
+3483,Using,الاستخدام,187,Event,الحدث,1921,Locale_by_event,الموقع الجغرافي بحسب الحدث
+5108,Using,الاستخدام,187,Event,الحدث,2563,Manner,الكيفية
+2533,Using,الاستخدام,187,Event,الحدث,1144,Participation,المشاركة
+2609,Using,الاستخدام,187,Event,الحدث,516,Preventing_or_letting,المنع أو الترك
+3178,Using,الاستخدام,187,Event,الحدث,1040,Temporal_pattern,النمط الزمني
+159,Using,الاستخدام,88,Eventive_affecting,التأثير الحدثي,167,Activity_pause,إيقاف النشاط مؤقتاً
+158,Using,الاستخدام,88,Eventive_affecting,التأثير الحدثي,170,Activity_prepare,التهيؤ للنشاط
+157,Using,الاستخدام,88,Eventive_affecting,التأثير الحدثي,146,Activity_start,بدء النشاط
+156,Using,الاستخدام,88,Eventive_affecting,التأثير الحدثي,166,Activity_stop,إيقاف النشاط
+4172,Using,الاستخدام,88,Eventive_affecting,التأثير الحدثي,115,Catastrophe,الكارثة
+54,Using,الاستخدام,88,Eventive_affecting,التأثير الحدثي,27,Coming_up_with,الابتكار
+4433,Using,الاستخدام,88,Eventive_affecting,التأثير الحدثي,1906,Individual_history,تاريخ الفرد
+48,Using,الاستخدام,88,Eventive_affecting,التأثير الحدثي,135,Memory,الذاكرة
+43,Using,الاستخدام,88,Eventive_affecting,التأثير الحدثي,125,Social_event,المناسبة الاجتماعية
+3072,Using,الاستخدام,88,Eventive_affecting,التأثير الحدثي,1725,Undergoing,الخضوع
+2660,Using,الاستخدام,98,Eventive_cognizer_affecting,التأثير الحدثي في المُدرِك,89,Suasion,الإقناع
+2090,Using,الاستخدام,25,Evidence,الدليل,1462,Explaining_the_facts,شرح الوقائع
+2632,Using,الاستخدام,25,Evidence,الدليل,428,Sign,الإشارة الدالة
+3954,Using,الاستخدام,1170,Exchange,التبادل,1184,Exchange_currency,صرف العملة
+3497,Using,الاستخدام,660,Existence,الوجود,1933,Have_associated,الارتباط بـ
+3321,Using,الاستخدام,660,Existence,الوجود,199,Locative_relation,العلاقة المكانية
+2477,Using,الاستخدام,725,Expansion,التمدد,1421,Dough_rising,اختمار العجين
+2401,Using,الاستخدام,26,Expectation,التوقع,425,Predicting,التنبؤ
+859,Using,الاستخدام,384,Experience_bodily_harm,التعرض لأذى جسدي,112,Cause_harm,التسبب في الأذى
+2676,Using,الاستخدام,48,Experiencer_focus,التركيز على المُستشعِر,354,Desirability,الاستحباب
+3878,Using,الاستخدام,48,Experiencer_focus,التركيز على المُستشعِر,2131,Tolerating,التحمل
+2572,Using,الاستخدام,161,Facial_expression,تعبير الوجه,794,Making_faces,تقطيب الوجه
+3380,Using,الاستخدام,1880,Fame,الشهرة,1881,Obscurity,الغموض
+2655,Using,الاستخدام,1345,Fields,الحقول,981,Craft,الحرفة
+5342,Using,الاستخدام,798,Finish_competition,إنهاء المنافسة,1562,Margin_of_resolution,هامش الحسم
+1399,Using,الاستخدام,1027,First_experience,التجربة الأولى,403,Achieving_first,السبق إلى الإنجاز
+3269,Using,الاستخدام,402,First_rank,المرتبة الأولى,1795,Dominate_situation,الهيمنة على الوضع
+1274,Using,الاستخدام,345,Fluidic_motion,حركة المائع,272,Breathing,التنفس
+4238,Using,الاستخدام,277,Food,الطعام,2330,Tasting,التذوق
+2185,Using,الاستخدام,1483,Foreign_or_domestic_country,البلد الأجنبي أو المحلي,1552,Indigenous_origin,الأصل المحلي
+2856,Using,الاستخدام,401,Forgiveness,المسامحة,388,Atonement,التكفير
+2207,Using,الاستخدام,1304,Forgoing,التنازل,1576,Holding_off_on,الإرجاء
+2654,Using,الاستخدام,80,Frequency,التواتر,380,Custom,العُرف
+4516,Using,الاستخدام,1387,Getting_vehicle_underway,تحريك المركبة,2627,Vehicle_departure_initial_stage,المرحلة الأولى لمغادرة المركبة
+2892,Using,الاستخدام,67,Give_impression,إعطاء الانطباع,271,Chemical-sense_description,وصف الحاسة الكيميائية
+882,Using,الاستخدام,67,Give_impression,إعطاء الانطباع,505,Want_suspect,المطلوب للعدالة
+4670,Using,الاستخدام,139,Giving,الإعطاء,2721,Conferring_benefit,منح المنفعة
+4026,Using,الاستخدام,139,Giving,الإعطاء,2239,Offering,العرض
+2560,Using,الاستخدام,106,Gizmo,الجهاز الصغير,880,Being_in_operation,كونه في حالة تشغيل
+3237,Using,الاستخدام,1015,Gradable_attributes,الصفات المتدرِّجة,1573,Extreme_point,النقطة القصوى
+3112,Using,الاستخدام,1015,Gradable_attributes,الصفات المتدرِّجة,402,First_rank,المرتبة الأولى
+5340,Using,الاستخدام,1015,Gradable_attributes,الصفات المتدرِّجة,2972,Transition_to_a_quality,الانتقال إلى صفة
+3586,Using,الاستخدام,1890,Guest_and_host,الضيف والمضيف,1970,Hospitality,الضيافة
+3499,Using,الاستخدام,1890,Guest_and_host,الضيف والمضيف,1917,Lodging_scenario,سيناريو الإقامة
+3521,Using,الاستخدام,1890,Guest_and_host,الضيف والمضيف,1942,Visitor_and_host,الزائر والمضيف
+2502,Using,الاستخدام,1491,Have_as_requirement,الاشتراط,1375,Needing,الاحتياج
+2620,Using,الاستخدام,480,Hindering,الإعاقة,375,Difficulty,الصعوبة
+3430,Using,الاستخدام,1902,Hit_or_miss,الإصابة أو الإخفاق,485,Hit_target,إصابة الهدف
+4919,Using,الاستخدام,93,Hostile_encounter,المواجهة العدائية,2832,Firefighting,مكافحة الحريق
+4600,Using,الاستخدام,93,Hostile_encounter,المواجهة العدائية,2675,Friendly_or_hostile,ودّي أو عدائي
+4649,Using,الاستخدام,93,Hostile_encounter,المواجهة العدائية,2598,Irregular_combatants,المقاتلون غير النظاميين
+4590,Using,الاستخدام,93,Hostile_encounter,المواجهة العدائية,2670,Member_of_military,العسكري
+4509,Using,الاستخدام,2016,Image_schema,مخطط الصورة,2625,Relational_location,الموضع العلائقي
+4511,Using,الاستخدام,2016,Image_schema,مخطط الصورة,1490,Relational_natural_features,المعالم الطبيعية العلائقية
+2954,Using,الاستخدام,311,Impact,الصدم,820,Friction,الاحتكاك
+3630,Using,الاستخدام,407,Importance,الأهمية,2001,Degree,الدرجة
+2173,Using,الاستخدام,407,Importance,الأهمية,1542,Emphasizing,التأكيد
+3449,Using,الاستخدام,407,Importance,الأهمية,1908,Historic_event,الحدث التاريخي
+3448,Using,الاستخدام,407,Importance,الأهمية,1906,Individual_history,تاريخ الفرد
+4360,Using,الاستخدام,2450,Influencing_potential,كامن التأثير,92,Manipulate_into_doing,الحمل على الفعل بالتلاعب
+2439,Using,الاستخدام,1591,Information,المعلومة,19,Awareness,الوعي
+2440,Using,الاستخدام,1591,Information,المعلومة,6,Communication,التواصل
+2467,Using,الاستخدام,1591,Information,المعلومة,1512,Correctness,الصواب
+2474,Using,الاستخدام,1481,Infrastructure,البنية التحتية,1604,Institutions,المؤسسات
+2888,Using,الاستخدام,263,Ingestion,التناول,277,Food,الطعام
+856,Using,الاستخدام,245,Inhibit_movement,كبح الحركة,202,Arrest,القبض
+4595,Using,الاستخدام,245,Inhibit_movement,كبح الحركة,2672,Being_in_captivity,كونه في الأسر
+866,Using,الاستخدام,245,Inhibit_movement,كبح الحركة,313,Detaining,الاحتجاز
+874,Using,الاستخدام,245,Inhibit_movement,كبح الحركة,387,Prison,السجن (المكان)
+2669,Using,الاستخدام,132,Instance,المصداق,21,Categorization,التصنيف
+2670,Using,الاستخدام,132,Instance,المصداق,1029,Identicality,التطابق
+2694,Using,الاستخدام,132,Instance,المصداق,355,Sole_instance,المصداق الوحيد
+2473,Using,الاستخدام,1604,Institutions,المؤسسات,1605,Public_services,الخدمات العامة
+4449,Using,الاستخدام,2570,Intentional_deception,الخداع المتعمَّد,2578,Trap,الفخ
+2154,Using,الاستخدام,198,Intentionally_act,الفعل المتعمَّد,1519,Accomplishment,الإنجاز
+2843,Using,الاستخدام,198,Intentionally_act,الفعل المتعمَّد,391,Assistance,المساعدة
+176,Using,الاستخدام,198,Intentionally_act,الفعل المتعمَّد,266,Bungling,التخبط
+145,Using,الاستخدام,198,Intentionally_act,الفعل المتعمَّد,241,Competition,المنافسة
+1539,Using,الاستخدام,198,Intentionally_act,الفعل المتعمَّد,491,Conduct,السلوك
+3035,Using,الاستخدام,198,Intentionally_act,الفعل المتعمَّد,363,Deciding,اتخاذ القرار
+3131,Using,الاستخدام,198,Intentionally_act,الفعل المتعمَّد,384,Experience_bodily_harm,التعرض لأذى جسدي
+2613,Using,الاستخدام,198,Intentionally_act,الفعل المتعمَّد,514,Reason,العلة
+3065,Using,الاستخدام,198,Intentionally_act,الفعل المتعمَّد,1221,Remembering_to_do,تذكر ما يجب فعله
+4567,Using,الاستخدام,198,Intentionally_act,الفعل المتعمَّد,2657,Responsibility,المسؤولية
+223,Using,الاستخدام,198,Intentionally_act,الفعل المتعمَّد,301,Rite,الشعيرة
+3113,Using,الاستخدام,198,Intentionally_act,الفعل المتعمَّد,1083,Subjective_influence,التأثير الذاتي
+3074,Using,الاستخدام,198,Intentionally_act,الفعل المتعمَّد,1561,Waiting,الانتظار
+72,Using,الاستخدام,230,Intentionally_affect,التأثير المتعمَّد,138,Arson,الحرق العمد
+3086,Using,الاستخدام,230,Intentionally_affect,التأثير المتعمَّد,266,Bungling,التخبط
+149,Using,الاستخدام,230,Intentionally_affect,التأثير المتعمَّد,422,Import_export_scenario,سيناريو الاستيراد والتصدير
+5016,Using,الاستخدام,1178,Interior_profile_relation,علاقة الملمح الداخلي,2911,Surrounding,الإحاطة
+2687,Using,الاستخدام,390,Intoxicants,المُسكِرات,214,Intoxication,السُّكر
+4063,Using,الاستخدام,28,Judgment,الحكم التقييمي,2252,Exemplar,النموذج المثالي
+891,Using,الاستخدام,28,Judgment,الحكم التقييمي,219,Judgment_communication,إبلاغ الحكم التقييمي
+2638,Using,الاستخدام,28,Judgment,الحكم التقييمي,399,Praiseworthiness,استحقاق المدح
+2028,Using,الاستخدام,28,Judgment,الحكم التقييمي,1400,Regard,الاعتبار التقييمي
+1850,Using,الاستخدام,219,Judgment_communication,إبلاغ الحكم التقييمي,1250,Labeling,الوسم
+5111,Using,الاستخدام,590,Killing,القتل,1792,Surviving,النجاة
+2450,Using,الاستخدام,950,Law,القانون,501,Legality,المشروعية
+2608,Using,الاستخدام,950,Law,القانون,521,Prohibiting_or_licensing,الحظر أو الترخيص
+1394,Using,الاستخدام,73,Leadership,القيادة,195,Political_locales,المواقع السياسية
+884,Using,الاستخدام,501,Legality,المشروعية,700,Committing_crime,ارتكاب الجريمة
+3746,Using,الاستخدام,2061,Level_of_force_resistance,مستوى مقاومة القوة,2026,Repel,الصد
+3118,Using,الاستخدام,114,Likelihood,الأرجحية,990,Capability,القدرة
+3289,Using,الاستخدام,114,Likelihood,الأرجحية,1811,Luck,الحظ
+4663,Using,الاستخدام,2714,Limiting,التقييد,2715,Limitation,التحديد بحد
+2637,Using,الاستخدام,406,Linguistic_meaning,المعنى اللغوي,404,Word_relations,علاقات الكلمات
+88,Using,الاستخدام,192,Locale,الموقع الجغرافي,188,Building_subparts,أجزاء المبنى
+2630,Using,الاستخدام,192,Locale,الموقع الجغرافي,420,Isolated_places,الأماكن المعزولة
+3290,Using,الاستخدام,196,Locale_by_use,الموقع الجغرافي بحسب الاستعمال,173,Buildings,المباني
+2553,Using,الاستخدام,199,Locative_relation,العلاقة المكانية,960,Being_located,كونه في موضع
+3135,Using,الاستخدام,199,Locative_relation,العلاقة المكانية,61,Path_shape,شكل المسار
+3174,Using,الاستخدام,199,Locative_relation,العلاقة المكانية,1490,Relational_natural_features,المعالم الطبيعية العلائقية
+2015,Using,الاستخدام,1342,Make_agreement_on_action,عقد الاتفاق على الفعل,1380,Be_in_agreement_on_action,الاتفاق على الفعل
+38,Using,الاستخدام,69,Make_noise,إحداث الضجيج,39,Communication_noise,التواصل الصوتي
+4929,Using,الاستخدام,2839,Making_arrangements,اتخاذ الترتيبات,2838,Scheduling,الجدولة
+3421,Using,الاستخدام,17,Manipulation,المعالجة باليد,1900,Attempt_distant_interaction_scenario,سيناريو محاولة التفاعل عن بعد
+193,Using,الاستخدام,17,Manipulation,المعالجة باليد,276,Cause_to_move_in_place,التحريك في المكان
+3265,Using,الاستخدام,1790,Means,الوسيلة,513,Purpose,الغرض
+3437,Using,الاستخدام,965,Measurable_attributes,الصفات القابلة للقياس,1903,Accuracy,الدقة
+2226,Using,الاستخدام,965,Measurable_attributes,الصفات القابلة للقياس,1596,Extreme_value,القيمة القصوى
+5118,Using,الاستخدام,239,Medical_conditions,الحالات الطبية,2718,Condition_symptom_relation,علاقة الحالة بالعرض
+4654,Using,الاستخدام,239,Medical_conditions,الحالات الطبية,50,Cure,الشفاء
+2897,Using,الاستخدام,239,Medical_conditions,الحالات الطبية,51,Recovery,التعافي
+4651,Using,الاستخدام,2708,Medical_interaction_scenario,سيناريو التفاعل الطبي,255,Medical_professionals,المهنيون الطبيون
+4652,Using,الاستخدام,2708,Medical_interaction_scenario,سيناريو التفاعل الطبي,256,Medical_specialties,التخصصات الطبية
+4592,Using,الاستخدام,2670,Member_of_military,العسكري,2671,People_by_military_specialty,الناس بحسب التخصص العسكري
+1542,Using,الاستخدام,1026,Membership,العضوية,1131,Exclude_member,إقصاء العضو
+4589,Using,الاستخدام,1026,Membership,العضوية,2670,Member_of_military,العسكري
+1379,Using,الاستخدام,135,Memory,الذاكرة,1012,Evoking,الاستدعاء الذهني
+2912,Using,الاستخدام,1710,Mental_activity,النشاط الذهني,21,Categorization,التصنيف
+3132,Using,الاستخدام,1710,Mental_activity,النشاط الذهني,22,Cogitation,التأمل
+2846,Using,الاستخدام,1710,Mental_activity,النشاط الذهني,23,Coming_to_believe,الاقتناع
+2916,Using,الاستخدام,1710,Mental_activity,النشاط الذهني,24,Differentiation,التمييز
+3183,Using,الاستخدام,1710,Mental_activity,النشاط الذهني,1513,Estimating,التقدير الكمي
+2848,Using,الاستخدام,1710,Mental_activity,النشاط الذهني,513,Purpose,الغرض
+3222,Using,الاستخدام,1710,Mental_activity,النشاط الذهني,1645,Translating,الترجمة
+1365,Using,الاستخدام,29,Mental_property,الخاصية الذهنية,978,Losing_it,فقدان السيطرة على النفس
+4591,Using,الاستخدام,1514,Military,الجيش,2670,Member_of_military,العسكري
+1498,Using,الاستخدام,1100,Misdeed,الفعلة المشينة,1110,Guilt_or_innocence,الإدانة أو البراءة
+1494,Using,الاستخدام,370,Morality_evaluation,التقييم الأخلاقي,501,Legality,المشروعية
+1495,Using,الاستخدام,370,Morality_evaluation,التقييم الأخلاقي,1100,Misdeed,الفعلة المشينة
+2868,Using,الاستخدام,370,Morality_evaluation,التقييم الأخلاقي,1102,People_by_morality,الناس بحسب الأخلاق
+49,Using,الاستخدام,7,Motion,الحركة,16,Body_movement,حركة الجسم
+425,Using,الاستخدام,7,Motion,الحركة,240,Bringing,الإحضار
+2546,Using,الاستخدام,7,Motion,الحركة,1653,Change_direction,تغيير الاتجاه
+426,Using,الاستخدام,7,Motion,الحركة,56,Cotheme,الموضوع المصاحب
+427,Using,الاستخدام,7,Motion,الحركة,57,Departing,المغادرة
+1271,Using,الاستخدام,7,Motion,الحركة,361,Emanating,الانبثاق
+429,Using,الاستخدام,7,Motion,الحركة,275,Evading,التهرب
+430,Using,الاستخدام,7,Motion,الحركة,270,Excreting,الإخراج
+1819,Using,الاستخدام,7,Motion,الحركة,131,Light_movement,حركة الضوء
+19,Using,الاستخدام,7,Motion,الحركة,65,Operate_vehicle,قيادة المركبة
+2438,Using,الاستخدام,7,Motion,الحركة,1592,Path_traveled,المسار المقطوع
+783,Using,الاستخدام,7,Motion,الحركة,62,Placing,الوضع
+2158,Using,الاستخدام,7,Motion,الحركة,1530,Redirecting,إعادة التوجيه
+432,Using,الاستخدام,7,Motion,الحركة,63,Removing,الإزالة
+2865,Using,الاستخدام,7,Motion,الحركة,203,Roadways,الطرق
+4645,Using,الاستخدام,362,Motion_directional,الحركة الاتجاهية,2703,Precariousness,الهشاشة
+2058,Using,الاستخدام,362,Motion_directional,الحركة الاتجاهية,1430,Sidereal_appearance,الظهور الفلكي
+4547,Using,الاستخدام,238,Motion_scenario,سيناريو الحركة,2644,Operate_vehicle_scenario,سيناريو قيادة المركبة
+3140,Using,الاستخدام,1375,Needing,الاحتياج,901,Reliance,الاعتماد
+5298,Using,الاستخدام,2860,Negation,النفي,2991,Presentation_of_mitigation,عرض التخفيف
+2469,Using,الاستخدام,1493,Obligation_scenario,سيناريو الالتزام,1510,Being_in_effect,كونه نافذاً
+2459,Using,الاستخدام,1493,Obligation_scenario,سيناريو الالتزام,117,Compliance,الامتثال
+3179,Using,الاستخدام,1493,Obligation_scenario,سيناريو الالتزام,560,Documents,الوثائق
+878,Using,الاستخدام,432,Offenses,الجرائم,517,Severity_of_offense,شدة الجُرم
+3094,Using,الاستخدام,65,Operate_vehicle,قيادة المركبة,123,Piracy,القرصنة
+3090,Using,الاستخدام,1495,Operating_a_system,تشغيل النظام,1301,Operational_testing,اختبار التشغيل
+2134,Using,الاستخدام,1412,Opinion,الرأي,1496,Be_in_agreement_on_assessment,الاتفاق على التقدير
+3218,Using,الاستخدام,1412,Opinion,الرأي,1306,Taking_sides,الانحياز إلى طرف
+2205,Using,الاستخدام,1371,Organization,المنظمة,1574,Alliance,التحالف
+2869,Using,الاستخدام,1103,Origin,المنشأ,974,People_by_origin,الناس بحسب الأصل
+2098,Using,الاستخدام,143,Part_orientational,الجزء التوجيهي,1470,Temporal_subregion,المنطقة الزمنية الفرعية
+3108,Using,الاستخدام,140,Part_whole,الجزء والكل,1534,Completeness,الاكتمال
+2530,Using,الاستخدام,140,Part_whole,الجزء والكل,1153,Inclusion,الإدراج
+2462,Using,الاستخدام,1144,Participation,المشاركة,1518,Withdraw_from_participation,الانسحاب من المشاركة
+1928,Using,الاستخدام,61,Path_shape,شكل المسار,1310,Traversing,العبور
+2623,Using,الاستخدام,304,People,الناس,1345,Fields,الحقول
+5021,Using,الاستخدام,304,People,الناس,2251,Race_descriptor,واصف العِرق
+2605,Using,الاستخدام,304,People,الناس,1689,Relation_between_individuals,العلاقة بين الأفراد
+98,Using,الاستخدام,8,Perception,الإدراك الحسي,105,Location_of_light,موضع الضوء
+96,Using,الاستخدام,8,Perception,الإدراك الحسي,69,Make_noise,إحداث الضجيج
+3058,Using,الاستخدام,8,Perception,الإدراك الحسي,850,Sounds,الأصوات
+852,Using,الاستخدام,66,Perception_active,الإدراك الحسي القاصد,31,Scrutiny,التفحص
+2593,Using,الاستخدام,70,Perception_experience,تجربة الإدراك الحسي,652,Eclipse,الحجب
+164,Using,الاستخدام,70,Perception_experience,تجربة الإدراك الحسي,68,Perception_body,الإدراك الحسي الجسدي
+1478,Using,الاستخدام,413,Performers_and_roles,المؤدّون والأدوار,1080,Performers,المؤدّون
+1193,Using,الاستخدام,405,Performing_arts,الفنون الأدائية,409,Behind_the_scenes,وراء الكواليس
+1192,Using,الاستخدام,405,Performing_arts,الفنون الأدائية,413,Performers_and_roles,المؤدّون والأدوار
+3099,Using,الاستخدام,1656,Physical_artworks,الأعمال الفنية المادية,1658,Create_physical_artwork,إنشاء العمل الفني المادي
+1891,Using,الاستخدام,62,Placing,الوضع,921,Arranging,الترتيب
+1720,Using,الاستخدام,62,Placing,الوضع,1211,Dressing,الإلباس
+4688,Using,الاستخدام,62,Placing,الوضع,2192,Dunking,الغمس
+2170,Using,الاستخدام,62,Placing,الوضع,1541,Installing,التركيب
+2180,Using,الاستخدام,62,Placing,الوضع,1550,Storing,التخزين
+2443,Using,الاستخدام,195,Political_locales,المواقع السياسية,1572,Economy,الاقتصاد
+2872,Using,الاستخدام,195,Political_locales,المواقع السياسية,1023,People_by_jurisdiction,الناس بحسب الولاية
+3216,Using,الاستخدام,1670,Posing_as,الانتحال,1734,Front_for,الواجهة الساترة
+2444,Using,الاستخدام,95,Position_on_a_scale,الموقع على مقياس,1680,Delimitation_of_diversity,تحديد نطاق التنوع
+4269,Using,الاستخدام,95,Position_on_a_scale,الموقع على مقياس,2360,Probability,الاحتمال
+5129,Using,الاستخدام,118,Possession,الملكية,2682,Capital_stock,رأس المال السهمي
+3989,Using,الاستخدام,118,Possession,الملكية,2201,Change_of_quantity_of_possession,تغيّر كمية الملكية
+3932,Using,الاستخدام,118,Possession,الملكية,2171,Locale_by_ownership,الموقع الجغرافي بحسب الملكية
+3723,Using,الاستخدام,118,Possession,الملكية,2056,Prevent_or_allow_possession,منع الملكية أو السماح بها
+4627,Using,الاستخدام,118,Possession,الملكية,2689,Sacrificing_for,التضحية من أجل
+2650,Using,الاستخدام,118,Possession,الملكية,85,Wealthiness,الثراء
+4628,Using,الاستخدام,1626,Preference,التفضيل,2689,Sacrificing_for,التضحية من أجل
+3038,Using,الاستخدام,287,Prevarication,المراوغة في القول,1734,Front_for,الواجهة الساترة
+5318,Using,الاستخدام,516,Preventing_or_letting,المنع أو الترك,2061,Level_of_force_resistance,مستوى مقاومة القوة
+3138,Using,الاستخدام,233,Process,العملية,1340,Progression,التقدم
+2549,Using,الاستخدام,233,Process,العملية,1040,Temporal_pattern,النمط الزمني
+67,Using,الاستخدام,153,Process_stopped_state,حالة العملية الموقوفة,168,Activity_abandoned_state,حالة النشاط المهجور
+1558,Using,الاستخدام,620,Processing_materials,معالجة المواد,1159,Degree_of_processing,درجة المعالجة
+1968,Using,الاستخدام,1340,Progression,التقدم,1341,Stage_of_progress,مرحلة التقدم
+3111,Using,الاستخدام,1460,Prominence,البروز,402,First_rank,المرتبة الأولى
+4472,Using,الاستخدام,1631,Protecting,الحماية,2602,Armor,الدرع
+3107,Using,الاستخدام,513,Purpose,الغرض,1305,Elusive_goal,الغاية العصية
+2875,Using,الاستخدام,513,Purpose,الغرض,1041,Left_to_do,المتبقي للإنجاز
+2528,Using,الاستخدام,513,Purpose,الغرض,1158,Project,المشروع
+3064,Using,الاستخدام,513,Purpose,الغرض,1221,Remembering_to_do,تذكر ما يجب فعله
+4667,Using,الاستخدام,513,Purpose,الغرض,2717,Tool_purpose,غرض الأداة
+861,Using,الاستخدام,40,Questioning,الاستجواب,507,Court_examination,الاستجواب في المحكمة
+4852,Using,الاستخدام,1377,Rank,الرتبة,2390,Appellations,الألقاب
+2498,Using,الاستخدام,1377,Rank,الرتبة,1379,Occupy_rank,شغل المرتبة
+2612,Using,الاستخدام,514,Reason,العلة,541,Deserving,الاستحقاق
+4452,Using,الاستخدام,2584,Rebellion,التمرد,2585,Revolution,الثورة
+4674,Using,الاستخدام,9,Reciprocality,التبادلية,2669,Commonality,القاسم المشترك
+4698,Using,الاستخدام,9,Reciprocality,التبادلية,1144,Participation,المشاركة
+2943,Using,الاستخدام,1253,Referring_by_name,الإحالة بالاسم,305,Attention_getting,لفت الانتباه
+2603,Using,الاستخدام,1689,Relation_between_individuals,العلاقة بين الأفراد,104,Kinship,القرابة
+2871,Using,الاستخدام,1689,Relation_between_individuals,العلاقة بين الأفراد,1143,People_by_residence,الناس بحسب الإقامة
+2604,Using,الاستخدام,1689,Relation_between_individuals,العلاقة بين الأفراد,102,Personal_relationship,العلاقة الشخصية
+2602,Using,الاستخدام,1689,Relation_between_individuals,العلاقة بين الأفراد,530,Subordinates_and_superiors,المرؤوسون والرؤساء
+4598,Using,الاستخدام,317,Releasing,الإطلاق,2674,Freeing_from_confinement,التحرير من الحبس
+2870,Using,الاستخدام,1019,Religious_belief,المعتقد الديني,1021,People_by_religion,الناس بحسب الدين
+3066,Using,الاستخدام,1220,Remembering_information,تذكر المعلومة,1221,Remembering_to_do,تذكر ما يجب فعله
+4689,Using,الاستخدام,63,Removing,الإزالة,2192,Dunking,الغمس
+1719,Using,الاستخدام,63,Removing,الإزالة,1210,Undressing,خلع الملابس
+1676,Using,الاستخدام,416,Render_nonfunctional,التعطيل,1200,Being_operational,كونه صالحاً للتشغيل
+4271,Using,الاستخدام,2370,Repayment,السداد,2371,Bond_maturation,استحقاق السند
+2598,Using,الاستخدام,1381,Required_event,الحدث المطلوب,541,Deserving,الاستحقاق
+2548,Using,الاستخدام,1381,Required_event,الحدث المطلوب,1383,Desirable_event,الحدث المرغوب
+3268,Using,الاستخدام,110,Residence,الإقامة,1794,Colonization,الاستعمار
+1549,Using,الاستخدام,110,Residence,الإقامة,1143,People_by_residence,الناس بحسب الإقامة
+4609,Using,الاستخدام,1302,Response,الاستجابة,2677,Counterattack,الهجوم المضاد
+2597,Using,الاستخدام,1302,Response,الاستجابة,541,Deserving,الاستحقاق
+2918,Using,الاستخدام,1302,Response,الاستجابة,52,Health_response,الاستجابة الصحية
+2671,Using,الاستخدام,1682,Result_of_attempt_scenario,سيناريو نتيجة المحاولة,136,Expertise,الخبرة
+2287,Using,الاستخدام,690,Ride_vehicle,ركوب المركبة راكباً,1633,Board_vehicle,ركوب المركبة
+2289,Using,الاستخدام,690,Ride_vehicle,ركوب المركبة راكباً,1634,Disembarking,النزول من المركبة
+4939,Using,الاستخدام,1763,Risk_scenario,سيناريو المخاطرة,2841,Rescuing,الإنقاذ
+2282,Using,الاستخدام,378,Run_risk,المجازفة,1631,Protecting,الحماية
+4027,Using,الاستخدام,378,Run_risk,المجازفة,2241,Wagering,المراهنة
+5059,Using,الاستخدام,2838,Scheduling,الجدولة,691,Change_event_time,تغيير زمن الحدث
+4615,Using,الاستخدام,31,Scrutiny,التفحص,2683,Experimentation,التجريب
+4447,Using,الاستخدام,1145,Secrecy_status,حالة السرية,2576,Cache,المخبأ
+863,Using,الاستخدام,269,Seeking,السعي,500,Criminal_investigation,التحقيق الجنائي
+2577,Using,الاستخدام,269,Seeking,السعي,792,Locating,تحديد الموضع
+1971,Using,الاستخدام,243,Sending,الإرسال,1344,Delivery,التسليم
+2240,Using,الاستخدام,243,Sending,الإرسال,1609,Sent_items,المرسَلات
+2247,Using,الاستخدام,1617,Set_of_interrelated_entities,مجموعة الكيانات المترابطة,1611,Network,الشبكة
+3093,Using,الاستخدام,283,Setting_fire,إضرام النار,138,Arson,الحرق العمد
+4901,Using,الاستخدام,283,Setting_fire,إضرام النار,2826,Cause_to_burn,الإحراق
+2615,Using,الاستخدام,289,Shoot_projectiles,إطلاق القذائف,485,Hit_target,إصابة الهدف
+2988,Using,الاستخدام,1727,Shooting_scenario,سيناريو الإطلاق,485,Hit_target,إصابة الهدف
+2466,Using,الاستخدام,481,Similarity,التشابه,1512,Correctness,الصواب
+1544,Using,الاستخدام,481,Similarity,التشابه,1133,Distinctiveness,التميّز
+2541,Using,الاستخدام,481,Similarity,التشابه,1672,Imitating,التقليد
+2534,Using,الاستخدام,481,Similarity,التشابه,1134,Typicality,النمطية
+2636,Using,الاستخدام,1260,Simple_name,الاسم البسيط,406,Linguistic_meaning,المعنى اللغوي
+2523,Using,الاستخدام,1260,Simple_name,الاسم البسيط,1261,Simple_naming,التسمية البسيطة
+2643,Using,الاستخدام,369,Social_behavior_evaluation,تقييم السلوك الاجتماعي,491,Conduct,السلوك
+1491,Using,الاستخدام,369,Social_behavior_evaluation,تقييم السلوك الاجتماعي,74,Sociability,الاجتماعية
+1493,Using,الاستخدام,369,Social_behavior_evaluation,تقييم السلوك الاجتماعي,44,Volubility,الثرثرة
+3088,Using,الاستخدام,372,Social_interaction_evaluation,تقييم التفاعل الاجتماعي,376,Fairness_evaluation,تقييم الإنصاف
+3059,Using,الاستخدام,850,Sounds,الأصوات,860,Sound_movement,حركة الصوت
+1600,Using,الاستخدام,1161,Source_path_goal,المنطلَق والمسار والمقصد,1177,Goal,المقصد
+1556,Using,الاستخدام,150,State,الحالة,1155,State_continue,استمرار الحالة
+2433,Using,الاستخدام,1155,State_continue,استمرار الحالة,1594,Continued_state_of_affairs,واقع الحال المستمر
+2232,Using,الاستخدام,43,Statement,القول,1601,Adducing,الاستشهاد
+1906,Using,الاستخدام,43,Statement,القول,1148,Attributed_information,المعلومة المنسوبة
+2557,Using,الاستخدام,43,Statement,القول,910,Chatting,الدردشة
+1391,Using,الاستخدام,43,Statement,القول,219,Judgment_communication,إبلاغ الحكم التقييمي
+1759,Using,الاستخدام,43,Statement,القول,1231,Renunciation,التخلي
+2529,Using,الاستخدام,43,Statement,القول,1154,Unattributed_information,المعلومة غير المنسوبة
+3328,Using,الاستخدام,1550,Storing,التخزين,1850,Carry_goods,حمل البضائع
+2181,Using,الاستخدام,1550,Storing,التخزين,1511,Store,المتجر
+2941,Using,الاستخدام,89,Suasion,الإقناع,90,Talking_into,الإقناع بالكلام
+5088,Using,الاستخدام,1083,Subjective_influence,التأثير الذاتي,87,Attempt_suasion,محاولة الإقناع
+3731,Using,الاستخدام,1083,Subjective_influence,التأثير الذاتي,98,Eventive_cognizer_affecting,التأثير الحدثي في المُدرِك
+5024,Using,الاستخدام,2286,Subjective_temperature,الحرارة المحسوسة,2284,Heat_potential,كامن الحرارة
+3436,Using,الاستخدام,1388,Success_or_failure,النجاح أو الفشل,1903,Accuracy,الدقة
+2497,Using,الاستخدام,1388,Success_or_failure,النجاح أو الفشل,798,Finish_competition,إنهاء المنافسة
+4016,Using,الاستخدام,342,Sufficiency,الكفاية,2235,Meet_specifications,استيفاء المواصفات
+2933,Using,الاستخدام,358,Surpassing,التفوق,356,Beyond_compare,فوق المقارنة
+2135,Using,الاستخدام,1306,Taking_sides,الانحياز إلى طرف,1497,Giving_in,الإذعان
+4601,Using,الاستخدام,1306,Taking_sides,الانحياز إلى طرف,93,Hostile_encounter,المواجهة العدائية
+3217,Using,الاستخدام,1306,Taking_sides,الانحياز إلى طرف,349,Partiality,الانحياز
+4454,Using,الاستخدام,1306,Taking_sides,الانحياز إلى طرف,2587,Protest,الاحتجاج
+5023,Using,الاستخدام,1050,Temperature,درجة الحرارة,2284,Heat_potential,كامن الحرارة
+2452,Using,الاستخدام,298,Text,النص,950,Law,القانون
+4737,Using,الاستخدام,298,Text,النص,2005,Medium,الوسيط
+5026,Using,الاستخدام,298,Text,النص,1924,Reference_text,النص المرجعي
+4736,Using,الاستخدام,298,Text,النص,373,Topic,المحور
+2537,Using,الاستخدام,278,Text_creation,إنشاء النص,1081,Spelling_and_pronouncing,التهجئة والنطق
+4735,Using,الاستخدام,278,Text_creation,إنشاء النص,298,Text,النص
+877,Using,الاستخدام,94,Theft,السرقة,99,Robbery,السطو
+5128,Using,الاستخدام,2550,Thermodynamic_phase,الطور الحراري,385,Substance_by_phase,المادة بحسب الطور
+3368,Using,الاستخدام,1192,Transfer_scenario,سيناريو النقل,1170,Exchange,التبادل
+2370,Using,الاستخدام,1645,Translating,الترجمة,1655,Be_translation_equivalent,كونه مكافئاً في الترجمة
+2368,Using,الاستخدام,1645,Translating,الترجمة,1654,Have_as_translation_equivalent,وجود مكافئ في الترجمة
+3355,Using,الاستخدام,1310,Traversing,العبور,1872,Openness,الانفتاح
+3406,Using,الاستخدام,128,Type,النوع,1893,Diversity,التنوع
+3137,Using,الاستخدام,1172,Undergo_change,الخضوع للتغيير,1340,Progression,التقدم
+2616,Using,الاستخدام,290,Use_firearm,استعمال السلاح الناري,289,Shoot_projectiles,إطلاق القذائف
+2471,Using,الاستخدام,1141,Using,الاستعمال,421,Artifact,المصنوع
+2582,Using,الاستخدام,1141,Using,الاستعمال,726,Usefulness,النفع
+4467,Using,الاستخدام,429,Vehicle,المركبة,2597,Convoy,القافلة
+4329,Using,الاستخدام,429,Vehicle,المركبة,2426,Vehicle_subpart,الجزء الفرعي من المركبة
+4543,Using,الاستخدام,2642,Vehicle_landing,هبوط المركبة,2643,Cause_to_land,الإنزال
+3477,Using,الاستخدام,1911,Visiting,الزيارة,1907,Touring,الجولة السياحية
+881,Using,الاستخدام,505,Want_suspect,المطلوب للعدالة,502,Surrendering,الاستسلام
+5304,Using,الاستخدام,426,Weapon,السلاح,1565,Ammunition,الذخيرة
+858,Using,الاستخدام,426,Weapon,السلاح,470,Bearing_arms,حمل السلاح
+3754,Using,الاستخدام,2072,Win_prize,الفوز بالجائزة,2074,Beat_opponent,هزيمة الخصم
+5198,See_also,انظر أيضاً,2390,Appellations,الألقاب,104,Kinship,القرابة
+5199,See_also,انظر أيضاً,2390,Appellations,الألقاب,73,Leadership,القيادة
+781,See_also,انظر أيضاً,236,Apply_heat,تسليط الحرارة,268,Cooking_creation,إعداد الطعام
+5350,See_also,انظر أيضاً,2132,Attempt_means,وسيلة المحاولة,116,Attempt,المحاولة
+4883,See_also,انظر أيضاً,19,Awareness,الوعي,141,Certainty,اليقين
+2041,See_also,انظر أيضاً,19,Awareness,الوعي,1412,Opinion,الرأي
+3205,See_also,انظر أيضاً,1510,Being_in_effect,كونه نافذاً,1726,Execute_plan,تنفيذ الخطة
+3982,See_also,انظر أيضاً,240,Bringing,الإحضار,2071,Passing,التجاوز
+3983,See_also,انظر أيضاً,240,Bringing,الإحضار,243,Sending,الإرسال
+5289,See_also,انظر أيضاً,229,Calendric_unit,الوحدة التقويمية,80,Frequency,التواتر
+5288,See_also,انظر أيضاً,229,Calendric_unit,الوحدة التقويمية,1895,Temporal_collocation,التموضع الزمني
+4334,See_also,انظر أيضاً,55,Cause_motion,التسبب في الحركة,240,Bringing,الإحضار
+4338,See_also,انظر أيضاً,55,Cause_motion,التسبب في الحركة,58,Emptying,الإفراغ
+4335,See_also,انظر أيضاً,55,Cause_motion,التسبب في الحركة,59,Filling,الملء
+4336,See_also,انظر أيضاً,55,Cause_motion,التسبب في الحركة,62,Placing,الوضع
+4337,See_also,انظر أيضاً,55,Cause_motion,التسبب في الحركة,63,Removing,الإزالة
+5193,See_also,انظر أيضاً,2984,Citing,الاستشهاد بمرجع,130,Entering_of_plea,تقديم الدفع
+5194,See_also,انظر أيضاً,2984,Citing,الاستشهاد بمرجع,223,Fining,التغريم
+5192,See_also,انظر أيضاً,2984,Citing,الاستشهاد بمرجع,129,Notification_of_charges,الإبلاغ بالتهم
+2923,See_also,انظر أيضاً,363,Deciding,اتخاذ القرار,352,Choosing,الاختيار
+5275,See_also,انظر أيضاً,215,Direction,الاتجاه,2912,Directional_locative_relation,العلاقة المكانية الاتجاهية
+1889,See_also,انظر أيضاً,76,Distributed_position,الموقع الموزَّع,262,Abounding_with,الامتلاء بـ
+5032,See_also,انظر أيضاً,76,Distributed_position,الموقع الموزَّع,59,Filling,الملء
+2073,See_also,انظر أيضاً,1305,Elusive_goal,الغاية العصية,275,Evading,التهرب
+4506,See_also,انظر أيضاً,2622,Endeavor_failure,فشل المسعى,2590,Business_closure,إغلاق المنشأة
+4505,See_also,انظر أيضاً,2622,Endeavor_failure,فشل المسعى,2620,Locale_closure,إغلاق الموقع الجغرافي
+1592,See_also,انظر أيضاً,1170,Exchange,التبادل,1121,Replacing,الاستبدال
+3484,See_also,انظر أيضاً,660,Existence,الوجود,1922,Presence,الحضور الوجودي
+1499,See_also,انظر أيضاً,1110,Guilt_or_innocence,الإدانة أو البراءة,382,Contrition,الندم
+2371,See_also,انظر أيضاً,1654,Have_as_translation_equivalent,وجود مكافئ في الترجمة,1655,Be_translation_equivalent,كونه مكافئاً في الترجمة
+5144,See_also,انظر أيضاً,2960,Hedging,التحفظ في القول,2001,Degree,الدرجة
+5143,See_also,انظر أيضاً,2960,Hedging,التحفظ في القول,1923,Proportional_quantity,الكمية النسبية
+4958,See_also,انظر أيضاً,1178,Interior_profile_relation,علاقة الملمح الداخلي,1461,Within_distance,ضمن المسافة
+561,See_also,انظر أيضاً,28,Judgment,الحكم التقييمي,219,Judgment_communication,إبلاغ الحكم التقييمي
+5189,See_also,انظر أيضاً,1563,Level_of_force_exertion,مستوى بذل القوة,2440,Dynamism,الدينامية
+5190,See_also,انظر أيضاً,1563,Level_of_force_exertion,مستوى بذل القوة,2061,Level_of_force_resistance,مستوى مقاومة القوة
+495,See_also,انظر أيضاً,105,Location_of_light,موضع الضوء,131,Light_movement,حركة الضوء
+1250,See_also,انظر أيضاً,69,Make_noise,إحداث الضجيج,395,Cause_impact,التسبب في صدم
+1253,See_also,انظر أيضاً,69,Make_noise,إحداث الضجيج,801,Cause_to_make_noise,التسبب في إحداث الضجيج
+1248,See_also,انظر أيضاً,69,Make_noise,إحداث الضجيج,820,Friction,الاحتكاك
+1251,See_also,انظر أيضاً,69,Make_noise,إحداث الضجيج,311,Impact,الصدم
+1254,See_also,انظر أيضاً,69,Make_noise,إحداث الضجيج,60,Motion_noise,ضجيج الحركة
+1255,See_also,انظر أيضاً,69,Make_noise,إحداث الضجيج,860,Sound_movement,حركة الصوت
+1252,See_also,انظر أيضاً,69,Make_noise,إحداث الضجيج,850,Sounds,الأصوات
+5352,See_also,انظر أيضاً,17,Manipulation,المعالجة باليد,55,Cause_motion,التسبب في الحركة
+4096,See_also,انظر أيضاً,965,Measurable_attributes,الصفات القابلة للقياس,108,Dimension,البُعد
+5119,See_also,انظر أيضاً,2741,Medical_intervention,التدخل الطبي,50,Cure,الشفاء
+1543,See_also,انظر أيضاً,1132,Memorization,الحفظ,111,Education_teaching,التعليم والتدريس
+508,See_also,انظر أيضاً,7,Motion,الحركة,240,Bringing,الإحضار
+509,See_also,انظر أيضاً,7,Motion,الحركة,65,Operate_vehicle,قيادة المركبة
+511,See_also,انظر أيضاً,7,Motion,الحركة,690,Ride_vehicle,ركوب المركبة راكباً
+510,See_also,انظر أيضاً,7,Motion,الحركة,64,Self_motion,الحركة الذاتية
+4923,See_also,انظر أيضاً,412,Omen,الفأل,26,Expectation,التوقع
+2132,See_also,انظر أيضاً,1495,Operating_a_system,تشغيل النظام,1141,Using,الاستعمال
+851,See_also,انظر أيضاً,66,Perception_active,الإدراك الحسي القاصد,70,Perception_experience,تجربة الإدراك الحسي
+979,See_also,انظر أيضاً,62,Placing,الوضع,59,Filling,الملء
+784,See_also,انظر أيضاً,62,Placing,الوضع,63,Removing,الإزالة
+4850,See_also,انظر أيضاً,2120,Possibility,الإمكان,990,Capability,القدرة
+5283,See_also,انظر أيضاً,2991,Presentation_of_mitigation,عرض التخفيف,2150,Concessive,الاستدراك
+5284,See_also,انظر أيضاً,2991,Presentation_of_mitigation,عرض التخفيف,2902,Conditional_scenario,السيناريو المشروط
+5310,See_also,انظر أيضاً,1340,Progression,التقدم,3012,Improvement_or_decline,التحسن أو التدهور
+3658,See_also,انظر أيضاً,2017,Proximity_image_schema,مخطط صورة القرب,2018,Collocation_image_schema,مخطط صورة التموضع
+4488,See_also,انظر أيضاً,189,Quantified_mass,الكتلة المكمَّمة,2604,Quantity,الكمية
+2160,See_also,انظر أيضاً,1533,Ranked_expectation,التوقع المرتَّب,1534,Completeness,الاكتمال
+4915,See_also,انظر أيضاً,2836,Reading_activity,نشاط القراءة,279,Reading_perception,إدراك المقروء
+2017,See_also,انظر أيضاً,81,Relative_time,الزمن النسبي,379,Time_vector,المتجه الزمني
+1768,See_also,انظر أيضاً,1220,Remembering_information,تذكر المعلومة,1222,Remembering_experience,تذكر التجربة
+1772,See_also,انظر أيضاً,1220,Remembering_information,تذكر المعلومة,1221,Remembering_to_do,تذكر ما يجب فعله
+4849,See_also,انظر أيضاً,1381,Required_event,الحدث المطلوب,392,Being_obligated,كونه ملزَماً
+3204,See_also,انظر أيضاً,378,Run_risk,المجازفة,1560,Being_at_risk,كونه في خطر
+3186,See_also,انظر أيضاً,378,Run_risk,المجازفة,1762,Risky_situation,الوضع المحفوف بالخطر
+5249,See_also,انظر أيضاً,269,Seeking,السعي,31,Scrutiny,التفحص
+854,See_also,انظر أيضاً,74,Sociability,الاجتماعية,372,Social_interaction_evaluation,تقييم التفاعل الاجتماعي
+4981,See_also,انظر أيضاً,2890,Spatial_contact,التماس المكاني,690,Ride_vehicle,ركوب المركبة راكباً
+4983,See_also,انظر أيضاً,2890,Spatial_contact,التماس المكاني,373,Topic,المحور
+4982,See_also,انظر أيضاً,2890,Spatial_contact,التماس المكاني,160,Wearing,اللبس
+1467,See_also,انظر أيضاً,1083,Subjective_influence,التأثير الذاتي,1084,Objective_influence,التأثير الموضوعي
+4298,See_also,انظر أيضاً,1388,Success_or_failure,النجاح أو الفشل,2411,Personal_success,النجاح الشخصي
+4299,See_also,انظر أيضاً,1389,Successful_action,الفعل الناجح,2411,Personal_success,النجاح الشخصي
+5030,See_also,انظر أيضاً,2911,Surrounding,الإحاطة,76,Distributed_position,الموقع الموزَّع
+5179,See_also,انظر أيضاً,2980,Transition_to_a_situation,الانتقال إلى وضع,133,Process_start,بدء العملية
+5180,See_also,انظر أيضاً,2980,Transition_to_a_situation,الانتقال إلى وضع,1070,Transition_to_state,الانتقال إلى حالة
+5155,See_also,انظر أيضاً,1070,Transition_to_state,الانتقال إلى حالة,1172,Undergo_change,الخضوع للتغيير
+4498,See_also,انظر أيضاً,1134,Typicality,النمطية,982,Idiosyncrasy,الخصوصية
+2224,See_also,انظر أيضاً,1561,Waiting,الانتظار,1576,Holding_off_on,الإرجاء
+5186,See_also,انظر أيضاً,2072,Win_prize,الفوز بالجائزة,798,Finish_competition,إنهاء المنافسة
+3728,ReFraming_Mapping,إعادة التأطير,165,Activity_finish,إنهاء النشاط,166,Activity_stop,إيقاف النشاط
+3743,ReFraming_Mapping,إعادة التأطير,146,Activity_start,بدء النشاط,381,Cause_to_start,التسبب في البدء
+3227,ReFraming_Mapping,إعادة التأطير,621,Adding_up,الجمع الحسابي,602,Amounting_to,البلوغ مقداراً
+5266,ReFraming_Mapping,إعادة التأطير,504,Appeal,الاستئناف,130,Entering_of_plea,تقديم الدفع
+5267,ReFraming_Mapping,إعادة التأطير,236,Apply_heat,تسليط الحرارة,333,Soaking,النقع
+4138,ReFraming_Mapping,إعادة التأطير,424,Attack,الهجوم,2022,Invading,الغزو
+5268,ReFraming_Mapping,إعادة التأطير,87,Attempt_suasion,محاولة الإقناع,5,Causation,التسبيب
+5271,ReFraming_Mapping,إعادة التأطير,87,Attempt_suasion,محاولة الإقناع,92,Manipulate_into_doing,الحمل على الفعل بالتلاعب
+5270,ReFraming_Mapping,إعادة التأطير,87,Attempt_suasion,محاولة الإقناع,1083,Subjective_influence,التأثير الذاتي
+1911,ReFraming_Mapping,إعادة التأطير,274,Avoiding,التجنب,1303,Dodging,المراوغة
+1907,ReFraming_Mapping,إعادة التأطير,274,Avoiding,التجنب,273,Escaping,الهروب
+1868,ReFraming_Mapping,إعادة التأطير,274,Avoiding,التجنب,275,Evading,التهرب
+1908,ReFraming_Mapping,إعادة التأطير,274,Avoiding,التجنب,1304,Forgoing,التنازل
+1128,ReFraming_Mapping,إعادة التأطير,19,Awareness,الوعي,791,Attention,الانتباه
+788,ReFraming_Mapping,إعادة التأطير,19,Awareness,الوعي,21,Categorization,التصنيف
+798,ReFraming_Mapping,إعادة التأطير,19,Awareness,الوعي,27,Coming_up_with,الابتكار
+792,ReFraming_Mapping,إعادة التأطير,19,Awareness,الوعي,46,Emotion_directed,الانفعال الموجَّه
+796,ReFraming_Mapping,إعادة التأطير,19,Awareness,الوعي,136,Expertise,الخبرة
+2042,ReFraming_Mapping,إعادة التأطير,19,Awareness,الوعي,1412,Opinion,الرأي
+1130,ReFraming_Mapping,إعادة التأطير,20,Becoming_aware,التنبّه,23,Coming_to_believe,الاقتناع
+1450,ReFraming_Mapping,إعادة التأطير,282,Being_employed,كونه موظفاً,1071,People_by_vocation,الناس بحسب المهنة
+1839,ReFraming_Mapping,إعادة التأطير,228,Being_named,كونه مسمّىً,1252,Namesake,السميّ
+1849,ReFraming_Mapping,إعادة التأطير,228,Being_named,كونه مسمّىً,1253,Referring_by_name,الإحالة بالاسم
+2458,ReFraming_Mapping,إعادة التأطير,392,Being_obligated,كونه ملزَماً,1381,Required_event,الحدث المطلوب
+1134,ReFraming_Mapping,إعادة التأطير,16,Body_movement,حركة الجسم,794,Making_faces,تقطيب الوجه
+1220,ReFraming_Mapping,إعادة التأطير,16,Body_movement,حركة الجسم,43,Statement,القول
+789,ReFraming_Mapping,إعادة التأطير,266,Bungling,التخبط,136,Expertise,الخبرة
+800,ReFraming_Mapping,إعادة التأطير,21,Categorization,التصنيف,19,Awareness,الوعي
+1211,ReFraming_Mapping,إعادة التأطير,21,Categorization,التصنيف,796,Communicate_categorization,إبلاغ التصنيف
+1213,ReFraming_Mapping,إعادة التأطير,21,Categorization,التصنيف,43,Statement,القول
+5269,ReFraming_Mapping,إعادة التأطير,5,Causation,التسبيب,1083,Subjective_influence,التأثير الذاتي
+1090,ReFraming_Mapping,إعادة التأطير,77,Cause_expansion,التسبب في التمدد,96,Cause_change_of_position_on_a_scale,التسبب في تغيير الموقع على مقياس
+819,ReFraming_Mapping,إعادة التأطير,77,Cause_expansion,التسبب في التمدد,725,Expansion,التمدد
+1828,ReFraming_Mapping,إعادة التأطير,112,Cause_harm,التسبب في الأذى,395,Cause_impact,التسبب في صدم
+528,ReFraming_Mapping,إعادة التأطير,112,Cause_harm,التسبب في الأذى,222,Corporal_punishment,العقوبة البدنية
+2321,ReFraming_Mapping,إعادة التأطير,395,Cause_impact,التسبب في صدم,69,Make_noise,إحداث الضجيج
+1138,ReFraming_Mapping,إعادة التأطير,55,Cause_motion,التسبب في الحركة,240,Bringing,الإحضار
+1218,ReFraming_Mapping,إعادة التأطير,334,Cause_temperature_change,التسبب في تغيير الحرارة,797,Change_of_temperature,تغيّر الحرارة
+1068,ReFraming_Mapping,إعادة التأطير,13,Cause_to_amalgamate,التسبب في الاندماج,790,Amalgamation,الاندماج
+834,ReFraming_Mapping,إعادة التأطير,276,Cause_to_move_in_place,التحريك في المكان,670,Moving_in_place,الحركة في المكان
+3208,ReFraming_Mapping,إعادة التأطير,141,Certainty,اليقين,114,Likelihood,الأرجحية
+4926,ReFraming_Mapping,إعادة التأطير,691,Change_event_time,تغيير زمن الحدث,2838,Scheduling,الجدولة
+4148,ReFraming_Mapping,إعادة التأطير,72,Change_of_leadership,تغيّر القيادة,1925,Appointing,التعيين
+5272,ReFraming_Mapping,إعادة التأطير,352,Choosing,الاختيار,363,Deciding,اتخاذ القرار
+4731,ReFraming_Mapping,إعادة التأطير,134,Clothing,الملابس,2602,Armor,الدرع
+3750,ReFraming_Mapping,إعادة التأطير,27,Coming_up_with,الابتكار,403,Achieving_first,السبق إلى الإنجاز
+4239,ReFraming_Mapping,إعادة التأطير,27,Coming_up_with,الابتكار,319,Creating,الإنشاء
+2995,ReFraming_Mapping,إعادة التأطير,171,Commerce_buy,التجارة: الشراء,1728,Renting,الاستئجار
+360,ReFraming_Mapping,إعادة التأطير,82,Commerce_scenario,سيناريو التجارة,171,Commerce_buy,التجارة: الشراء
+455,ReFraming_Mapping,إعادة التأطير,82,Commerce_scenario,سيناريو التجارة,210,Commerce_collect,التجارة: التحصيل
+435,ReFraming_Mapping,إعادة التأطير,82,Commerce_scenario,سيناريو التجارة,180,Commerce_pay,التجارة: الدفع
+361,ReFraming_Mapping,إعادة التأطير,82,Commerce_scenario,سيناريو التجارة,172,Commerce_sell,التجارة: البيع
+1216,ReFraming_Mapping,إعادة التأطير,82,Commerce_scenario,سيناريو التجارة,83,Expensiveness,الغلاء
+2996,ReFraming_Mapping,إعادة التأطير,172,Commerce_sell,التجارة: البيع,1729,Renting_out,التأجير
+809,ReFraming_Mapping,إعادة التأطير,242,Communication_means,وسيلة التواصل,286,Contacting,الاتصال
+810,ReFraming_Mapping,إعادة التأطير,242,Communication_means,وسيلة التواصل,243,Sending,الإرسال
+1221,ReFraming_Mapping,إعادة التأطير,241,Competition,المنافسة,798,Finish_competition,إنهاء المنافسة
+5218,ReFraming_Mapping,إعادة التأطير,117,Compliance,الامتثال,1497,Giving_in,الإذعان
+5099,ReFraming_Mapping,إعادة التأطير,1799,Control,التحكم,1800,Being_in_control,كونه متحكِّماً
+807,ReFraming_Mapping,إعادة التأطير,56,Cotheme,الموضوع المصاحب,273,Escaping,الهروب
+806,ReFraming_Mapping,إعادة التأطير,56,Cotheme,الموضوع المصاحب,275,Evading,التهرب
+814,ReFraming_Mapping,إعادة التأطير,53,Death,الموت,112,Cause_harm,التسبب في الأذى
+757,ReFraming_Mapping,إعادة التأطير,53,Death,الموت,432,Offenses,الجرائم
+5336,ReFraming_Mapping,إعادة التأطير,520,Deny_or_grant_permission,منع الإذن أو منحه,516,Preventing_or_letting,المنع أو الترك
+2343,ReFraming_Mapping,إعادة التأطير,57,Departing,المغادرة,1644,Quitting_a_place,مغادرة المكان نهائياً
+2361,ReFraming_Mapping,إعادة التأطير,57,Departing,المغادرة,1650,Setting_out,الانطلاق
+479,ReFraming_Mapping,إعادة التأطير,354,Desirability,الاستحباب,136,Expertise,الخبرة
+838,ReFraming_Mapping,إعادة التأطير,354,Desirability,الاستحباب,726,Usefulness,النفع
+3977,ReFraming_Mapping,إعادة التأطير,108,Dimension,البُعد,965,Measurable_attributes,الصفات القابلة للقياس
+5239,ReFraming_Mapping,إعادة التأطير,108,Dimension,البُعد,2282,Size,الحجم
+1298,ReFraming_Mapping,إعادة التأطير,34,Discussion,النقاش,910,Chatting,الدردشة
+772,ReFraming_Mapping,إعادة التأطير,34,Discussion,النقاش,710,Quarreling,المشاجرة
+1299,ReFraming_Mapping,إعادة التأطير,34,Discussion,النقاش,373,Topic,المحور
+5195,ReFraming_Mapping,إعادة التأطير,2440,Dynamism,الدينامية,1563,Level_of_force_exertion,مستوى بذل القوة
+1913,ReFraming_Mapping,إعادة التأطير,1305,Elusive_goal,الغاية العصية,275,Evading,التهرب
+512,ReFraming_Mapping,إعادة التأطير,46,Emotion_directed,الانفعال الموجَّه,45,Emotion_active,الانفعال الفاعل
+1095,ReFraming_Mapping,إعادة التأطير,46,Emotion_directed,الانفعال الموجَّه,48,Experiencer_focus,التركيز على المُستشعِر
+885,ReFraming_Mapping,إعادة التأطير,35,Encoding,الترميز,43,Statement,القول
+2383,ReFraming_Mapping,إعادة التأطير,273,Escaping,الهروب,1659,Fleeing,الفرار
+1910,ReFraming_Mapping,إعادة التأطير,275,Evading,التهرب,1303,Dodging,المراوغة
+1912,ReFraming_Mapping,إعادة التأطير,275,Evading,التهرب,1305,Elusive_goal,الغاية العصية
+2426,ReFraming_Mapping,إعادة التأطير,48,Experiencer_focus,التركيز على المُستشعِر,366,Desiring,الرغبة
+465,ReFraming_Mapping,إعادة التأطير,48,Experiencer_focus,التركيز على المُستشعِر,46,Emotion_directed,الانفعال الموجَّه
+4259,ReFraming_Mapping,إعادة التأطير,48,Experiencer_focus,التركيز على المُستشعِر,2052,Fear,الخوف
+565,ReFraming_Mapping,إعادة التأطير,48,Experiencer_focus,التركيز على المُستشعِر,396,Feeling,الشعور
+535,ReFraming_Mapping,إعادة التأطير,47,Experiencer_obj,المُستشعِر مفعولاً,46,Emotion_directed,الانفعال الموجَّه
+980,ReFraming_Mapping,إعادة التأطير,136,Expertise,الخبرة,354,Desirability,الاستحباب
+2402,ReFraming_Mapping,إعادة التأطير,12,Feigning,التظاهر,1660,Artificiality,الاصطناعية
+2408,ReFraming_Mapping,إعادة التأطير,12,Feigning,التظاهر,1661,Forging,التزوير
+2410,ReFraming_Mapping,إعادة التأطير,12,Feigning,التظاهر,1670,Posing_as,الانتحال
+5238,ReFraming_Mapping,إعادة التأطير,80,Frequency,التواتر,2140,Event_instance,مصداق الحدث
+811,ReFraming_Mapping,إعادة التأطير,84,Frugality,التقتير,724,Stinginess,البخل
+889,ReFraming_Mapping,إعادة التأطير,260,Gathering_up,اللملمة,730,Come_together,الاجتماع
+1199,ReFraming_Mapping,إعادة التأطير,281,Giving_birth,الإنجاب,793,Being_born,الولادة
+1852,ReFraming_Mapping,إعادة التأطير,126,Hair_configuration,هيئة الشعر,159,Grooming,العناية بالمظهر
+820,ReFraming_Mapping,إعادة التأطير,37,Hearsay,الرواية عن الغير,70,Perception_experience,تجربة الإدراك الحسي
+2197,ReFraming_Mapping,إعادة التأطير,422,Import_export_scenario,سيناريو الاستيراد والتصدير,1568,Exporting,التصدير
+2195,ReFraming_Mapping,إعادة التأطير,422,Import_export_scenario,سيناريو الاستيراد والتصدير,1567,Importing,الاستيراد
+4782,ReFraming_Mapping,إعادة التأطير,1262,Inspecting,التفتيش,31,Scrutiny,التفحص
+2221,ReFraming_Mapping,إعادة التأطير,280,Intentionally_create,الإنشاء المتعمَّد,319,Creating,الإنشاء
+562,ReFraming_Mapping,إعادة التأطير,28,Judgment,الحكم التقييمي,219,Judgment_communication,إبلاغ الحكم التقييمي
+774,ReFraming_Mapping,إعادة التأطير,219,Judgment_communication,إبلاغ الحكم التقييمي,28,Judgment,الحكم التقييمي
+771,ReFraming_Mapping,إعادة التأطير,219,Judgment_communication,إبلاغ الحكم التقييمي,711,Judgment_direct_address,الحكم التقييمي بالخطاب المباشر
+776,ReFraming_Mapping,إعادة التأطير,711,Judgment_direct_address,الحكم التقييمي بالخطاب المباشر,219,Judgment_communication,إبلاغ الحكم التقييمي
+813,ReFraming_Mapping,إعادة التأطير,590,Killing,القتل,53,Death,الموت
+818,ReFraming_Mapping,إعادة التأطير,590,Killing,القتل,225,Execution,الإعدام
+5274,ReFraming_Mapping,إعادة التأطير,1563,Level_of_force_exertion,مستوى بذل القوة,990,Capability,القدرة
+485,ReFraming_Mapping,إعادة التأطير,105,Location_of_light,موضع الضوء,131,Light_movement,حركة الضوء
+4990,ReFraming_Mapping,إعادة التأطير,199,Locative_relation,العلاقة المكانية,2891,Adjacency,المجاورة
+4766,ReFraming_Mapping,إعادة التأطير,199,Locative_relation,العلاقة المكانية,1178,Interior_profile_relation,علاقة الملمح الداخلي
+4988,ReFraming_Mapping,إعادة التأطير,199,Locative_relation,العلاقة المكانية,2880,Non-gradable_proximity,القرب غير المتدرِّج
+4989,ReFraming_Mapping,إعادة التأطير,199,Locative_relation,العلاقة المكانية,2890,Spatial_contact,التماس المكاني
+793,ReFraming_Mapping,إعادة التأطير,252,Make_cognitive_connection,إقامة الربط الذهني,720,Cognitive_connection,الربط الذهني
+1184,ReFraming_Mapping,إعادة التأطير,69,Make_noise,إحداث الضجيج,830,Absorb_heat,امتصاص الحرارة
+999,ReFraming_Mapping,إعادة التأطير,69,Make_noise,إحداث الضجيج,801,Cause_to_make_noise,التسبب في إحداث الضجيج
+1094,ReFraming_Mapping,إعادة التأطير,69,Make_noise,إحداث الضجيج,345,Fluidic_motion,حركة المائع
+1098,ReFraming_Mapping,إعادة التأطير,69,Make_noise,إحداث الضجيج,820,Friction,الاحتكاك
+1183,ReFraming_Mapping,إعادة التأطير,69,Make_noise,إحداث الضجيج,311,Impact,الصدم
+1093,ReFraming_Mapping,إعادة التأطير,69,Make_noise,إحداث الضجيج,60,Motion_noise,ضجيج الحركة
+1108,ReFraming_Mapping,إعادة التأطير,69,Make_noise,إحداث الضجيج,850,Sounds,الأصوات
+1791,ReFraming_Mapping,إعادة التأطير,135,Memory,الذاكرة,1222,Remembering_experience,تذكر التجربة
+1792,ReFraming_Mapping,إعادة التأطير,135,Memory,الذاكرة,1220,Remembering_information,تذكر المعلومة
+1790,ReFraming_Mapping,إعادة التأطير,135,Memory,الذاكرة,1221,Remembering_to_do,تذكر ما يجب فعله
+982,ReFraming_Mapping,إعادة التأطير,29,Mental_property,الخاصية الذهنية,136,Expertise,الخبرة
+1497,ReFraming_Mapping,إعادة التأطير,370,Morality_evaluation,التقييم الأخلاقي,1102,People_by_morality,الناس بحسب الأخلاق
+4980,ReFraming_Mapping,إعادة التأطير,2880,Non-gradable_proximity,القرب غير المتدرِّج,2891,Adjacency,المجاورة
+5042,ReFraming_Mapping,إعادة التأطير,2880,Non-gradable_proximity,القرب غير المتدرِّج,2912,Directional_locative_relation,العلاقة المكانية الاتجاهية
+5058,ReFraming_Mapping,إعادة التأطير,2880,Non-gradable_proximity,القرب غير المتدرِّج,2911,Surrounding,الإحاطة
+526,ReFraming_Mapping,إعادة التأطير,65,Operate_vehicle,قيادة المركبة,240,Bringing,الإحضار
+525,ReFraming_Mapping,إعادة التأطير,65,Operate_vehicle,قيادة المركبة,690,Ride_vehicle,ركوب المركبة راكباً
+527,ReFraming_Mapping,إعادة التأطير,65,Operate_vehicle,قيادة المركبة,64,Self_motion,الحركة الذاتية
+4781,ReFraming_Mapping,إعادة التأطير,1103,Origin,المنشأ,1023,People_by_jurisdiction,الناس بحسب الولاية
+1471,ReFraming_Mapping,إعادة التأطير,681,Pardon,العفو,1086,Clemency,الرأفة
+536,ReFraming_Mapping,إعادة التأطير,143,Part_orientational,الجزء التوجيهي,327,Part_inner_outer,الجزء الداخلي والخارجي
+1909,ReFraming_Mapping,إعادة التأطير,61,Path_shape,شكل المسار,274,Avoiding,التجنب
+2330,ReFraming_Mapping,إعادة التأطير,61,Path_shape,شكل المسار,770,Change_posture,تغيير الوضعية
+826,ReFraming_Mapping,إعادة التأطير,61,Path_shape,شكل المسار,57,Departing,المغادرة
+1929,ReFraming_Mapping,إعادة التأطير,61,Path_shape,شكل المسار,1310,Traversing,العبور
+1363,ReFraming_Mapping,إعادة التأطير,304,People,الناس,973,People_by_age,الناس بحسب العمر
+808,ReFraming_Mapping,إعادة التأطير,102,Personal_relationship,العلاقة الشخصية,723,Forming_relationships,تكوين العلاقات
+1310,ReFraming_Mapping,إعادة التأطير,62,Placing,الوضع,921,Arranging,الترتيب
+5273,ReFraming_Mapping,إعادة التأطير,62,Placing,الوضع,2628,Assigned_location,الموضع المخصَّص
+2990,ReFraming_Mapping,إعادة التأطير,62,Placing,الوضع,197,Attaching,الربط
+1284,ReFraming_Mapping,إعادة التأطير,62,Placing,الوضع,240,Bringing,الإحضار
+1309,ReFraming_Mapping,إعادة التأطير,62,Placing,الوضع,920,Cause_fluidic_motion,التسبب في حركة مائع
+1308,ReFraming_Mapping,إعادة التأطير,62,Placing,الوضع,267,Dispersal,التشتيت
+4188,ReFraming_Mapping,إعادة التأطير,62,Placing,الوضع,2015,Planting,الغرس
+2445,ReFraming_Mapping,إعادة التأطير,95,Position_on_a_scale,الموقع على مقياس,1680,Delimitation_of_diversity,تحديد نطاق التنوع
+1028,ReFraming_Mapping,إعادة التأطير,18,Posture,الوضعية,770,Change_posture,تغيير الوضعية
+4913,ReFraming_Mapping,إعادة التأطير,279,Reading_perception,إدراك المقروء,2836,Reading_activity,نشاط القراءة
+4778,ReFraming_Mapping,إعادة التأطير,279,Reading_perception,إدراك المقروء,31,Scrutiny,التفحص
+507,ReFraming_Mapping,إعادة التأطير,81,Relative_time,الزمن النسبي,691,Change_event_time,تغيير زمن الحدث
+4767,ReFraming_Mapping,إعادة التأطير,81,Relative_time,الزمن النسبي,1895,Temporal_collocation,التموضع الزمني
+1070,ReFraming_Mapping,إعادة التأطير,63,Removing,الإزالة,58,Emptying,الإفراغ
+1072,ReFraming_Mapping,إعادة التأطير,63,Removing,الإزالة,273,Escaping,الهروب
+1071,ReFraming_Mapping,إعادة التأطير,63,Removing,الإزالة,270,Excreting,الإخراج
+893,ReFraming_Mapping,إعادة التأطير,63,Removing,الإزالة,122,Kidnapping,الاختطاف
+5264,ReFraming_Mapping,إعادة التأطير,483,Reporting,الإبلاغ,2090,Indicating,الإشارة إلى
+5228,ReFraming_Mapping,إعادة التأطير,41,Request,الطلب,87,Attempt_suasion,محاولة الإقناع
+1078,ReFraming_Mapping,إعادة التأطير,41,Request,الطلب,40,Questioning,الاستجواب
+1069,ReFraming_Mapping,إعادة التأطير,41,Request,الطلب,750,Telling,الإخبار
+4874,ReFraming_Mapping,إعادة التأطير,1381,Required_event,الحدث المطلوب,1383,Desirable_event,الحدث المرغوب
+5240,ReFraming_Mapping,إعادة التأطير,344,Reshaping,إعادة التشكيل,683,Cause_change,التسبب في التغيير
+5248,ReFraming_Mapping,إعادة التأطير,344,Reshaping,إعادة التشكيل,351,Grinding,الطحن
+2326,ReFraming_Mapping,إعادة التأطير,1523,Resolve_problem,حل المشكلة,523,Speak_on_topic,الكلام في محور
+3188,ReFraming_Mapping,إعادة التأطير,378,Run_risk,المجازفة,1560,Being_at_risk,كونه في خطر
+3189,ReFraming_Mapping,إعادة التأطير,378,Run_risk,المجازفة,1762,Risky_situation,الوضع المحفوف بالخطر
+1855,ReFraming_Mapping,إعادة التأطير,31,Scrutiny,التفحص,1152,Research,البحث العلمي
+1856,ReFraming_Mapping,إعادة التأطير,31,Scrutiny,التفحص,1263,Scouring,التمشيط
+530,ReFraming_Mapping,إعادة التأطير,31,Scrutiny,التفحص,269,Seeking,السعي
+529,ReFraming_Mapping,إعادة التأطير,269,Seeking,السعي,31,Scrutiny,التفحص
+1820,ReFraming_Mapping,إعادة التأطير,64,Self_motion,الحركة الذاتية,16,Body_movement,حركة الجسم
+2379,ReFraming_Mapping,إعادة التأطير,64,Self_motion,الحركة الذاتية,273,Escaping,الهروب
+2381,ReFraming_Mapping,إعادة التأطير,64,Self_motion,الحركة الذاتية,1659,Fleeing,الفرار
+761,ReFraming_Mapping,إعادة التأطير,64,Self_motion,الحركة الذاتية,690,Ride_vehicle,ركوب المركبة راكباً
+5265,ReFraming_Mapping,إعادة التأطير,283,Setting_fire,إضرام النار,2827,Catching_fire,الاشتعال
+894,ReFraming_Mapping,إعادة التأطير,285,Silencing,الإسكات,731,Becoming_silent,السكوت
+4924,ReFraming_Mapping,إعادة التأطير,333,Soaking,النقع,236,Apply_heat,تسليط الحرارة
+5251,ReFraming_Mapping,إعادة التأطير,372,Social_interaction_evaluation,تقييم التفاعل الاجتماعي,102,Personal_relationship,العلاقة الشخصية
+5250,ReFraming_Mapping,إعادة التأطير,372,Social_interaction_evaluation,تقييم التفاعل الاجتماعي,74,Sociability,الاجتماعية
+4770,ReFraming_Mapping,إعادة التأطير,850,Sounds,الأصوات,1840,Vocalizations,الأصوات المنطوقة
+932,ReFraming_Mapping,إعادة التأطير,523,Speak_on_topic,الكلام في محور,43,Statement,القول
+5181,ReFraming_Mapping,إعادة التأطير,43,Statement,القول,2974,Affirm_or_deny,الإثبات أو النفي
+2270,ReFraming_Mapping,إعادة التأطير,43,Statement,القول,1624,Bragging,التفاخر
+2324,ReFraming_Mapping,إعادة التأطير,43,Statement,القول,33,Commitment,الالتزام
+2271,ReFraming_Mapping,إعادة التأطير,43,Statement,القول,1621,Complaining,الشكوى
+2389,ReFraming_Mapping,إعادة التأطير,43,Statement,القول,35,Encoding,الترميز
+2388,ReFraming_Mapping,إعادة التأطير,43,Statement,القول,1622,Expressing_publicly,التعبير العلني
+1568,ReFraming_Mapping,إعادة التأطير,43,Statement,القول,1146,Reveal_secret,كشف السر
+930,ReFraming_Mapping,إعادة التأطير,43,Statement,القول,523,Speak_on_topic,الكلام في محور
+2397,ReFraming_Mapping,إعادة التأطير,43,Statement,القول,1652,Successfully_communicate_message,إيصال الرسالة بنجاح
+929,ReFraming_Mapping,إعادة التأطير,43,Statement,القول,750,Telling,الإخبار
+2390,ReFraming_Mapping,إعادة التأطير,43,Statement,القول,1645,Translating,الترجمة
+5259,ReFraming_Mapping,إعادة التأطير,364,Stimulus_focus,التركيز على المثير,2046,Mental_stimulus_stimulus_focus,المثير الذهني: التركيز على المثير
+5260,ReFraming_Mapping,إعادة التأطير,89,Suasion,الإقناع,5,Causation,التسبيب
+5262,ReFraming_Mapping,إعادة التأطير,90,Talking_into,الإقناع بالكلام,89,Suasion,الإقناع
+5263,ReFraming_Mapping,إعادة التأطير,90,Talking_into,الإقناع بالكلام,1083,Subjective_influence,التأثير الذاتي
+5252,ReFraming_Mapping,إعادة التأطير,2828,Team,الفريق,1071,People_by_vocation,الناس بحسب المهنة
+5337,ReFraming_Mapping,إعادة التأطير,518,Thwarting,الإحباط,516,Preventing_or_letting,المنع أو الترك
+5201,ReFraming_Mapping,إعادة التأطير,379,Time_vector,المتجه الزمني,1895,Temporal_collocation,التموضع الزمني
+5159,ReFraming_Mapping,إعادة التأطير,1070,Transition_to_state,الانتقال إلى حالة,2971,Becoming,الصيرورة
+5161,ReFraming_Mapping,إعادة التأطير,1070,Transition_to_state,الانتقال إلى حالة,2972,Transition_to_a_quality,الانتقال إلى صفة
+2334,ReFraming_Mapping,إعادة التأطير,1310,Traversing,العبور,146,Activity_start,بدء النشاط
+2336,ReFraming_Mapping,إعادة التأطير,1310,Traversing,العبور,54,Arriving,الوصول
+2376,ReFraming_Mapping,إعادة التأطير,1310,Traversing,العبور,1653,Change_direction,تغيير الاتجاه
+2333,ReFraming_Mapping,إعادة التأطير,1310,Traversing,العبور,91,Change_position_on_a_scale,تغيّر الموقع على مقياس
+2374,ReFraming_Mapping,إعادة التأطير,1310,Traversing,العبور,57,Departing,المغادرة
+2331,ReFraming_Mapping,إعادة التأطير,1310,Traversing,العبور,723,Forming_relationships,تكوين العلاقات
+2375,ReFraming_Mapping,إعادة التأطير,1310,Traversing,العبور,1642,Intentional_traversing,العبور المتعمَّد
+2378,ReFraming_Mapping,إعادة التأطير,1310,Traversing,العبور,7,Motion,الحركة
+2337,ReFraming_Mapping,إعادة التأطير,1310,Traversing,العبور,362,Motion_directional,الحركة الاتجاهية
+2335,ReFraming_Mapping,إعادة التأطير,1310,Traversing,العبور,670,Moving_in_place,الحركة في المكان
+2332,ReFraming_Mapping,إعادة التأطير,1310,Traversing,العبور,61,Path_shape,شكل المسار
+2384,ReFraming_Mapping,إعادة التأطير,1310,Traversing,العبور,64,Self_motion,الحركة الذاتية
+2338,ReFraming_Mapping,إعادة التأطير,1310,Traversing,العبور,1172,Undergo_change,الخضوع للتغيير
+5169,ReFraming_Mapping,إعادة التأطير,1172,Undergo_change,الخضوع للتغيير,2973,Undergo_transformation,الخضوع للتحول
+5261,ReFraming_Mapping,إعادة التأطير,1725,Undergoing,الخضوع,115,Catastrophe,الكارثة
+2999,Inchoative_of,الشروعي,1733,Becoming_a_member,الانضمام عضواً,1026,Membership,العضوية
+1261,Inchoative_of,الشروعي,306,Becoming_attached,الالتحام,307,Being_attached,كونه مربوطاً
+2039,Inchoative_of,الشروعي,1391,Becoming_detached,الانفصال عن الاتصال,1411,Being_detached,كونه منفصلاً
+4842,Inchoative_of,الشروعي,2029,Becoming_dry,الجفاف,338,Being_dry,كونه جافاً
+4091,Inchoative_of,الشروعي,335,Cause_change_of_phase,التسبب في تغيير الطور,385,Substance_by_phase,المادة بحسب الطور
+1788,Inchoative_of,الشروعي,797,Change_of_temperature,تغيّر الحرارة,1050,Temperature,درجة الحرارة
+1238,Inchoative_of,الشروعي,91,Change_position_on_a_scale,تغيّر الموقع على مقياس,95,Position_on_a_scale,الموقع على مقياس
+5061,Inchoative_of,الشروعي,2931,Come_into_effect,دخول حيز النفاذ,1510,Being_in_effect,كونه نافذاً
+4163,Inchoative_of,الشروعي,730,Come_together,الاجتماع,103,Aggregate,المجموع
+2591,Inchoative_of,الشروعي,316,Coming_to_be,التكوّن,660,Existence,الوجود
+2844,Inchoative_of,الشروعي,23,Coming_to_believe,الاقتناع,19,Awareness,الوعي
+2913,Inchoative_of,الشروعي,53,Death,الموت,310,Dead_or_alive,حي أو ميت
+2585,Inchoative_of,الشروعي,723,Forming_relationships,تكوين العلاقات,102,Personal_relationship,العلاقة الشخصية
+4626,Inchoative_of,الشروعي,179,Getting,الحصول,118,Possession,الملكية
+3886,Inchoative_of,الشروعي,2137,Go_into_shape,اتخاذ الهيئة,328,Shapes,الهيئات
+3039,Inchoative_of,الشروعي,1132,Memorization,الحفظ,1220,Remembering_information,تذكر المعلومة
+1789,Inchoative_of,الشروعي,133,Process_start,بدء العملية,145,Process_continue,استمرار العملية
+2071,Inchoative_of,الشروعي,1441,Rising_to_a_challenge,الارتقاء إلى التحدي,1440,Being_up_to_it,كونه أهلاً للمهمة
+4921,Inchoative_of,الشروعي,340,Rotting,التعفن,346,Being_rotted,كونه متعفناً
+1209,Causative_of,التسبيبي,236,Apply_heat,تسليط الحرارة,830,Absorb_heat,امتصاص الحرارة
+1260,Causative_of,التسبيبي,197,Attaching,الربط,306,Becoming_attached,الالتحام
+4208,Causative_of,التسبيبي,2320,Cause_bodily_experience,التسبب في تجربة جسدية,68,Perception_body,الإدراك الحسي الجسدي
+1610,Causative_of,التسبيبي,683,Cause_change,التسبب في التغيير,1172,Undergo_change,الخضوع للتغيير
+1273,Causative_of,التسبيبي,383,Cause_change_of_consistency,التسبب في تغيير القوام,341,Change_of_consistency,تغيّر القوام
+1880,Causative_of,التسبيبي,335,Cause_change_of_phase,التسبب في تغيير الطور,336,Change_of_phase,تغيّر الطور
+1239,Causative_of,التسبيبي,96,Cause_change_of_position_on_a_scale,التسبب في تغيير الموقع على مقياس,91,Change_position_on_a_scale,تغيّر الموقع على مقياس
+3704,Causative_of,التسبيبي,2041,Cause_emotion,التسبب في انفعال,48,Experiencer_focus,التركيز على المُستشعِر
+2393,Causative_of,التسبيبي,77,Cause_expansion,التسبب في التمدد,725,Expansion,التمدد
+2555,Causative_of,التسبيبي,920,Cause_fluidic_motion,التسبب في حركة مائع,345,Fluidic_motion,حركة المائع
+4408,Causative_of,التسبيبي,395,Cause_impact,التسبب في صدم,311,Impact,الصدم
+4391,Causative_of,التسبيبي,55,Cause_motion,التسبب في الحركة,7,Motion,الحركة
+4228,Causative_of,التسبيبي,1905,Cause_proliferation_in_number,التسبب في التكاثر عدداً,1599,Proliferating_in_number,التكاثر عدداً
+1217,Causative_of,التسبيبي,334,Cause_temperature_change,التسبب في تغيير الحرارة,797,Change_of_temperature,تغيّر الحرارة
+2392,Causative_of,التسبيبي,13,Cause_to_amalgamate,التسبب في الاندماج,790,Amalgamation,الاندماج
+2921,Causative_of,التسبيبي,337,Cause_to_be_dry,التجفيف,338,Being_dry,كونه جافاً
+5079,Causative_of,التسبيبي,2230,Cause_to_be_included,التسبب في الإدراج,1822,Being_included,كونه مشمولاً
+3564,Causative_of,التسبيبي,309,Cause_to_be_wet,التبليل,332,Being_wet,كونه مبتلاً
+3202,Causative_of,التسبيبي,1060,Cause_to_continue,التسبب في الاستمرار,145,Process_continue,استمرار العملية
+3203,Causative_of,التسبيبي,1060,Cause_to_continue,التسبب في الاستمرار,1155,State_continue,استمرار الحالة
+2774,Causative_of,التسبيبي,1149,Cause_to_end,الإنهاء,232,Process_end,انتهاء العملية
+4202,Causative_of,التسبيبي,414,Cause_to_fragment,التكسير,1862,Breaking_apart,التكسّر
+2812,Causative_of,التسبيبي,801,Cause_to_make_noise,التسبب في إحداث الضجيج,69,Make_noise,إحداث الضجيج
+2048,Causative_of,التسبيبي,1349,Cause_to_make_progress,التسبب في التقدم,1340,Progression,التقدم
+1208,Causative_of,التسبيبي,276,Cause_to_move_in_place,التحريك في المكان,670,Moving_in_place,الحركة في المكان
+3921,Causative_of,التسبيبي,2161,Cause_to_perceive,التسبب في الإدراك,70,Perception_experience,تجربة الإدراك الحسي
+3609,Causative_of,التسبيبي,1372,Cause_to_resume,التسبب في الاستئناف,148,Process_resume,استئناف العملية
+4090,Causative_of,التسبيبي,2248,Cause_to_rot,التسبب في التعفن,340,Rotting,التعفن
+1428,Causative_of,التسبيبي,381,Cause_to_start,التسبب في البدء,133,Process_start,بدء العملية
+5078,Causative_of,التسبيبي,293,Cause_to_wake,الإيقاظ,1681,Being_awake,اليقظة
+4622,Causative_of,التسبيبي,2686,Change_accessibility,تغيير إمكانية الوصول,1872,Openness,الانفتاح
+2647,Causative_of,التسبيبي,72,Change_of_leadership,تغيّر القيادة,73,Leadership,القيادة
+2574,Causative_of,التسبيبي,1688,Change_operational_state,تغيير حالة التشغيل,880,Being_in_operation,كونه في حالة تشغيل
+2644,Causative_of,التسبيبي,770,Change_posture,تغيير الوضعية,18,Posture,الوضعية
+2827,Causative_of,التسبيبي,350,Corroding_caused,التآكل المتسبَّب فيه,348,Corroding,التآكل
+3139,Causative_of,التسبيبي,50,Cure,الشفاء,51,Recovery,التعافي
+2022,Causative_of,التسبيبي,1390,Detaching,الفصل,1391,Becoming_detached,الانفصال عن الاتصال
+1269,Causative_of,التسبيبي,359,Emitting,الإصدار,361,Emanating,الانبثاق
+3198,Causative_of,التسبيبي,631,Endangering,التعريض للخطر,1560,Being_at_risk,كونه في خطر
+2663,Causative_of,التسبيبي,98,Eventive_cognizer_affecting,التأثير الحدثي في المُدرِك,513,Purpose,الغرض
+3999,Causative_of,التسبيبي,2220,Expend_resource,استنفاد المورد,1532,Used_up,المستنفَد
+4368,Causative_of,التسبيبي,59,Filling,الملء,244,Fullness,الامتلاء
+2179,Causative_of,التسبيبي,260,Gathering_up,اللملمة,730,Come_together,الاجتماع
+2728,Causative_of,التسبيبي,351,Grinding,الطحن,357,Ground_up,من الأساس
+2542,Causative_of,التسبيبي,1673,Hiding_objects,إخفاء الأشياء,652,Eclipse,الحجب
+2130,Causative_of,التسبيبي,1494,Imposing_obligation,فرض الالتزام,392,Being_obligated,كونه ملزَماً
+5112,Causative_of,التسبيبي,2851,Infecting,العدوى,239,Medical_conditions,الحالات الطبية
+3408,Causative_of,التسبيبي,1894,Interrupt_process,مقاطعة العملية,1765,Process_pause,إيقاف العملية مؤقتاً
+1998,Causative_of,التسبيبي,590,Killing,القتل,53,Death,الموت
+4664,Causative_of,التسبيبي,2714,Limiting,التقييد,2715,Limitation,التحديد بحد
+1851,Causative_of,التسبيبي,221,Name_conferral,منح الاسم,228,Being_named,كونه مسمّىً
+4893,Causative_of,التسبيبي,2820,Putting_out_fire,إطفاء النار,2823,Fire_going_out,انطفاء النار
+2526,Causative_of,التسبيبي,1121,Replacing,الاستبدال,1171,Take_place_of,الحلول محل
+4941,Causative_of,التسبيبي,2838,Scheduling,الجدولة,2844,Timetable,الجدول الزمني
+3345,Causative_of,التسبيبي,15,Separating,الفصل بين,1863,Becoming_separated,الانفصال
+1878,Causative_of,التسبيبي,285,Silencing,الإسكات,731,Becoming_silent,السكوت
+5029,Causative_of,التسبيبي,333,Soaking,النقع,2032,Soaking_up,الامتصاص
+5048,Causative_of,التسبيبي,89,Suasion,الإقناع,363,Deciding,اتخاذ القرار
+3207,Causative_of,التسبيبي,518,Thwarting,الإحباط,1388,Success_or_failure,النجاح أو الفشل
+4540,Causative_of,التسبيبي,2579,Triggering,التحفيز,2640,Getting_triggered,الانطلاق بمحفِّز
+4933,Precedes,السبق,403,Achieving_first,السبق إلى الإنجاز,2691,Product_development,تطوير المنتَج
+2726,Precedes,السبق,165,Activity_finish,إنهاء النشاط,182,Activity_done_state,حالة النشاط المنجَز
+2722,Precedes,السبق,164,Activity_ongoing,النشاط الجاري,165,Activity_finish,إنهاء النشاط
+2720,Precedes,السبق,164,Activity_ongoing,النشاط الجاري,167,Activity_pause,إيقاف النشاط مؤقتاً
+2723,Precedes,السبق,164,Activity_ongoing,النشاط الجاري,166,Activity_stop,إيقاف النشاط
+2721,Precedes,السبق,167,Activity_pause,إيقاف النشاط مؤقتاً,181,Activity_paused_state,حالة النشاط الموقوف مؤقتاً
+2724,Precedes,السبق,181,Activity_paused_state,حالة النشاط الموقوف مؤقتاً,1156,Activity_resume,استئناف النشاط
+2717,Precedes,السبق,170,Activity_prepare,التهيؤ للنشاط,169,Activity_ready_state,حالة الاستعداد للنشاط
+2718,Precedes,السبق,169,Activity_ready_state,حالة الاستعداد للنشاط,146,Activity_start,بدء النشاط
+3154,Precedes,السبق,1156,Activity_resume,استئناف النشاط,164,Activity_ongoing,النشاط الجاري
+2719,Precedes,السبق,146,Activity_start,بدء النشاط,164,Activity_ongoing,النشاط الجاري
+2727,Precedes,السبق,166,Activity_stop,إيقاف النشاط,168,Activity_abandoned_state,حالة النشاط المهجور
+3155,Precedes,السبق,166,Activity_stop,إيقاف النشاط,181,Activity_paused_state,حالة النشاط الموقوف مؤقتاً
+3429,Precedes,السبق,1901,Aiming,التصويب,1902,Hit_or_miss,الإصابة أو الإخفاق
+2697,Precedes,السبق,120,Arraignment,توجيه الاتهام,201,Trial,المحاكمة
+2696,Precedes,السبق,202,Arrest,القبض,120,Arraignment,توجيه الاتهام
+4025,Precedes,السبق,2237,Assemble,التجمّع,2238,Meet_with,الاجتماع بـ
+5349,Precedes,السبق,3020,Attempt_action_scenario,سيناريو محاولة الفعل,1682,Result_of_attempt_scenario,سيناريو نتيجة المحاولة
+2482,Precedes,السبق,1681,Being_awake,اليقظة,292,Fall_asleep,الاستغراق في النوم
+2487,Precedes,السبق,1681,Being_awake,اليقظة,1420,Getting_up,النهوض
+3826,Precedes,السبق,793,Being_born,الولادة,53,Death,الموت
+3825,Precedes,السبق,793,Being_born,الولادة,2055,Dying,الاحتضار
+2744,Precedes,السبق,282,Being_employed,كونه موظفاً,325,Quitting,الاستقالة
+4904,Precedes,السبق,2827,Catching_fire,الاشتعال,2824,Fire_burning,اشتعال النار
+3812,Precedes,السبق,2104,Ceasing_to_be,الزوال,2105,Out_of_existence,الخروج من الوجود
+2706,Precedes,السبق,336,Change_of_phase,تغيّر الطور,385,Substance_by_phase,المادة بحسب الطور
+3813,Precedes,السبق,316,Coming_to_be,التكوّن,660,Existence,الوجود
+2700,Precedes,السبق,700,Committing_crime,ارتكاب الجريمة,500,Criminal_investigation,التحقيق الجنائي
+3714,Precedes,السبق,2054,Confronting_problem,مواجهة المشكلة,1523,Resolve_problem,حل المشكلة
+2704,Precedes,السبق,507,Court_examination,الاستجواب في المحكمة,296,Jury_deliberation,مداولة هيئة المحلفين
+2701,Precedes,السبق,500,Criminal_investigation,التحقيق الجنائي,200,Criminal_process,الإجراء الجنائي
+2699,Precedes,السبق,57,Departing,المغادرة,54,Arriving,الوصول
+4618,Precedes,السبق,313,Detaining,الاحتجاز,1724,Releasing_from_custody,الإفراج
+3815,Precedes,السبق,2055,Dying,الاحتضار,53,Death,الموت
+3579,Precedes,السبق,323,Employing,التوظيف,326,Firing,الفصل من العمل
+3581,Precedes,السبق,871,Employment_continue,استمرار التوظيف,872,Employment_end,انتهاء التوظيف
+3580,Precedes,السبق,870,Employment_start,بدء التوظيف,871,Employment_continue,استمرار التوظيف
+2708,Precedes,السبق,130,Entering_of_plea,تقديم الدفع,121,Bail_decision,قرار الكفالة
+2703,Precedes,السبق,187,Event,الحدث,186,Event_endstate,الحالة النهائية للحدث
+2702,Precedes,السبق,185,Event_initial_state,الحالة الابتدائية للحدث,187,Event,الحدث
+3811,Precedes,السبق,660,Existence,الوجود,2104,Ceasing_to_be,الزوال
+2484,Precedes,السبق,292,Fall_asleep,الاستغراق في النوم,264,Sleep,النوم
+4897,Precedes,السبق,2824,Fire_burning,اشتعال النار,2823,Fire_going_out,انطفاء النار
+4898,Precedes,السبق,2824,Fire_burning,اشتعال النار,2820,Putting_out_fire,إطفاء النار
+4916,Precedes,السبق,2832,Firefighting,مكافحة الحريق,2820,Putting_out_fire,إطفاء النار
+2743,Precedes,السبق,324,Get_a_job,الحصول على وظيفة,282,Being_employed,كونه موظفاً
+2714,Precedes,السبق,179,Getting,الحصول,1185,Post_getting,ما بعد الحصول
+2716,Precedes,السبق,139,Giving,الإعطاء,1187,Post_giving,ما بعد الإعطاء
+3823,Precedes,السبق,281,Giving_birth,الإنجاب,53,Death,الموت
+3824,Precedes,السبق,281,Giving_birth,الإنجاب,2055,Dying,الاحتضار
+3578,Precedes,السبق,322,Hiring,التعاقد للعمل,323,Employing,التوظيف
+4594,Precedes,السبق,245,Inhibit_movement,كبح الحركة,317,Releasing,الإطلاق
+3664,Precedes,السبق,2022,Invading,الغزو,2021,Conquering,الفتح
+3669,Precedes,السبق,2022,Invading,الغزو,2026,Repel,الصد
+2705,Precedes,السبق,296,Jury_deliberation,مداولة هيئة المحلفين,318,Verdict,قرار الحكم
+2730,Precedes,السبق,206,Lose_possession,فقدان الملكية,208,Post_lose_possession,ما بعد فقدان الملكية
+2707,Precedes,السبق,129,Notification_of_charges,الإبلاغ بالتهم,130,Entering_of_plea,تقديم الدفع
+2713,Precedes,السبق,1183,Pre_getting,ما قبل الحصول,179,Getting,الحصول
+2715,Precedes,السبق,1186,Pre_giving,ما قبل الإعطاء,139,Giving,الإعطاء
+2729,Precedes,السبق,207,Pre_lose_possession,ما قبل فقدان الملكية,206,Lose_possession,فقدان الملكية
+2710,Precedes,السبق,1181,Pre_receiving,ما قبل التلقي,411,Receiving,التلقي
+2711,Precedes,السبق,1188,Pre_transfer,ما قبل النقل,178,Transfer,النقل
+2419,Precedes,السبق,145,Process_continue,استمرار العملية,232,Process_end,انتهاء العملية
+3162,Precedes,السبق,145,Process_continue,استمرار العملية,1765,Process_pause,إيقاف العملية مؤقتاً
+2422,Precedes,السبق,145,Process_continue,استمرار العملية,144,Process_stop,إيقاف العملية
+2418,Precedes,السبق,232,Process_end,انتهاء العملية,234,Process_completed_state,حالة العملية المكتملة
+2421,Precedes,السبق,152,Process_initial_state,الحالة الابتدائية للعملية,133,Process_start,بدء العملية
+3163,Precedes,السبق,1765,Process_pause,إيقاف العملية مؤقتاً,153,Process_stopped_state,حالة العملية الموقوفة
+2425,Precedes,السبق,148,Process_resume,استئناف العملية,145,Process_continue,استمرار العملية
+2420,Precedes,السبق,133,Process_start,بدء العملية,145,Process_continue,استمرار العملية
+2423,Precedes,السبق,144,Process_stop,إيقاف العملية,153,Process_stopped_state,حالة العملية الموقوفة
+3159,Precedes,السبق,144,Process_stop,إيقاف العملية,1764,Process_uncompleted_state,حالة العملية غير المكتملة
+2424,Precedes,السبق,153,Process_stopped_state,حالة العملية الموقوفة,148,Process_resume,استئناف العملية
+4934,Precedes,السبق,2691,Product_development,تطوير المنتَج,408,Manufacturing,التصنيع
+4757,Precedes,السبق,2691,Product_development,تطوير المنتَج,2524,Product_line,خط المنتجات
+2709,Precedes,السبق,411,Receiving,التلقي,1182,Post_receiving,ما بعد التلقي
+3185,Precedes,السبق,63,Removing,الإزالة,62,Placing,الوضع
+4899,Precedes,السبق,283,Setting_fire,إضرام النار,2824,Fire_burning,اشتعال النار
+2485,Precedes,السبق,264,Sleep,النوم,295,Waking_up,الاستيقاظ
+4593,Precedes,السبق,2663,Taking_captive,الأسر,245,Inhibit_movement,كبح الحركة
+2712,Precedes,السبق,178,Transfer,النقل,1189,Post_transfer,ما بعد النقل
+2698,Precedes,السبق,201,Trial,المحاكمة,297,Sentencing,إصدار الحكم
+3548,Precedes,السبق,1947,Visit_host_arrival,وصول زيارة المضيف,1948,Visit_host_stay,مكوث زيارة المضيف
+3549,Precedes,السبق,1948,Visit_host_stay,مكوث زيارة المضيف,1949,Visit_host_departure,مغادرة زيارة المضيف
+3462,Precedes,السبق,1911,Visiting,الزيارة,1914,Visitor_departure,مغادرة الزائر
+3533,Precedes,السبق,1943,Visiting_scenario_arrival,سيناريو الزيارة: الوصول,1945,Visiting_scenario_stay,سيناريو الزيارة: المكوث
+3534,Precedes,السبق,1945,Visiting_scenario_stay,سيناريو الزيارة: المكوث,1944,Visiting_scenario_departing,سيناريو الزيارة: المغادرة
+3461,Precedes,السبق,1913,Visitor_arrival,وصول الزائر,1911,Visiting,الزيارة
+2483,Precedes,السبق,295,Waking_up,الاستيقاظ,1681,Being_awake,اليقظة
+3351,Perspective_on,المنظور,1871,Access_scenario,سيناريو الوصول,1870,Having_or_lacking_access,وجود إمكانية الوصول أو انعدامها
+3353,Perspective_on,المنظور,1871,Access_scenario,سيناريو الوصول,1872,Openness,الانفتاح
+3492,Perspective_on,المنظور,170,Activity_prepare,التهيؤ للنشاط,1928,Preliminaries,التمهيدات
+3648,Perspective_on,المنظور,2012,Agriculture,الزراعة,2014,Growing_food,زراعة الطعام
+5132,Perspective_on,المنظور,2950,Alternativity,البديلية,1931,Alternatives,البدائل
+5282,Perspective_on,المنظور,2950,Alternativity,البديلية,2991,Presentation_of_mitigation,عرض التخفيف
+4031,Perspective_on,المنظور,2245,Arithmetic_commutative,الحساب التبادلي,2243,Commutative_process,العملية التبادلية
+4036,Perspective_on,المنظور,2245,Arithmetic_commutative,الحساب التبادلي,2244,Commutative_statement,العبارة التبادلية
+4058,Perspective_on,المنظور,2236,Arithmetic_non-commutative,الحساب غير التبادلي,2246,Non-commutative_process,العملية غير التبادلية
+4059,Perspective_on,المنظور,2236,Arithmetic_non-commutative,الحساب غير التبادلي,2247,Non-commutative_statement,العبارة غير التبادلية
+5347,Perspective_on,المنظور,3020,Attempt_action_scenario,سيناريو محاولة الفعل,116,Attempt,المحاولة
+5348,Perspective_on,المنظور,3020,Attempt_action_scenario,سيناريو محاولة الفعل,2132,Attempt_means,وسيلة المحاولة
+4460,Perspective_on,المنظور,2592,Awareness_situation,وضع الوعي,19,Awareness,الوعي
+4809,Perspective_on,المنظور,2811,Birth_scenario,سيناريو الولادة,793,Being_born,الولادة
+4808,Perspective_on,المنظور,2811,Birth_scenario,سيناريو الولادة,281,Giving_birth,الإنجاب
+3264,Perspective_on,المنظور,5,Causation,التسبيب,1790,Means,الوسيلة
+5320,Perspective_on,المنظور,217,Causation_scenario,سيناريو التسبيب,5,Causation,التسبيب
+5321,Perspective_on,المنظور,217,Causation_scenario,سيناريو التسبيب,516,Preventing_or_letting,المنع أو الترك
+2760,Perspective_on,المنظور,211,Commerce_goods-transfer,التجارة: نقل البضاعة,171,Commerce_buy,التجارة: الشراء
+2761,Perspective_on,المنظور,211,Commerce_goods-transfer,التجارة: نقل البضاعة,172,Commerce_sell,التجارة: البيع
+2762,Perspective_on,المنظور,209,Commerce_money-transfer,التجارة: نقل المال,210,Commerce_collect,التجارة: التحصيل
+2763,Perspective_on,المنظور,209,Commerce_money-transfer,التجارة: نقل المال,180,Commerce_pay,التجارة: الدفع
+3778,Perspective_on,المنظور,6,Communication,التواصل,2080,Mention,الذكر
+5000,Perspective_on,المنظور,2902,Conditional_scenario,السيناريو المشروط,2903,Conditional_occurrence,الوقوع المشروط
+4999,Perspective_on,المنظور,2902,Conditional_scenario,السيناريو المشروط,2904,Negative_conditional,الشرط السلبي
+3214,Perspective_on,المنظور,1174,Containment_scenario,سيناريو الاحتواء,1176,Being_contained_within,كونه محتوىً داخل
+3213,Perspective_on,المنظور,1174,Containment_scenario,سيناريو الاحتواء,397,Containing,الاحتواء
+4444,Perspective_on,المنظور,2573,Deception_success,نجاح الخداع,2572,Fall_for,الانخداع
+4443,Perspective_on,المنظور,2573,Deception_success,نجاح الخداع,2570,Intentional_deception,الخداع المتعمَّد
+3861,Perspective_on,المنظور,2123,Delimited_state_scenario,سيناريو الحالة المحدودة,2122,Duration_scenario,سيناريو المدة
+3860,Perspective_on,المنظور,2123,Delimited_state_scenario,سيناريو الحالة المحدودة,145,Process_continue,استمرار العملية
+3898,Perspective_on,المنظور,2123,Delimited_state_scenario,سيناريو الحالة المحدودة,2142,Timespan,المدى الزمني
+5038,Perspective_on,المنظور,2916,Distributed_abundance,الوفرة الموزَّعة,262,Abounding_with,الامتلاء بـ
+5039,Perspective_on,المنظور,2916,Distributed_abundance,الوفرة الموزَّعة,76,Distributed_position,الموقع الموزَّع
+3270,Perspective_on,المنظور,1797,Domination,الهيمنة,1796,Dominate_competitor,التغلب على المنافس
+3271,Perspective_on,المنظور,1797,Domination,الهيمنة,1795,Dominate_situation,الهيمنة على الوضع
+3857,Perspective_on,المنظور,2122,Duration_scenario,سيناريو المدة,79,Duration_description,وصف المدة
+3855,Perspective_on,المنظور,2122,Duration_scenario,سيناريو المدة,2121,Duration_relation,علاقة المدة
+3856,Perspective_on,المنظور,2122,Duration_scenario,سيناريو المدة,224,Measure_duration,قياس المدة
+3681,Perspective_on,المنظور,1712,Emotions,الانفعالات,48,Experiencer_focus,التركيز على المُستشعِر
+3682,Perspective_on,المنظور,1712,Emotions,الانفعالات,364,Stimulus_focus,التركيز على المثير
+3691,Perspective_on,المنظور,2045,Emotions_of_mental_activity,انفعالات النشاط الذهني,2044,Mental_stimulus_exp_focus,المثير الذهني: التركيز على المُستشعِر
+3699,Perspective_on,المنظور,2045,Emotions_of_mental_activity,انفعالات النشاط الذهني,2046,Mental_stimulus_stimulus_focus,المثير الذهني: التركيز على المثير
+2745,Perspective_on,المنظور,871,Employment_continue,استمرار التوظيف,282,Being_employed,كونه موظفاً
+2746,Perspective_on,المنظور,871,Employment_continue,استمرار التوظيف,323,Employing,التوظيف
+3259,Perspective_on,المنظور,321,Employment_scenario,سيناريو التوظيف,1061,Employee_scenario,سيناريو الموظف
+3260,Perspective_on,المنظور,321,Employment_scenario,سيناريو التوظيف,1062,Employer_scenario,سيناريو صاحب العمل
+2748,Perspective_on,المنظور,870,Employment_start,بدء التوظيف,324,Get_a_job,الحصول على وظيفة
+2747,Perspective_on,المنظور,870,Employment_start,بدء التوظيف,322,Hiring,التعاقد للعمل
+4064,Perspective_on,المنظور,2252,Exemplar,النموذج المثالي,2253,Exemplariness,المثالية
+3342,Perspective_on,المنظور,1861,Fragmentation_scenario,سيناريو التفتت,1862,Breaking_apart,التكسّر
+3341,Perspective_on,المنظور,1861,Fragmentation_scenario,سيناريو التفتت,1860,Breaking_off,الانكسار عن
+3833,Perspective_on,المنظور,2110,History_scenario,سيناريو التاريخ,1906,Individual_history,تاريخ الفرد
+3200,Perspective_on,المنظور,93,Hostile_encounter,المواجهة العدائية,424,Attack,الهجوم
+5302,Perspective_on,المنظور,3001,Identity_scenario,سيناريو الهوية,1029,Identicality,التطابق
+5303,Perspective_on,المنظور,3001,Identity_scenario,سيناريو الهوية,3000,Identity,الهوية
+4768,Perspective_on,المنظور,422,Import_export_scenario,سيناريو الاستيراد والتصدير,1568,Exporting,التصدير
+4769,Perspective_on,المنظور,422,Import_export_scenario,سيناريو الاستيراد والتصدير,1567,Importing,الاستيراد
+3301,Perspective_on,المنظور,1821,Inclusion_scenario,سيناريو الإدراج,1822,Being_included,كونه مشمولاً
+3300,Perspective_on,المنظور,1821,Inclusion_scenario,سيناريو الإدراج,1153,Inclusion,الإدراج
+4062,Perspective_on,المنظور,132,Instance,المصداق,1134,Typicality,النمطية
+2765,Perspective_on,المنظور,1700,Knot_creation_scenario,سيناريو عقد العقدة,247,Knot_creation,عقد العقدة
+2766,Perspective_on,المنظور,1700,Knot_creation_scenario,سيناريو عقد العقدة,246,Rope_manipulation,معالجة الحبل
+5060,Perspective_on,المنظور,2790,Locative_scenario,السيناريو المكاني,199,Locative_relation,العلاقة المكانية
+3471,Perspective_on,المنظور,1917,Lodging_scenario,سيناريو الإقامة,1916,Provide_lodging,توفير الإقامة
+3472,Perspective_on,المنظور,1917,Lodging_scenario,سيناريو الإقامة,1885,Temporary_stay,الإقامة المؤقتة
+3987,Perspective_on,المنظور,2198,Losing_track_of,فقدان الأثر,2200,Losing_track_of_perceiver,فقدان الأثر بالنسبة للمُدرِك
+3986,Perspective_on,المنظور,2198,Losing_track_of,فقدان الأثر,2199,Losing_track_of_theme,فقدان أثر الموضوع
+2667,Perspective_on,المنظور,1687,Measure_scenario,سيناريو القياس,108,Dimension,البُعد
+2570,Perspective_on,المنظور,1687,Measure_scenario,سيناريو القياس,965,Measurable_attributes,الصفات القابلة للقياس
+2571,Perspective_on,المنظور,1687,Measure_scenario,سيناريو القياس,1686,Measures,المقاييس
+2679,Perspective_on,المنظور,1687,Measure_scenario,سيناريو القياس,189,Quantified_mass,الكتلة المكمَّمة
+2507,Perspective_on,المنظور,238,Motion_scenario,سيناريو الحركة,7,Motion,الحركة
+2508,Perspective_on,المنظور,238,Motion_scenario,سيناريو الحركة,1347,Source_of_getting,مصدر الحصول
+5003,Perspective_on,المنظور,238,Motion_scenario,سيناريو الحركة,1161,Source_path_goal,المنطلَق والمسار والمقصد
+4881,Perspective_on,المنظور,238,Motion_scenario,سيناريو الحركة,1310,Traversing,العبور
+2453,Perspective_on,المنظور,1493,Obligation_scenario,سيناريو الالتزام,392,Being_obligated,كونه ملزَماً
+2454,Perspective_on,المنظور,1493,Obligation_scenario,سيناريو الالتزام,1164,Being_obligatory,كونه إلزامياً
+4134,Perspective_on,المنظور,2302,Placing_scenario,سيناريو الوضع,2303,Container_focused_placing,الوضع المركَّز على الوعاء
+4135,Perspective_on,المنظور,2302,Placing_scenario,سيناريو الوضع,62,Placing,الوضع
+2737,Perspective_on,المنظور,1189,Post_transfer,ما بعد النقل,1187,Post_giving,ما بعد الإعطاء
+2736,Perspective_on,المنظور,1189,Post_transfer,ما بعد النقل,1182,Post_receiving,ما بعد التلقي
+2738,Perspective_on,المنظور,1188,Pre_transfer,ما قبل النقل,1186,Pre_giving,ما قبل الإعطاء
+2739,Perspective_on,المنظور,1188,Pre_transfer,ما قبل النقل,1181,Pre_receiving,ما قبل التلقي
+5014,Perspective_on,المنظور,2910,Preferred_alternative_scenario,سيناريو البديل المفضَّل,1383,Desirable_event,الحدث المرغوب
+5009,Perspective_on,المنظور,2910,Preferred_alternative_scenario,سيناريو البديل المفضَّل,1381,Required_event,الحدث المطلوب
+4995,Perspective_on,المنظور,2017,Proximity_image_schema,مخطط صورة القرب,2900,Gradable_proximity,القرب المتدرِّج
+4994,Perspective_on,المنظور,2017,Proximity_image_schema,مخطط صورة القرب,2880,Non-gradable_proximity,القرب غير المتدرِّج
+3143,Perspective_on,المنظور,9,Reciprocality,التبادلية,226,Asymmetric_reciprocality,التبادلية غير المتماثلة
+3145,Perspective_on,المنظور,9,Reciprocality,التبادلية,227,Symmetrical_collective_reciprocality,التبادلية الجماعية المتماثلة
+4124,Perspective_on,المنظور,1816,Removing_scenario,سيناريو الإزالة,2301,Container_focused_removing,الإزالة المركَّزة على الوعاء
+4127,Perspective_on,المنظور,1816,Removing_scenario,سيناريو الإزالة,63,Removing,الإزالة
+2456,Perspective_on,المنظور,1492,Requirement_scenario,سيناريو المتطلَّب,1157,Being_necessary,كونه ضرورياً
+2455,Perspective_on,المنظور,1492,Requirement_scenario,سيناريو المتطلَّب,1491,Have_as_requirement,الاشتراط
+4010,Perspective_on,المنظور,2231,Response_scenario,سيناريو الاستجابة,2232,Meet_with_response,تلقي الاستجابة
+4009,Perspective_on,المنظور,2231,Response_scenario,سيناريو الاستجابة,1302,Response,الاستجابة
+3206,Perspective_on,المنظور,1682,Result_of_attempt_scenario,سيناريو نتيجة المحاولة,1305,Elusive_goal,الغاية العصية
+2490,Perspective_on,المنظور,1682,Result_of_attempt_scenario,سيناريو نتيجة المحاولة,1388,Success_or_failure,النجاح أو الفشل
+2491,Perspective_on,المنظور,1682,Result_of_attempt_scenario,سيناريو نتيجة المحاولة,1389,Successful_action,الفعل الناجح
+2501,Perspective_on,المنظور,1682,Result_of_attempt_scenario,سيناريو نتيجة المحاولة,518,Thwarting,الإحباط
+3152,Perspective_on,المنظور,1763,Risk_scenario,سيناريو المخاطرة,1560,Being_at_risk,كونه في خطر
+3151,Perspective_on,المنظور,1763,Risk_scenario,سيناريو المخاطرة,1762,Risky_situation,الوضع المحفوف بالخطر
+3187,Perspective_on,المنظور,1763,Risk_scenario,سيناريو المخاطرة,378,Run_risk,المجازفة
+2518,Perspective_on,المنظور,1685,Searching_scenario,سيناريو البحث,1684,Scrutinizing_for,التفحص بحثاً عن
+2519,Perspective_on,المنظور,1685,Searching_scenario,سيناريو البحث,269,Seeking,السعي
+3304,Perspective_on,المنظور,1823,Set_relation,علاقة المجموعات,1818,Be_subset_of,كونه مجموعة جزئية من
+2986,Perspective_on,المنظور,1727,Shooting_scenario,سيناريو الإطلاق,289,Shoot_projectiles,إطلاق القذائف
+2987,Perspective_on,المنظور,1727,Shooting_scenario,سيناريو الإطلاق,290,Use_firearm,استعمال السلاح الناري
+3895,Perspective_on,المنظور,1897,Simultaneity,التزامن,2141,Location_in_time,الموضع في الزمن
+3413,Perspective_on,المنظور,1897,Simultaneity,التزامن,1895,Temporal_collocation,التموضع الزمني
+4750,Perspective_on,المنظور,2102,Socially_significant_history_scenario,سيناريو التاريخ ذي الدلالة الاجتماعية,2113,History,التاريخ
+4730,Perspective_on,المنظور,2780,Temporary_transfer_scenario,سيناريو النقل المؤقت,2783,Borrowing,الاقتراض
+4729,Perspective_on,المنظور,2780,Temporary_transfer_scenario,سيناريو النقل المؤقت,2781,Lending,الإقراض
+2735,Perspective_on,المنظور,178,Transfer,النقل,139,Giving,الإعطاء
+2734,Perspective_on,المنظور,178,Transfer,النقل,411,Receiving,التلقي
+2732,Perspective_on,المنظور,1192,Transfer_scenario,سيناريو النقل,1190,Giving_scenario,سيناريو الإعطاء
+2731,Perspective_on,المنظور,1192,Transfer_scenario,سيناريو النقل,1180,Receiving_scenario,سيناريو التلقي
+2758,Perspective_on,المنظور,201,Trial,المحاكمة,320,Try_defendant,محاكمة المدَّعى عليه
+5150,Perspective_on,المنظور,2961,Undergoing_scenario,سيناريو الخضوع,88,Eventive_affecting,التأثير الحدثي
+5148,Perspective_on,المنظور,2961,Undergoing_scenario,سيناريو الخضوع,1725,Undergoing,الخضوع
+2629,Perspective_on,المنظور,1690,Use_vehicle,استعمال المركبة,65,Operate_vehicle,قيادة المركبة
+2628,Perspective_on,المنظور,1690,Use_vehicle,استعمال المركبة,690,Ride_vehicle,ركوب المركبة راكباً
+3550,Perspective_on,المنظور,1947,Visit_host_arrival,وصول زيارة المضيف,1946,Drop_in_on,الزيارة العابرة
+3522,Perspective_on,المنظور,1941,Visiting_scenario,سيناريو الزيارة,1912,Visitor_scenario,سيناريو الزائر
+3561,Perspective_on,المنظور,1942,Visitor_and_host,الزائر والمضيف,1950,Receive_visitor_scenario,سيناريو استقبال الزائر
+3523,Perspective_on,المنظور,1942,Visitor_and_host,الزائر والمضيف,1940,Visit_host,زيارة المضيف
+3311,Perspective_on,المنظور,1830,Wholes_and_parts,الكليات والأجزاء,142,Part_piece,القطعة الجزئية
+5323,Metaphor,الاستعارة,55,Cause_motion,التسبب في الحركة,92,Manipulate_into_doing,الحمل على الفعل بالتلاعب
+5334,Metaphor,الاستعارة,275,Evading,التهرب,1305,Elusive_goal,الغاية العصية
+5324,Metaphor,الاستعارة,93,Hostile_encounter,المواجهة العدائية,2832,Firefighting,مكافحة الحريق
+5339,Metaphor,الاستعارة,516,Preventing_or_letting,المنع أو الترك,520,Deny_or_grant_permission,منع الإذن أو منحه

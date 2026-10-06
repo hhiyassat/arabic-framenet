@@ -1,0 +1,18 @@
+term	freq_corpus	freq_pilot	claude_draft	owner_choice	status
+DNI	114	10	التحقيق الصفري المحدَّد	التحقيق الصفري المحدَّد	APPROVED
+Complement	103	14	المتمّم	المتمّم	APPROVED
+INI	101	2	التحقيق الصفري غير المحدَّد	التحقيق الصفري غير المحدَّد	APPROVED
+PP Complement	82	13	متمّم حرف الجر	متمّم حرف الجر	APPROVED
+External Argument	75	10	الحجة الخارجية	الحجة الخارجية	APPROVED
+CNI	69	0	التحقيق الصفري التركيبي	التحقيق الصفري التركيبي	APPROVED
+Object	63	5	المفعول به	المفعول به	APPROVED
+Target	44	2	الكلمة الهدف	الكلمة الهدف	APPROVED
+direct object	34	6	المفعول به المباشر	المفعول به المباشر	APPROVED
+Dependent	31	0	المتعلِّق	المتعلِّق	APPROVED
+Genitive	6	1		المضاف إليه	APPROVED
+Attributive use	0	0	الاستعمال النعتي	الاستعمال النعتي	APPROVED
+Head noun	0	0	الاسم الرأس	الاسم الرأس	APPROVED
+Modifier	0	0	المعدِّل	المعدِّل	APPROVED
+Null instantiation	0	0	التحقيق الصفري	التحقيق الصفري	APPROVED
+Predicative use	0	0	الاستعمال الإسنادي	الاستعمال الإسنادي	APPROVED
+Support verb	0	0	الفعل المساند	الفعل المساند	APPROVED

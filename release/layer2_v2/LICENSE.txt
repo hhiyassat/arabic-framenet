@@ -1,0 +1,48 @@
+FrameNet Release 1.7 — License
+==============================
+
+Licensor : FrameNet Project, International Computer Science Institute (ICSI), Berkeley, California
+           http://framenet.icsi.berkeley.edu
+License  : Creative Commons Attribution 3.0 Unported License (CC BY 3.0)
+           https://creativecommons.org/licenses/by/3.0/
+           Full legal code: https://creativecommons.org/licenses/by/3.0/legalcode
+
+Verbatim license statement (FrameNet, docs/GeneralReleaseNotes1.7.pdf, page 1):
+
+  "We are pleased at the increasing use of FrameNet as a resource for semantic analysis
+  both by academic and commercial users. We are again licensing Release 1.7 of the FrameNet
+  data under a Creative Commons Attribution-Only license. This license allows use for any
+  purpose, including commercial use, and requires public acknowledgment of all such uses.
+  In general, academic users have included clear acknowledgments in published papers, but
+  we are aware of a number of commercial users who have failed to do so. If you produce a
+  product or provide a service based on the use of the FrameNet data, you are required
+  by the license agreement to provide your users with a written reference to FrameNet,
+  including the URL of the FrameNet website (http://framenet.icsi.berkeley.edu) and
+  a reference to a current FrameNet publication. (The most complete, reasonably current
+  published summary of work on FrameNet is Fillmore and Baker (2010) "A Frame Semantic
+  Approach to Linguistic Analysis" in Heine and Narrog (eds.) Oxford Handbook of Linguistic
+  Analysis.)"
+
+Required attribution for this derived work (Arabic FrameNet):
+  This work is derived from FrameNet Release 1.7 (ICSI, Berkeley), http://framenet.icsi.berkeley.edu,
+  used under the Creative Commons Attribution 3.0 Unported License.
+  Reference: Fillmore, C. J. and Baker, C. F. (2010). A Frame Semantic Approach to Linguistic Analysis.
+  In B. Heine and H. Narrog (eds.), The Oxford Handbook of Linguistic Analysis. Oxford University Press.
+  Changes: Arabic translations of frame and frame-element definitions, Arabic names, and Arabic lexical units
+  (RULE_OWNER = DR_HUSSEIN).
+
+Provenance of this file (measured 2026-10-05):
+  - Source package : nltk_data corpora/framenet_v17.zip
+                     https://raw.githubusercontent.com/nltk/nltk_data/gh-pages/packages/corpora/framenet_v17.zip
+                     md5    = aaef1cfdcf37000cf2a5c562407fbddb (matches NLTK index checksum)
+                     sha256 = 22f6aad6fb799ba4dbed0440714e1118442ad7d7345351de37428581284f471c
+  - Statement file : framenet_v17/docs/GeneralReleaseNotes1.7.pdf  sha256 = 8981f40ba4ae91f9ff618db1304c5171b8023f80a69f79c45ed748f9847a09c7
+  - License name   : NLTK package metadata framenet_v17.xml: license="Creative Commons Attribution 3.0 Unported License"
+  - Not verified   : the FrameNet website request-data page could not be fetched (robots/timeout); the release
+                     notes name the license as "Creative Commons Attribution-Only" without a version number;
+                     the version 3.0 Unported comes from the NLTK package metadata.
+
+Third-party content note:
+  Some English LU definitions in FrameNet are quoted from the Concise Oxford Dictionary (definition_source = COD).
+  These remain under OUP copyright and are NOT covered by this license; they are not translated or redistributed
+  in the Arabic layers (release/layer2_v1/lus_ar.csv carries no English definitions).

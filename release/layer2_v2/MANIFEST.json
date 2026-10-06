@@ -1,0 +1,68 @@
+{
+ "tag": "layer2_v2",
+ "frozen_at": "2026-10-05T20:45:36",
+ "layer1_manifest": "817e5143e6ebb9ae6e57bb222ef890b55d032196b5f2cf8928556574fa9d7f2e",
+ "license_verified": true,
+ "counts": {
+  "ar_lus_approved": 2641,
+  "ar_lus_evidence_gap_excluded": 1307,
+  "frames": 50,
+  "en_lus_in_scope": 4007,
+  "en_MAPPED": 3023,
+  "en_NO_ARABIC_EQUIVALENT": 243,
+  "en_EVIDENCE_GAP_ONLY": 741,
+  "with_wazn": 2064,
+  "with_evidence_primary": 1982,
+  "noun_wazn_inventory": 941
+ },
+ "pos_ar_distribution": {
+  "فعل": 669,
+  "اسم فاعل": 264,
+  "اسم مفعول": 90,
+  "صفة مشبهة": 131,
+  "تركيب": 455,
+  "اسم جامد": 531,
+  "اسم آلة": 6,
+  "مصدر": 367,
+  "اسم مرة": 10,
+  "اسم مكان": 44,
+  "اسم منسوب": 45,
+  "صيغة مبالغة": 11,
+  "اسم مصدر": 7,
+  "ظرف": 8,
+  "حرف": 3
+ },
+ "checker": {
+  "rejected": "0",
+  "OWNER_ALERT_root_alert_waived_L2_012": "16",
+  "OWNER_ALERT_root_in_v21_only": "149",
+  "OWNER_ALERT_wazn_unchecked_pos": "2"
+ },
+ "files": {
+  "06_check_lus.py": "67c329c2a45e2765ddda0f370d6d0498a32d2bd5692eafa0cf1b76d78172380d",
+  "APPROVAL_LOG.txt": "f96bb1d27ac6bfc719e24b48943a98c6f2768a00a9dc10f54e5a08cd187371c1",
+  "LICENSE.txt": "1a17bb4c41476e7c0c3bbb29bf8a73dac0423684aca05908ad6cceb2af17bbd6",
+  "lus_ar.csv": "cbef7f3f9914ceca61a057e4a16cf8b2ca7495a94bafe372cbebe4ab1f653d37",
+  "lus_en_status.csv": "2c25a711aba816c945ff90a892cdec90e93a1e437195068d85582ca08a6503eb",
+  "pos_ar_closed.txt": "e97aecc8c732257ab12629aa1452c6d1e3bf3e170edd0ccfc74fb09052fe6bf6",
+  "pos_glossary.tsv": "963020f3f1ebc81383d38c8adefc1c492905d9999dc7fae2be1277274d33e5f2",
+  "root_alert_waived.txt": "d51dc911a7e574a2801a9082f900267779c98ac1199c8d00b81e2db22ec577d7",
+  "v21_roots_index.csv": "6b8beda92318b93eaa160e2e152228cd7cb15f4c858c78cb9f2421bf494dd174",
+  "wazn_nouns_inventory.csv": "92239e03679007a2b8d28113578cc7262ac01c0f9eceb3b56b7823d0871cd4aa",
+  "wazn_owner_l2_015.csv": "cbcfb88029c6588fb7919a0de7472df461e16571d61f84cdd864bf97de89f88a",
+  "wazn_rules.py": "2134829f59724fd77f9de89dd2c0c529cfb40c94c95b7a585087ebfb30512e0d"
+ },
+ "upstream_fingerprints": {
+  "03_lus_ar/lus_ar.csv": "1a633f9d405a346ed8ebf37a6f52c7c35f6dd5a78d9f343a7a3f13a225d423ae",
+  "03_lus_ar/lus_en_status.csv": "84f8feb98e7ca38cc5c30676a2ef2403cf5f3fb041f5d178c09644a46469d7ca",
+  "03_lus_ar/lus_template.csv": "5616d5fadcd89b4f2e46f24a17f20e6499915782ec9a0e6bb2ae047c4020e980",
+  "roots-4662-meaning.csv": "1a711ffe9cc3286d87276b04a836b26756b67f3657f8a0904a0c7b4ac4d020da",
+  "awzan-sibawayh-308.csv": "a1c1f7f94378eb6e4ad5a994ee180c38c2f5da5058fc9ac1a670f25a3555b1a0",
+  "awzaan_af3aal_all.csv": "ba0aee787f997d20900f2c3bd790ce5d658e138b2464cd6476e9dd4408594e9b"
+ },
+ "derived_from": {
+  "tag": "layer2_v1",
+  "manifest_sha256": "8af42e5cf2c82e2040d3292506666e11057a02f3b4625377a3eba676fd07c54c",
+  "change": "added LICENSE.txt (G0.1 closed by owner); content files unchanged"
+ }
+}

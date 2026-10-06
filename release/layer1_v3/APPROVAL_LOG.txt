@@ -1,0 +1,13 @@
+OWNER_DELEGATION_001: owner_choice := claude_draft for all rows, by explicit owner delegation. sha256=4ab0d63ca4da0b89307b00d0067ffee3d029233085969c8cacf616fe1d129961
+FIX_001: 5 shared-term collisions corrected (Booker,Questioner,Desirable_situation,Temperature_start,Landmark_occasion); 7 intentional spelling-variant shares kept. sha256=c8d740b06ce73002918fb86ce68661ea40fabaa84eb8462c3cad82aa6d427a4b
+2026-09-10 OWNER_DELEGATION_002 grammar_glossary.tsv APPROVED 17/17 (owner_choice:=claude_draft; Genitive:=المضاف إليه) sha256=039aa6f4c47de957b17a59b87606600bdcbdaf1078037dec5cabb6581b19841e
+GATE_2 CLOSED 2026-09-11 by DR_HUSSEIN — pilot 50/50 · 606/606 · rejected=0 · sha f530a13d/cfbbe2ba
+ROLLBACK_001 round-9 partial: removed frames [44, 56, 57, 58] (4 frames, 71 FEs) for re-translation
+ROLLBACK shard a: removed frames [] (0 frames, 0 FEs)
+ROLLBACK shard b: removed frames [] (0 frames, 0 FEs)
+ROLLBACK shard c: removed frames [] (0 frames, 0 FEs)
+ROLLBACK shard c: removed frames [2421, 2427]
+NAMES_RESOLVE_001: 13 conflicts resolved (approved-wins, a>b>c), 7 non-names dropped, 22 records rewritten; OVERRIDE={}
+FIX_PASS_002 {'factor': 1, 'pp_def': 28, 'insert': 1}; GATE_2_FULL CLOSED by DR_HUSSEIN; status DRAFT→APPROVED for 1221 frames + 11416 FEs; sha frames=0d816ef9e736 fes=e727bb2d2fdf
+LAYER1_APPROVED 2026-09-14 1221 frames · 11416 FEs · 0d816ef9/e727bb2d/914a395a · G0.1 still OPEN
+OWNER_REVIEW_004 2026-09-14 frame_names.tsv reviewed and approved by owner (not delegation) sha256=e65ab9cb · relation_types.tsv APPROVED 10/10 sha256=03b2fc23

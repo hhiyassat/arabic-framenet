@@ -1,0 +1,13 @@
+term	count_all	count_pilot	claude_draft	owner_choice	pos_ar_candidates	status
+N	5529	2112	اسم	اسم	مصدر|اسم جامد|اسم فاعل|اسم مفعول	APPROVED
+V	5178	1073	فعل	فعل	فعل	APPROVED
+A	2392	777	صفة	صفة	صفة مشبهة|اسم فاعل|اسم مفعول	APPROVED
+ADV	237	36	ظرف	ظرف	ظرف|تركيب	APPROVED
+PREP	147	6	حرف جر	حرف جر	حرف|تركيب	APPROVED
+NUM	31	0	اسم عدد	اسم عدد	اسم جامد|تركيب	APPROVED
+IDIO	27	2	تعبير اصطلاحي	تعبير اصطلاحي	تركيب	APPROVED
+SCON	13	0	أداة ربط تابعة	أداة ربط تابعة	حرف|تركيب	APPROVED
+C	6	0	أداة ربط	أداة ربط	حرف	APPROVED
+ART	6	1	محدِّد / أداة كمّ	اسم	حرف|اسم جامد	APPROVED
+INTJ	5	0	اسم صوت / أداة تنبيه	اسم صوت / أداة تنبيه	مبني	APPROVED
+PRON	1	0	ضمير / اسم موصول	مبني	مبني	APPROVED
