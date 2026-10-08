@@ -12,10 +12,11 @@ COPY = ["00_source/frames.jsonl", "00_source/fes.jsonl", "00_source/relations.js
         "01_glossary/names_map.tsv", "01_glossary/names_map_a.tsv", "01_glossary/names_map_b.tsv", "01_glossary/names_map_c.tsv",
         "03_lus_ar/lus_ar.csv", "03_lus_ar/lus_en_status.csv", "03_lus_ar/lus_rejected.csv", "03_lus_ar/pos_ar_closed.txt", "03_lus_ar/pos_glossary.tsv",
         "03_lus_ar/root_alert_waived.txt", "03_lus_ar/v21_roots_index.csv", "03_lus_ar/wazn_nouns_inventory.csv", "03_lus_ar/wazn_owner_l2_015.csv",
+        "03_lus_ar/l2_017_cand_raw.csv", "03_lus_ar/l2_017_cand_norm.csv", "03_lus_ar/l2_017_cand_norm2.csv", "03_lus_ar/l2_017_nae.csv", "03_lus_ar/l2_017_deferred.csv",
         "api/afn_api.py", "HANDOFF_ARABIC_FRAMENET_USE.md", "frame_relations_ar.csv", "AGENT_PROMPT_v2.md", "CONTINUE_005.md", "CONTINUE_006.md"]
 COPY += [str(p.relative_to(ROOT)) for p in sorted((ROOT / "02_frames_ar").iterdir()) if p.is_file() and not p.name.startswith(".")]
 COPY += [str(p.relative_to(ROOT)) for p in sorted((ROOT / "scripts").iterdir()) if p.is_file() and p.suffix in (".py", ".sh")]
-for tag in ("layer1_v3", "layer2_v2"):
+for tag in ("layer1_v3", "layer2_v3"):   # L2_019: layer2_v3 supersedes layer2_v2
     COPY += [str(p.relative_to(ROOT)) for p in sorted((ROOT / "release" / tag).iterdir()) if p.is_file()]
 OUT.mkdir(exist_ok=True)
 for rel in COPY:

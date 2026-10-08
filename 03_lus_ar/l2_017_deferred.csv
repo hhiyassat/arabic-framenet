@@ -1,0 +1,146 @@
+ar_lu_id,lemma_ar,pos_ar,frame_id,en_lu_ids,definition_ar,root,wazn,evidence_primary,evidence_frame_level,metaphor_flag,owner_choice,status,wazn_note,note,flags,defer_reason
+AR04184,,حرف,25,10878,يُشِيرُ إِلَىٰ مَصْدَرِ الدَّليل,,,,,,,CANDIDATE,,L2_017 haiku b02,UNVOCALIZED,empty_lemma
+AR04639,أسبَقُ,صفة,81,11799,من يحدث قبل وقت آخر,سبق,أَفْعَلُ,,,,,CANDIDATE,,L2_017 haiku b06,POS_NOT_CLOSED,pos_not_closed
+AR04645,أخير,صفة,81,13865,الأكثر حداثة في الزمن,ءخر,أَفْعَلُ,,,,,CANDIDATE,,L2_017 haiku b06,POS_NOT_CLOSED;ROOT_NORMALIZED;UNVOCALIZED,pos_not_closed
+AR04651,أحدَث,صفة,81,14794,الأكثر قرباً من الآن,حدث,أَفْعَلُ,,,,,CANDIDATE,,L2_017 haiku b06,AL_STRIPPED;POS_NOT_CLOSED,pos_not_closed
+AR04663,مَجّاني,صفة,83,1777,بلا ثمن ولا قيمة مالية,جون,,,,,,CANDIDATE,مَفْعال,L2_017 haiku b06,POS_NOT_CLOSED;WAZN_NOT_IN_INV,pos_not_closed
+AR04682,إسبارطي,صفة,84,4193,قاسٍ في الحياة دخيل,,,,,,,CANDIDATE,,L2_017 haiku b06,POS_NOT_CLOSED;ROOT_MISSING;UNVOCALIZED;WAZN_MISSING,pos_not_closed
+AR05047,أشقر,صفة,126,2607,ما يكون لونه فاتحاً أو أصفر فاتحاً,شقر,أَفْعَلُ,,,,,CANDIDATE,,L2_017 haiku b08,POS_NOT_CLOSED;UNVOCALIZED,pos_not_closed
+AR05048,شقراء,صفة,126,2609,ذات شعر فاتح اللون أو أصفر فاتح,شقر,فِعْلاءٌ,,,,,CANDIDATE,,L2_017 haiku b08,POS_NOT_CLOSED;UNVOCALIZED,pos_not_closed
+AR05054,موجي,صفة,126,2628,ما يتخذ شعره شكل موجات,موج,,,,,,CANDIDATE,فُعَّالِي,L2_017 haiku b08,POS_NOT_CLOSED;UNVOCALIZED;WAZN_NOT_IN_INV,pos_not_closed
+AR05056,ذهبي,صفة,126,2631,لون الشعر الذي يشبه لون الذهب,ذهب,,,,,,CANDIDATE,فِعَّالِي,L2_017 haiku b08,POS_NOT_CLOSED;UNVOCALIZED;WAZN_NOT_IN_INV,pos_not_closed
+AR05058,كتاني,صفة,126,2636,لون فاتح مثل لون الكتان,كتن,,,,,,CANDIDATE,فِعَّالِي,L2_017 haiku b08,POS_NOT_CLOSED;UNVOCALIZED;WAZN_NOT_IN_INV,pos_not_closed
+AR05439,سِحّاب,صيغة مبالغة,194,3713;3714,مشبك معدني للملابس,سحب,فِعَّالٌ,,,,,CANDIDATE,,L2_017 haiku b11,MUBALAGHA_NOT_FAAAL;ROOT_NORMALIZED,mubalagha_not_faaal
+AR05983,غَبِيٌّ,صفة,266,4861;4867,شخص يرتكب أخطاء بشكل متكرر,غبي,فَعِيلٌ,,,,,CANDIDATE,,L2_017 haiku b14,POS_NOT_CLOSED,pos_not_closed
+AR06010,لَذِيذٌ,صفة,271,4927;4930;4935,طعم الطعام لطيف ومميز,لذذ,فَعِيلٌ,,,,,CANDIDATE,,L2_017 haiku b14,POS_NOT_CLOSED,pos_not_closed
+AR06011,لَاذِعٌ,صفة,271,4929;4972,طعم حاد لاذع وشهي,لذع,فَاعِلٌ,,,,,CANDIDATE,,L2_017 haiku b14,POS_NOT_CLOSED,pos_not_closed
+AR06013,شَهِيٌّ,صفة,271,4933;4937,طعم الطعام لذيذ جداً,شهي,فَعِيلٌ,,,,,CANDIDATE,,L2_017 haiku b14,POS_NOT_CLOSED,pos_not_closed
+AR06015,غَنِيٌّ,صفة,271,4936,كامل الطعم,غني,فَعِيلٌ,,,,,CANDIDATE,,L2_017 haiku b14,POS_NOT_CLOSED,pos_not_closed
+AR06016,إلَهِيٌّ,صفة,271,4938,طعم فائق اللذاذة,ءله,فِعَالِيٌّ,,,,,CANDIDATE,,L2_017 haiku b14,POS_NOT_CLOSED;ROOT_NORMALIZED,pos_not_closed
+AR06018,مَالِحٌ,صفة,271,4940,ذو طعم الملح,ملح,فَاعِلٌ,,,,,CANDIDATE,,L2_017 haiku b14,POS_NOT_CLOSED,pos_not_closed
+AR06019,حَامِضٌ,صفة,271,4941;4973,ذو طعم حمضي كالليمون,حمض,فَاعِلٌ,,,,,CANDIDATE,,L2_017 haiku b14,POS_NOT_CLOSED,pos_not_closed
+AR06020,مُرٌّ,صفة,271,4942,ذو طعم حاد قاسٍ ليس حلو,مرر,فُعْلٌ,,,,,CANDIDATE,,L2_017 haiku b14,POS_NOT_CLOSED;WAZN_LEMMA_MISMATCH,pos_not_closed
+AR06021,حَارٌّ,صفة,271,4943;4945,ذو طعم بهاري,حرر,فَاعِلٌ,,,,,CANDIDATE,,L2_017 haiku b14,POS_NOT_CLOSED;WAZN_LEMMA_MISMATCH,pos_not_closed
+AR06022,حُلْوٌ,صفة,271,4944,ذو طعم السكر الحلو,حلي,فُعْلٌ,,,,,CANDIDATE,,L2_017 haiku b14,POS_NOT_CLOSED,pos_not_closed
+AR06025,مالح,صفة,271,4954,ذو طعم مملح أو بهاري,ملح,فَاعِلٌ,,,,,CANDIDATE,,L2_017 haiku b14,POS_NOT_CLOSED;UNVOCALIZED,pos_not_closed
+AR06028,فَاتِرٌ,صفة,271,4975;4976,طعم الطعام ضعيف أو بلا مذاق,فتر,فَاعِلٌ,,,,,CANDIDATE,,L2_017 haiku b14,POS_NOT_CLOSED,pos_not_closed
+AR06032,عَطِرٌ,صفة,271,4989;4991,ذو رائحة زكية,عطر,فَعِلٌ,,,,,CANDIDATE,,L2_017 haiku b14,POS_NOT_CLOSED,pos_not_closed
+AR06409,آهِ,مبني,305,15796,,,,,,,,CANDIDATE,,L2_017 haiku b16 | تعجب وصرخة لجذب الانتباه,,empty_definition
+AR08169,طَوِيل,صفة,965,15526,يملك الكيان مسافة تتجاوز الطول,طول,فَعِيلٌ,,,,,CANDIDATE,,L2_017 haiku b27,POS_NOT_CLOSED,pos_not_closed
+AR08170,عَمِيق,صفة,965,15536,يملك الكيان خاصية التمدد البعيد,عمق,فَعِيلٌ,,,,,CANDIDATE,,L2_017 haiku b27,POS_NOT_CLOSED,pos_not_closed
+AR08171,عَالِي,صفة,965,15537,يملك الكيان ارتفاعاً كبيراً,عله,فَاعِلٌ,,,,,CANDIDATE,,L2_017 haiku b27,POS_NOT_CLOSED;WAZN_LEMMA_MISMATCH,pos_not_closed
+AR08172,فَارِع,صفة,965,15538,يملك الكيان ارتفاعاً خاصة,فرع,فَاعِلٌ,,,,,CANDIDATE,,L2_017 haiku b27,POS_NOT_CLOSED,pos_not_closed
+AR08173,سَمِيك,صفة,965,15539,يملك الكيان سمكاً كبيراً,سمك,فَعِيلٌ,,,,,CANDIDATE,,L2_017 haiku b27,POS_NOT_CLOSED,pos_not_closed
+AR08174,ثَقِيل,صفة,965,15783,يملك الكيان وزناً كبيراً,ثقل,فَعِيلٌ,,,,,CANDIDATE,,L2_017 haiku b27,POS_NOT_CLOSED,pos_not_closed
+AR08175,غَلِيظ,صفة,965,15785,يملك الكيان محيطاً كبيراً,غلظ,فَعِيلٌ,,,,,CANDIDATE,,L2_017 haiku b27,POS_NOT_CLOSED,pos_not_closed
+AR08177,عَرِيض,صفة,965,17336,يملك الكيان عرضاً كبيراً,عرض,فَعِيلٌ,,,,,CANDIDATE,,L2_017 haiku b27,POS_NOT_CLOSED,pos_not_closed
+AR08178,رَقِيق,صفة,965,18488,يملك الكيان سمكاً صغيراً,رقق,فَعِيلٌ,,,,,CANDIDATE,,L2_017 haiku b27,POS_NOT_CLOSED,pos_not_closed
+AR08179,خَفِيف,صفة,965,18489,يملك الكيان وزناً قليلاً,خفف,فَعِيلٌ,,,,,CANDIDATE,,L2_017 haiku b27,POS_NOT_CLOSED,pos_not_closed
+AR08180,ضَيِّق,صفة,965,18490,يملك الكيان عرضاً صغيراً,ضيق,فَعِيلٌ,,,,,CANDIDATE,,L2_017 haiku b27,POS_NOT_CLOSED,pos_not_closed
+AR08181,قَصِير,صفة,965,18491,يملك الكيان طولاً قليلاً,قصر,فَعِيلٌ,,,,,CANDIDATE,,L2_017 haiku b27,POS_NOT_CLOSED,pos_not_closed
+AR08182,سَرِيع,صفة,966,10038;16094,يتحرك الكيان بسرعة عالية,سرع,فَعِيلٌ,,,,,CANDIDATE,,L2_017 haiku b27,POS_NOT_CLOSED,pos_not_closed
+AR08183,خَاطِف,صفة,966,10039,يتحرك الكيان بسرعة فائقة,خطف,فَاعِلٌ,,,,,CANDIDATE,,L2_017 haiku b27,POS_NOT_CLOSED,pos_not_closed
+AR08191,نَشِيط,صفة,966,16042,يتحرك الكيان بنشاط,نشط,فَعِيلٌ,,,,,CANDIDATE,,L2_017 haiku b27,POS_NOT_CLOSED,pos_not_closed
+AR08194,سَرِيع,صفة,967,10044;10046;11201,يتم النشاط بسرعة,سرع,فَعِيلٌ,,,,,CANDIDATE,,L2_017 haiku b27,POS_NOT_CLOSED,pos_not_closed
+AR08195,قَصِير,صفة,967,10045,يستغرق النشاط مدة قصيرة,قصر,فَعِيلٌ,,,,,CANDIDATE,,L2_017 haiku b27,POS_NOT_CLOSED,pos_not_closed
+AR08196,خَاطِف,صفة,967,10047,يحدث النشاط بسرعة,خطف,فَاعِلٌ,,,,,CANDIDATE,,L2_017 haiku b27,POS_NOT_CLOSED,pos_not_closed
+AR08198,بَطِيء,صفة,967,14665,يستغرق النشاط وقتاً طويلاً,بطء,فَعِيلٌ,,,,,CANDIDATE,,L2_017 haiku b27,POS_NOT_CLOSED;ROOT_NORMALIZED,pos_not_closed
+AR08219,عَتِيق,صفة,972,10071,يكون الكيان قد وُجِد مدة طويلة,عتق,فَعِيلٌ,,,,,CANDIDATE,,L2_017 haiku b27,POS_NOT_CLOSED,pos_not_closed
+AR08220,قَدِيم,صفة,972,10072,يكون الكيان قديماً جداً,قدم,فَعِيلٌ,,,,,CANDIDATE,,L2_017 haiku b27,POS_NOT_CLOSED,pos_not_closed
+AR08221,شَابّ,صفة,972,10073,يكون الكيان حديث الوجود,شيب,فَاعِلٌ,,,,,CANDIDATE,,L2_017 haiku b27,POS_NOT_CLOSED,pos_not_closed
+AR08222,نَاشِئ,صفة,972,10074,يكون الكيان صغيراً نسبياً,نشء,فَاعِلٌ,,,,,CANDIDATE,,L2_017 haiku b27,POS_NOT_CLOSED;ROOT_NORMALIZED,pos_not_closed
+AR08223,عَجُوز,صفة,972,10075,يكون الكيان كبيراً في السن,عجز,فَعُولٌ,,,,,CANDIDATE,,L2_017 haiku b27,POS_NOT_CLOSED,pos_not_closed
+AR08225,جَدِيد,صفة,972,12563,يكون الكيان لم يكن موجوداً,جدد,فَعِيلٌ,,,,,CANDIDATE,,L2_017 haiku b27,POS_NOT_CLOSED,pos_not_closed
+AR08226,طَازَج,صفة,972,13763,يكون الكيان لم يُسْتَخْدَم,طزج,فَاعِلٌ,,,,,CANDIDATE,,L2_017 haiku b27,POS_NOT_CLOSED,pos_not_closed
+AR08229,نَاضِج,صفة,972,16073,يكون الشخص تجاوز المراهقة,نضج,فَاعِلٌ,,,,,CANDIDATE,,L2_017 haiku b27,POS_NOT_CLOSED,pos_not_closed
+AR08230,مُسِنّ,صفة,972,17634,يكون الشخص كبيراً في السن,سنن,مُفْعِلٌ,,,,,CANDIDATE,,L2_017 haiku b27,POS_NOT_CLOSED;WAZN_LEMMA_MISMATCH,pos_not_closed
+AR08246,أَجْنَبِيّ,صفة,974,10093,شخص من بلد أجنبي,جنب,أَفْعَلِيٌّ,,,,,CANDIDATE,,L2_017 haiku b27,POS_NOT_CLOSED,pos_not_closed
+AR08262,أَصْلِيّ,صفة,974,14315,أمريكي أصلي,ءصل,أَفْعَلِيٌّ,,,,,CANDIDATE,,L2_017 haiku b27,POS_NOT_CLOSED;ROOT_NORMALIZED,pos_not_closed
+AR08271,غَامِض,صفة,979,10161;10171,يكون الشيء غامضاً,غمض,فَاعِلٌ,,,,,CANDIDATE,,L2_017 haiku b27,POS_NOT_CLOSED,pos_not_closed
+AR08272,مَفْهُوم,صفة,979,10162;10170;10542,يكون الشيء قابلاً للفهم,فهم,مَفْعُولٌ,,,,,CANDIDATE,,L2_017 haiku b27,POS_NOT_CLOSED,pos_not_closed
+AR08277,مُتَفَرِّد,صفة,982,10130,يكون الشيء غريباً فريداً,فرد,مُتَفَعِّلٌ,,,,,CANDIDATE,,L2_017 haiku b27,POS_NOT_CLOSED,pos_not_closed
+AR08278,خَاصّ,صفة,982,10131;10135,يكون الشيء مختصاً,خصص,فَاعِلٌ,,,,,CANDIDATE,,L2_017 haiku b27,POS_NOT_CLOSED;WAZN_LEMMA_MISMATCH,pos_not_closed
+AR08280,فَرِيد,صفة,982,10133,يكون الشيء منفرداً,فرد,فَعِيلٌ,,,,,CANDIDATE,,L2_017 haiku b27,POS_NOT_CLOSED,pos_not_closed
+AR08282,مُعَيَّن,صفة,982,12683,يكون الشيء محدداً معيناً,عين,مُفَعَّلٌ,,,,,CANDIDATE,,L2_017 haiku b27,POS_NOT_CLOSED,pos_not_closed
+AR08284,غَرِيب,صفة,982,13312,يكون الشيء غريباً جداً,غرب,فَعِيلٌ,,,,,CANDIDATE,,L2_017 haiku b27,POS_NOT_CLOSED,pos_not_closed
+AR08285,غَامِض,صفة,982,13313,يكون الشيء غريباً مرعباً,غمض,فَاعِلٌ,,,,,CANDIDATE,,L2_017 haiku b27,POS_NOT_CLOSED,pos_not_closed
+AR08286,قَادِر,صفة,990,10154;10157,يستوفي الكيان الشروط,قدر,فَاعِلٌ,,,,,CANDIDATE,,L2_017 haiku b27,POS_NOT_CLOSED,pos_not_closed
+AR08287,عَاجِز,صفة,990,10155;18430;18524,لا يستطيع الكيان,عجز,فَاعِلٌ,,,,,CANDIDATE,,L2_017 haiku b27,POS_NOT_CLOSED,pos_not_closed
+AR08291,قَابِل,صفة,990,14723,يكون الشيء قابلاً للنمو,قبل,فَاعِلٌ,,,,,CANDIDATE,,L2_017 haiku b27,POS_NOT_CLOSED,pos_not_closed
+AR08294,قَوِيّ,صفة,990,18526,يمتلك الكيان قدرة,قوي,فَعِيلٌ,,,,,CANDIDATE,,L2_017 haiku b27,POS_NOT_CLOSED,pos_not_closed
+AR08298,آخَر,صفة,1001,10174;10175,يكون الشيء منفصلاً,ءخر,فَعِلٌ,,,,,CANDIDATE,,L2_017 haiku b27,POS_NOT_CLOSED;ROOT_NORMALIZED;WAZN_NOT_IN_INV,pos_not_closed
+AR08300,إِضَافِيّ,صفة,1001,10289;10292,يكون الشيء إضافياً,ضيف,إِفْعَالِيٌّ,,,,,CANDIDATE,,L2_017 haiku b27,POS_NOT_CLOSED,pos_not_closed
+AR08301,أَكْثَر,صفة,1001,10290,يكون الشيء إضافياً,كثر,أَفْعَلُ,,,,,CANDIDATE,,L2_017 haiku b27,POS_NOT_CLOSED,pos_not_closed
+AR08311,جَمِيل,صفة,1016,10206,يكون الكيان ممتعاً حسياً,جمل,فَعِيلٌ,,,,,CANDIDATE,,L2_017 haiku b27,POS_NOT_CLOSED,pos_not_closed
+AR08312,رَائِع,صفة,1016,10207,يكون الكيان جميلاً رفيعاً,روع,فَاعِلٌ,,,,,CANDIDATE,,L2_017 haiku b27,POS_NOT_CLOSED,pos_not_closed
+AR08313,أَنِيق,صفة,1016,11627;13823,يكون الكيان نظيفاً ومرتباً,نيق,أَفْعَلُ,,,,,CANDIDATE,,L2_017 haiku b27,POS_NOT_CLOSED,pos_not_closed
+AR08314,قَبِيح,صفة,1016,11628,يكون الكيان غير ممتع,قبح,فَعِيلٌ,,,,,CANDIDATE,,L2_017 haiku b27,POS_NOT_CLOSED,pos_not_closed
+AR08315,لَذِيذ,صفة,1016,11641,تتمتع الطعام بطعم ممتع,لذذ,فَعِيلٌ,,,,,CANDIDATE,,L2_017 haiku b27,POS_NOT_CLOSED,pos_not_closed
+AR08316,بَهِيج,صفة,1016,15316,يكون الكيان ممتعاً جمالياً,بهج,فَعِيلٌ,,,,,CANDIDATE,,L2_017 haiku b27,POS_NOT_CLOSED,pos_not_closed
+AR08317,وَسِيم,صفة,1016,15929,يكون الشخص جذاباً,وسم,فَعِيلٌ,,,,,CANDIDATE,,L2_017 haiku b27,POS_NOT_CLOSED,pos_not_closed
+AR08318,بَشِع,صفة,1016,17286,يكون الكيان قبيحاً منفِّراً,بشع,فَعِيلٌ,,,,,CANDIDATE,,L2_017 haiku b27,POS_NOT_CLOSED,pos_not_closed
+AR08348,مُتَوَقِّفاً,حال,1024,18384;18385,صار الموضوع في حالة استرخاء,وقف,مُتَفَعِّلٌ,,,,,CANDIDATE,,L2_017 haiku b28,POS_NOT_CLOSED,pos_not_closed
+AR08493,جَامَايْكِيّ,اسم منسوب,1103,15558,ما يخص جاماica,,,,,,,CANDIDATE,,L2_017 haiku b28 | دخيل,ROOT_MISSING;WAZN_MISSING,latin_leak
+AR11099,ودود,صفة,74,1614;1616,الشخص المحب للصحبة والودود في التعامل,ودد,فَعُولٌ,,,,,CANDIDATE,,L2_017 haiku b43,POS_NOT_CLOSED;UNVOCALIZED,pos_not_closed
+AR11100,منفتح,صفة,74,1615;1620,شخص اجتماعي واثق من نفسه,فتح,مُنْفَعِلٌ,,,,,CANDIDATE,,L2_017 haiku b43,POS_NOT_CLOSED;UNVOCALIZED,pos_not_closed
+AR11102,خجول,صفة,74,1618;1622,الشخص المنطوي اجتماعياً,خجل,فَعُولٌ,,,,,CANDIDATE,,L2_017 haiku b43,POS_NOT_CLOSED;UNVOCALIZED,pos_not_closed
+AR11103,منعزل,صفة,74,1619,شخص يفضل العزلة ولا يحب الاختلاط,عزل,مُنْفَعِلٌ,,,,,CANDIDATE,,L2_017 haiku b43,POS_NOT_CLOSED;UNVOCALIZED,pos_not_closed
+AR11104,ناسك,صفة,74,1621,شخص يتجنب الآخرين ويعيش حياة منعزلة,نسك,فَاعِلٌ,,,,,CANDIDATE,,L2_017 haiku b43,POS_NOT_CLOSED;UNVOCALIZED,pos_not_closed
+AR11105,جبان,صفة,74,1624,الشخص الخائف والضعيف الثقة,جبن,فَعَالٍ,,,,,CANDIDATE,,L2_017 haiku b43,POS_NOT_CLOSED;UNVOCALIZED,pos_not_closed
+AR11106,لطيف,صفة,74,18466,الشخص الطيب الأخلاق والمحب للاختلاط,لطف,فَعِيلٌ,,,,,CANDIDATE,,L2_017 haiku b43,POS_NOT_CLOSED;UNVOCALIZED,pos_not_closed
+AR11108,متساهل,صفة,75,1626,الشخص الغير صارم وسهل المراس,سهل,مُتَفَعِّلٌ,,,,,CANDIDATE,,L2_017 haiku b43,POS_NOT_CLOSED;UNVOCALIZED,pos_not_closed
+AR11109,متسامح,صفة,75,1627;1630,الشخص الرحيم والمتسامح,سمح,مُتَفَعِّلٌ,,,,,CANDIDATE,,L2_017 haiku b43,POS_NOT_CLOSED;UNVOCALIZED,pos_not_closed
+AR11111,صارم,صفة,75,1629,الشخص الملتزم بفرض احترام القواعد,صرم,فَاعِلٌ,,,,,CANDIDATE,,L2_017 haiku b43,POS_NOT_CLOSED;UNVOCALIZED,pos_not_closed
+AR11112,قاسي,صفة,75,17021,الشخص الشديد والقاسي,قسو,فَاعِلٌ,,,,,CANDIDATE,,L2_017 haiku b43,POS_NOT_CLOSED;UNVOCALIZED,pos_not_closed
+AR11150,دائم,صفة,79,1711;1719,الشيء الذي يستمر أو يدوم,دوم,فَاعِلٌ,,,,,CANDIDATE,,L2_017 haiku b43,POS_NOT_CLOSED;UNVOCALIZED,pos_not_closed
+AR11151,قصير,صفة,79,1712;1723,الشيء ذو المدة القليلة,قصر,فَعِيلٌ,,,,,CANDIDATE,,L2_017 haiku b43,POS_NOT_CLOSED;UNVOCALIZED,pos_not_closed
+AR11152,مزمن,صفة,79,1713,المرض أو المشكلة التي تستمر طويلاً,زمن,مُفَعِّلٌ,,,,,CANDIDATE,,L2_017 haiku b43,POS_NOT_CLOSED;UNVOCALIZED,pos_not_closed
+AR11153,باق,صفة,79,1714,الشيء الذي يستمر ويدوم,بقي,فَاعِلٌ,,,,,CANDIDATE,,L2_017 haiku b43,POS_NOT_CLOSED;UNVOCALIZED,pos_not_closed
+AR11154,زائل,صفة,79,1715,الشيء الذي يمضي بسرعة,زول,فَاعِلٌ,,,,,CANDIDATE,,L2_017 haiku b43,POS_NOT_CLOSED;UNVOCALIZED,pos_not_closed
+AR11155,أبدي,صفة,79,1716,الشيء الذي يدوم للأبد,بدد,,,,,,CANDIDATE,أَفْعَالِي,L2_017 haiku b43,POS_NOT_CLOSED;UNVOCALIZED;WAZN_LEMMA_MISMATCH;WAZN_NOT_IN_INV,pos_not_closed
+AR11156,ممتد,صفة,79,1717,الشيء الطويل المدى,متد,مُفَعِّلٌ,,,,,CANDIDATE,,L2_017 haiku b43,POS_NOT_CLOSED;UNVOCALIZED,pos_not_closed
+AR11157,مؤقت,صفة,79,1718,الشيء غير الدائم أو المرحلي,وقت,مُفَعِّلٌ,,,,,CANDIDATE,,L2_017 haiku b43,POS_NOT_CLOSED;UNVOCALIZED,pos_not_closed
+AR11158,طويل,صفة,79,1720;13915,الشيء ذو المدة الطويلة,طول,فَعِيلٌ,,,,,CANDIDATE,,L2_017 haiku b43,POS_NOT_CLOSED;UNVOCALIZED,pos_not_closed
+AR11159,وجيز,صفة,79,1721,الشيء الذي يحدث للحظة,وجز,فَعِيلٌ,,,,,CANDIDATE,,L2_017 haiku b43,POS_NOT_CLOSED;UNVOCALIZED,pos_not_closed
+AR11160,دائب,صفة,79,1722,الشيء الذي لا ينقطع,دوب,فَاعِلٌ,,,,,CANDIDATE,,L2_017 haiku b43,POS_NOT_CLOSED;UNVOCALIZED,pos_not_closed
+AR11161,مستمر,صفة,79,15849,الشيء الطويل الأمد,سمر,مُسْتَفْعِلٌ,,,,,CANDIDATE,,L2_017 haiku b43,POS_NOT_CLOSED;UNVOCALIZED;WAZN_LEMMA_MISMATCH,pos_not_closed
+AR11162,سريع,صفة,79,16090,الحدث الذي ينتهي بسرعة,سرع,فَعِيلٌ,,,,,CANDIDATE,,L2_017 haiku b43,POS_NOT_CLOSED;UNVOCALIZED,pos_not_closed
+AR11163,متواصل,صفة,79,16953,الشيء المستمر والدائم,وصل,مُتَفَاعِلٌ,,,,,CANDIDATE,,L2_017 haiku b43,POS_NOT_CLOSED;UNVOCALIZED,pos_not_closed
+AR11164,متوافق,صفة,117,14712,الامتثال لمعيار أو قاعدة معينة,وفق,مُتَفَاعِلٌ,,,,,CANDIDATE,,L2_017 haiku b43,POS_NOT_CLOSED;UNVOCALIZED,pos_not_closed
+AR11172,براق,صفة,131,9233,الشيء الذي يصدر ومضات براقة,برق,فَاعِلٌ,,,,,CANDIDATE,,L2_017 haiku b43,POS_NOT_CLOSED;UNVOCALIZED,pos_not_closed
+AR11183,ناشئ,صفة,133,4411;4413,الشيء الذي في مراحله الأولية,نشا,فَاعِلٌ,,,,,CANDIDATE,,L2_017 haiku b43,POS_NOT_CLOSED;ROOT_ALIF;UNVOCALIZED,pos_not_closed
+AR05554,دَوَّنَ,فعل,202,7900,سجل رسمياً,dwn,فَعَّلَ,,,,,CANDIDATE,,L2_017 haiku b11 | FLAGS: ROOT_NORMALIZED;WAZN_LEMMA_MISMATCH,,root_not_arabic_script
+AR05567,سِكَّة,اسم جامد,203,3785;3786;14493,مسار للقطارات,skk,,,,,,CANDIDATE,فِعَّة,L2_017 haiku b11 | FLAGS: ROOT_NORMALIZED;WAZN_LEMMA_MISMATCH;WAZN_NOT_IN_INV,,root_not_arabic_script
+AR05569,مُعَبَر,اسم جامد,203,3789,ممر معبد,mbr,مُفْعَلٌ,,,,,CANDIDATE,,L2_017 haiku b11 | FLAGS: ROOT_NORMALIZED;WAZN_LEMMA_MISMATCH,,root_not_arabic_script
+AR05574,مَدْرَج,اسم جامد,203,7137,ممر للطائرات,drj,مَفْعَلٌ,,,,,CANDIDATE,,L2_017 haiku b11 | FLAGS: ROOT_NORMALIZED;WAZN_LEMMA_MISMATCH,,root_not_arabic_script
+AR05577,مُدْمِن,اسم فاعل,213,3810;3811;3814;3817;13509,شخص مدمن,dmn,مُفْعِلٌ,,,,,CANDIDATE,,L2_017 haiku b11 | FLAGS: ROOT_NORMALIZED;WAZN_LEMMA_MISMATCH,,root_not_arabic_script
+AR05578,إِدْمَان,اسم جامد,213,3812,الاعتماد الشديد,dmn,إِفْعَالٌ,,,,,CANDIDATE,,L2_017 haiku b11 | FLAGS: ROOT_NORMALIZED;WAZN_LEMMA_MISMATCH,,root_not_arabic_script
+AR05579,قَهْرِي,صفة مشبهة,213,3813,ناتج عن دافع,qhr,,,,,,CANDIDATE,فَعْلِي,L2_017 haiku b11 | FLAGS: ROOT_NORMALIZED;WAZN_LEMMA_MISMATCH;WAZN_NOT_IN_INV,,root_not_arabic_script
+AR05580,عَادَة,اسم جامد,213,3816,الإدمان على سلوك,awd,,,,,,CANDIDATE,فاعَة,L2_017 haiku b11 | FLAGS: ROOT_NORMALIZED;WAZN_LEMMA_MISMATCH;WAZN_NOT_IN_INV,,root_not_arabic_script
+AR05581,مَخْمُور,اسم مفعول,214,3820;3821;12947,تحت تأثير مادة,khmr,مَفْعُولٌ,,,,,CANDIDATE,,L2_017 haiku b11,,root_not_arabic_script
+AR05582,سَكْرَان,صفة مشبهة,214,3822;3827;3829;3922;12945;12946,فاقد التحكم,skr,فَعْلانُ,,,,,CANDIDATE,,L2_017 haiku b11 | FLAGS: WAZN_LEMMA_MISMATCH,,root_not_arabic_script
+AR05583,مُسْكَر,اسم مفعول,214,3824,فاقد السيطرة,skr,مُفْعَلٌ,,,,,CANDIDATE,,L2_017 haiku b11 | FLAGS: WAZN_LEMMA_MISMATCH,,root_not_arabic_script
+AR05584,صاحٍ,صفة مشبهة,214,3825,غير متأثر,swh,فَاعِلٌ,,,,,CANDIDATE,,L2_017 haiku b11 | FLAGS: WAZN_LEMMA_MISMATCH,,root_not_arabic_script
+AR05585,نَشْوَان,صفة مشبهة,214,3828,في سكر خفيف,nsw,فَعْلانُ,,,,,CANDIDATE,,L2_017 haiku b11 | FLAGS: WAZN_LEMMA_MISMATCH,,root_not_arabic_script
+AR05586,هَلْوَسَة,اسم جامد,214,7038,تجربة هلوسية,hls,,,,,,CANDIDATE,فَعْلَسَة,L2_017 haiku b11 | FLAGS: WAZN_LEMMA_MISMATCH;WAZN_NOT_IN_INV,,root_not_arabic_script
+AR05587,شَرْق,ظرف,215,7359,نحو الشروق,shrq,فَعْلٌ,,,,,CANDIDATE,,L2_017 haiku b11,,root_not_arabic_script
+AR05590,يَسَار,ظرف,215,12496,الجانب الأيسر,ysr,فَاعَلٌ,,,,,CANDIDATE,,L2_017 haiku b11 | FLAGS: WAZN_LEMMA_MISMATCH,,root_not_arabic_script
+AR05591,يَمِين,ظرف,215,12497,الجانب الأيمن,ymn,فَعِيلٌ,,,,,CANDIDATE,,L2_017 haiku b11 | FLAGS: WAZN_LEMMA_MISMATCH,,root_not_arabic_script
+AR05592,شِمَال,ظرف,215,13838,الاتجاه الشمالي,shml,فِعَالٌ,,,,,CANDIDATE,,L2_017 haiku b11,,root_not_arabic_script
+AR05593,جَنُوب,اسم جامد,215,13839,الاتجاه الجنوبي,jnb,فَعُولٌ,,,,,CANDIDATE,,L2_017 haiku b11 | FLAGS: WAZN_LEMMA_MISMATCH,,root_not_arabic_script
+AR05594,شَرْق,اسم جامد,215,13954,اتجاه الشروق,shrq,فَعْلٌ,,,,,CANDIDATE,,L2_017 haiku b11,,root_not_arabic_script
+AR05595,جَنُوب,ظرف,215,13955,نحو الجنوب,jnb,فَعُولٌ,,,,,CANDIDATE,,L2_017 haiku b11 | FLAGS: WAZN_LEMMA_MISMATCH,,root_not_arabic_script
+AR05597,لِلْخَارِج,ظرف,215,14964,بعيداً عن مكان,khrj,فَاعِلٌ,,,,,CANDIDATE,,L2_017 haiku b11,,root_not_arabic_script
+AR05598,شِمَال,اسم جامد,215,16200,الاتجاه الشمالي,shml,فِعَالٌ,,,,,CANDIDATE,,L2_017 haiku b11,,root_not_arabic_script
+AR05599,غَرْب,ظرف,215,16201,نحو الغروب,ghrb,فَعْلٌ,,,,,CANDIDATE,,L2_017 haiku b11,,root_not_arabic_script
+AR05601,اتِّجَاه,اسم جامد,215,18565,اتجاه محدد,itjh,اِفْتِعَالٌ,,,,,CANDIDATE,,L2_017 haiku b11,,root_not_arabic_script
+AR05602,عَاقَبَ,فعل,216,3846,فرض عقوبة,aqb,فَعَلَ,,,,,CANDIDATE,,L2_017 haiku b11 | FLAGS: WAZN_LEMMA_MISMATCH,,root_not_arabic_script
+AR05603,مُكَافَأَة,اسم جامد,216,3847,شيء يُعطى تقديراً,kwf,مُفَاعَلَةٌ,,,,,CANDIDATE,,L2_017 haiku b11 | FLAGS: WAZN_LEMMA_MISMATCH,,root_not_arabic_script
+AR05604,كَافَأَ,فعل,216,3849,أعطى مكافأة,kwf,فَاعَلَ,,,,,CANDIDATE,,L2_017 haiku b11 | FLAGS: WAZN_LEMMA_MISMATCH,,root_not_arabic_script
+AR05605,أَدَّبَ,فعل,216,3850,عاقب رسمياً,adb,أَفْعَلَ,,,,,CANDIDATE,,L2_017 haiku b11 | FLAGS: WAZN_LEMMA_MISMATCH,,root_not_arabic_script
+AR05606,تَأْدِيبِي,اسم منسوب,216,3851,متعلق بالتأديب,adb,,,,,,CANDIDATE,تَفْعِيلِي,L2_017 haiku b11 | FLAGS: WAZN_LEMMA_MISMATCH;WAZN_NOT_IN_INV,,root_not_arabic_script
+AR05607,عُقُوبَة,اسم جامد,216,3852;3854,الجزاء المفروض,aqb,فُعُولَةٌ,,,,,CANDIDATE,,L2_017 haiku b11 | FLAGS: WAZN_LEMMA_MISMATCH,,root_not_arabic_script
+AR05608,عِقَابِي,اسم منسوب,216,3853,متعلق بالعقاب,aqb,,,,,,CANDIDATE,فِعَالِي,L2_017 haiku b11 | FLAGS: WAZN_LEMMA_MISMATCH;WAZN_NOT_IN_INV,,root_not_arabic_script
+AR05609,عِقَاب,اسم جامد,216,3855,فعل العقاب,aqb,فِعَالٌ,,,,,CANDIDATE,,L2_017 haiku b11 | FLAGS: WAZN_LEMMA_MISMATCH,,root_not_arabic_script
+AR05610,عَوَّضَ,فعل,216,3886,أعطى تعويضاً,awz,فَعَّلَ,,,,,CANDIDATE,,L2_017 haiku b11 | FLAGS: WAZN_LEMMA_MISMATCH,,root_not_arabic_script
+AR09861,مُرْكَز,اسم مفعول,1902,14120,مركز الهدف في الرياضات المختلفة,رکز,مُفْعَلٌ,,,,,CANDIDATE,,L2_017 haiku b36 | FLAGS: WAZN_LEMMA_MISMATCH,,root_not_arabic_script

@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Freeze Layer 2 (Arabic LUs, 50 pilot frames) into release/layer2_v1/. Blocks unless checker gives rejected=0 and every
+"""Freeze Layer 2 (Arabic LUs; scope = FRAMES_FILE, default pilot) into release/<tag>/. L2_017: if 00_source/LICENSE.txt (G0.1, sha pinned) is present it is shipped in the tag. Blocks unless checker gives rejected=0 and every
 included LU is APPROVED with owner_choice. EVIDENCE_GAP LUs are excluded (OWNER_DELEGATION_L2_001 / D2) and only counted.
 Writes MANIFEST.json (sha256 per file) and README.md. Read-only on sources; never touches release/layer1_v1."""
 import csv, hashlib, json, os, pathlib, shutil, subprocess, sys, datetime, collections
@@ -40,9 +40,14 @@ with open(REL / "wazn_nouns_inventory.csv", "w", encoding="utf-8", newline="") a
 for src in ("03_lus_ar/pos_ar_closed.txt", "03_lus_ar/pos_glossary.tsv", "03_lus_ar/wazn_owner_l2_015.csv", "03_lus_ar/root_alert_waived.txt",
             "03_lus_ar/v21_roots_index.csv", "01_glossary/APPROVAL_LOG.txt", "scripts/06_check_lus.py", "scripts/wazn_rules.py"):
     shutil.copy(ROOT / src, REL / pathlib.Path(src).name)
+LIC = ROOT / "00_source/LICENSE.txt"
+LIC_OK = LIC.exists() and sha(LIC) == "1a17bb4c41476e7c0c3bbb29bf8a73dac0423684aca05908ad6cceb2af17bbd6"
+if LIC_OK: shutil.copy(LIC, REL / "LICENSE.txt")
+N_L1 = sum(1 for _ in open(ROOT / "00_source/frames.jsonl", encoding="utf-8"))
+DEF = ROOT / "03_lus_ar/l2_017_deferred.csv"; N_DEF = (sum(1 for _ in csv.DictReader(open(DEF, encoding="utf-8"))) if DEF.exists() else 0)
 files = sorted(p.name for p in REL.iterdir())
 pos = collections.Counter(r["pos_ar"] for r in app); frames = len({r["frame_id"] for r in app})
-man = {"tag": TAG, "frozen_at": datetime.datetime.now().isoformat(timespec="seconds"), "layer1_manifest": sha(L1), "license_verified": (ROOT / "00_source/LICENSE.txt").exists(),
+man = {"tag": TAG, "frozen_at": datetime.datetime.now().isoformat(timespec="seconds"), "layer1_manifest": sha(L1), "license_verified": LIC_OK, "frames_file": os.environ.get("FRAMES_FILE", "02_frames_ar/pilot_frames.txt"), "deferred_not_released": N_DEF,
        "counts": {"ar_lus_approved": len(app), "ar_lus_evidence_gap_excluded": len(gap), "frames": frames, "en_lus_in_scope": len(en), **{"en_" + k: v for k, v in enst.items()},
                   "with_wazn": sum(bool(r["wazn"]) for r in app), "with_evidence_primary": sum(bool(r["evidence_primary"]) for r in app), "noun_wazn_inventory": len(inv)},
        "pos_ar_distribution": dict(pos), "checker": {k: kv[k] for k in kv if k.startswith(("rejected", "OWNER_ALERT"))},
@@ -55,13 +60,13 @@ man = {"tag": TAG, "frozen_at": datetime.datetime.now().isoformat(timespec="seco
 RULE_OWNER = DR_HUSSEIN. Frozen {man['frozen_at']}. Builds on layer1_v1 (MANIFEST sha {sha(L1)[:12]}); keys are FrameNet 1.7 frame_id / lu_id.
 
 ## What this is
-Arabic lexical units for the **50 pilot frames**: {len(app)} APPROVED Arabic LUs (key = lemma_ar, pos_ar, frame_id), linked many-to-many to the
+Arabic lexical units for **{frames} frames**: {len(app)} APPROVED Arabic LUs (key = lemma_ar, pos_ar, frame_id), linked many-to-many to the
 {len(en)} English LUs of those frames ({enst['MAPPED']} MAPPED, {enst.get('NO_ARABIC_EQUIVALENT',0)} NO_ARABIC_EQUIVALENT, {enst.get('EVIDENCE_GAP_ONLY',0)} EVIDENCE_GAP_ONLY).
 Each LU carries root, wazn (from the ratified inventory: Sibawayh EXISTS + L2_005 feminine + L2_006 verb derivatives + L2_007 nisba + L2_015 owner patterns),
 pos_ar from a closed list of 16, an independent Arabic definition, and evidence pointers (roots-4662 / v21: المحكم، مقاييس، الأساس).
 
 ## What this is NOT
-- Not all of FrameNet: 1171 other frames have no Arabic LUs yet (no expansion before this gate).
+- Not all of FrameNet: {N_L1 - frames} of the {N_L1} Layer-1 frames carry no Arabic LUs here (most have no English LUs either); {enst.get('TODO',0)} English LUs are TODO and {N_DEF} Arabic candidates are deferred (03_lus_ar/l2_017_deferred.csv, not released).
 - {len(gap)} LUs whose root is a «مكمِّل» root in roots-4662 are EXCLUDED (D2 → EVIDENCE_GAP); listed only in the working file.
 - No annotated sentences or valence patterns. Not a source of rulings (frame ≠ ruling).
 - Evidence columns are pointers, not quoted text; COD definitions were not translated.
@@ -71,7 +76,7 @@ pos_ar from a closed list of 16, an independent Arabic definition, and evidence 
 Read by fingerprint; immutable — corrections produce a new tag.
 
 ## Status
-license_verified = {man['license_verified']} — DO NOT REDISTRIBUTE until 00_source/LICENSE.txt is added (G0.1).
+{('license_verified = True — FrameNet 1.7 data used under CC BY 3.0 Unported (see LICENSE.txt). Attribution required: cite FrameNet (http://framenet.icsi.berkeley.edu) and Fillmore & Baker (2010). COD-sourced English definitions are not covered and not included.') if LIC_OK else 'license_verified = False — DO NOT REDISTRIBUTE until 00_source/LICENSE.txt is added (G0.1).'}
 """, encoding="utf-8")
 print(f"FROZEN {TAG}: approved={len(app)} gap_excluded={len(gap)} frames={frames} en={dict(enst)} files={len(files)+2}")
 print("sha256 MANIFEST.json =", sha(REL / "MANIFEST.json"))

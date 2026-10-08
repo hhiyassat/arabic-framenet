@@ -1,0 +1,89 @@
+en_lu_id,frame_id,status_en,note
+13652,58,NO_ARABIC_EQUIVALENT,تحتاج مراجعة
+2067,94,NO_ARABIC_EQUIVALENT,pending
+2424,120,NO_ARABIC_EQUIVALENT,
+2428,121,NO_ARABIC_EQUIVALENT,
+2459,122,NO_ARABIC_EQUIVALENT,
+2474,123,NO_ARABIC_EQUIVALENT,
+2565,128,NO_ARABIC_EQUIVALENT,دخيل
+2604,126,NO_ARABIC_EQUIVALENT,
+2610,126,NO_ARABIC_EQUIVALENT,
+2616,126,NO_ARABIC_EQUIVALENT,
+2624,126,NO_ARABIC_EQUIVALENT,
+2629,126,NO_ARABIC_EQUIVALENT,
+2638,126,NO_ARABIC_EQUIVALENT,
+2639,126,NO_ARABIC_EQUIVALENT,
+2645,128,NO_ARABIC_EQUIVALENT,
+2650,126,NO_ARABIC_EQUIVALENT,
+3047,138,NO_ARABIC_EQUIVALENT,
+3048,138,NO_ARABIC_EQUIVALENT,
+3152,125,NO_ARABIC_EQUIVALENT,
+3157,125,NO_ARABIC_EQUIVALENT,
+3158,125,NO_ARABIC_EQUIVALENT,
+3384,125,NO_ARABIC_EQUIVALENT,
+3385,125,NO_ARABIC_EQUIVALENT,
+3387,125,NO_ARABIC_EQUIVALENT,
+3391,125,NO_ARABIC_EQUIVALENT,
+3393,125,NO_ARABIC_EQUIVALENT,
+3394,125,NO_ARABIC_EQUIVALENT,
+7347,127,NO_ARABIC_EQUIVALENT,
+7941,129,NO_ARABIC_EQUIVALENT,
+7942,129,NO_ARABIC_EQUIVALENT,
+11297,123,NO_ARABIC_EQUIVALENT,
+11423,117,NO_ARABIC_EQUIVALENT,
+12698,117,NO_ARABIC_EQUIVALENT,
+13321,117,NO_ARABIC_EQUIVALENT,
+17032,125,NO_ARABIC_EQUIVALENT,
+3701,195,NO_ARABIC_EQUIVALENT,no equivalent in standard Arabic
+10236,195,NO_ARABIC_EQUIVALENT,no equivalent in standard Arabic
+13503,195,NO_ARABIC_EQUIVALENT,no equivalent in standard Arabic
+13951,195,NO_ARABIC_EQUIVALENT,no equivalent in standard Arabic
+13986,195,NO_ARABIC_EQUIVALENT,no equivalent in standard Arabic
+14983,195,NO_ARABIC_EQUIVALENT,no equivalent in standard Arabic
+3818,213,NO_ARABIC_EQUIVALENT,no equivalent in standard Arabic
+3819,213,NO_ARABIC_EQUIVALENT,no equivalent in standard Arabic
+9861,214,NO_ARABIC_EQUIVALENT,no equivalent in standard Arabic
+4456,240,NO_ARABIC_EQUIVALENT,No standard Arabic equivalent for lug
+4471,240,NO_ARABIC_EQUIVALENT,No standard Arabic equivalent for hump
+15649,240,NO_ARABIC_EQUIVALENT,No standard Arabic equivalent for bus
+15650,240,NO_ARABIC_EQUIVALENT,No standard Arabic equivalent for shuttle
+17367,240,NO_ARABIC_EQUIVALENT,No standard Arabic equivalent for airlift
+10694,243,NO_ARABIC_EQUIVALENT,No standard Arabic equivalent for shipment [items]
+12164,243,NO_ARABIC_EQUIVALENT,No standard Arabic equivalent for shipment [act]
+4526,253,NO_ARABIC_EQUIVALENT,No standard Arabic equivalent for connected
+13907,253,NO_ARABIC_EQUIVALENT,No standard Arabic equivalent for intimate [setting]
+14474,259,NO_ARABIC_EQUIVALENT,No standard Arabic equivalent for construction [entity]
+17471,282,NO_ARABIC_EQUIVALENT,حرف جر إنجليزي لا يحتاج معادل في السياق
+5613,299,NO_ARABIC_EQUIVALENT,لا توجد كلمة معادلة مشهورة عربية
+5759,307,NO_ARABIC_EQUIVALENT,غير معيَّن
+13834,303,NO_ARABIC_EQUIVALENT,غير معيَّن
+18193,310,NO_ARABIC_EQUIVALENT,لا توجد كلمة عربية معادلة
+18441,304,NO_ARABIC_EQUIVALENT,
+8853,327,NO_ARABIC_EQUIVALENT,Not yet proposed
+13875,407,NO_ARABIC_EQUIVALENT,No mapping found
+8691,652,NO_ARABIC_EQUIVALENT,No standard Arabic equivalent found for this sense
+8937,710,NO_ARABIC_EQUIVALENT,No standard Arabic equivalent found for this sense
+13993,710,NO_ARABIC_EQUIVALENT,No standard Arabic equivalent found for this sense
+18484,711,NO_ARABIC_EQUIVALENT,No standard Arabic equivalent found for this sense
+11706,720,NO_ARABIC_EQUIVALENT,No standard Arabic equivalent found for this sense
+9287,726,NO_ARABIC_EQUIVALENT,No standard Arabic equivalent found for this sense
+9288,726,NO_ARABIC_EQUIVALENT,No standard Arabic equivalent found for this sense
+14523,726,NO_ARABIC_EQUIVALENT,No standard Arabic equivalent found for this sense
+16533,960,NO_ARABIC_EQUIVALENT,"lemma ""twenty"" لا يطابق المعنى ""whereabouts"""
+13546,1381,NO_ARABIC_EQUIVALENT,لم يتم العثور على معادل عربي مناسب
+11830,1387,NO_ARABIC_EQUIVALENT,لم يتم العثور على معادل عربي مناسب
+15104,1387,NO_ARABIC_EQUIVALENT,لم يتم العثور على معادل عربي مناسب
+15105,1387,NO_ARABIC_EQUIVALENT,لم يتم العثور على معادل عربي مناسب
+13863,1460,NO_ARABIC_EQUIVALENT,لم يتم العثور على معادل عربي مناسب
+15691,2247,NO_ARABIC_EQUIVALENT,أداة جر إنجليزية تُرجمة بالعربية
+17848,2282,NO_ARABIC_EQUIVALENT,مصطلح رياضي متطرف
+17862,2282,NO_ARABIC_EQUIVALENT,كلمة دخيلة من اللغات الأخرى
+17872,2282,NO_ARABIC_EQUIVALENT,اسم متخيل من الأدب الإنجليزي
+17873,2282,NO_ARABIC_EQUIVALENT,اسم متخيل من الأدب الإنجليزي
+15792,2284,NO_ARABIC_EQUIVALENT,كلمة إنجليزية غير شائعة
+15983,2360,NO_ARABIC_EQUIVALENT,مصطلح إحصائي متخصص
+15994,2371,NO_ARABIC_EQUIVALENT,المعنى الاستثماري لا يطابق اللغة العربية
+16011,2380,NO_ARABIC_EQUIVALENT,حالة اجتماعية مؤقتة
+16263,2500,NO_ARABIC_EQUIVALENT,تعبير جر إنجليزي
+16264,2500,NO_ARABIC_EQUIVALENT,تعبير جر إنجليزي مختصر
+13976,343,NO_ARABIC_EQUIVALENT,term not in standard Arabic lexicon
