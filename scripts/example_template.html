@@ -1,0 +1,281 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Arabic FrameNet · مثال تفاعلي</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Reem+Kufi:wght@500;700&family=Noto+Naskh+Arabic:wght@400;600;700&family=IBM+Plex+Sans+Arabic:wght@400;500;600&display=swap">
+<style>
+:root{
+  --paper:#f2f4f3; --sheet:#fff; --ink:#1c2622; --muted:#5b6862; --rule:#d7ddda;
+  --accent:#0d6b5f; --accent-soft:#d9ece8; --target:#b5651d; --target-soft:#f6e6d6;
+  --f-display:"Reem Kufi","Noto Naskh Arabic",serif;
+  --f-body:"Noto Naskh Arabic","Geeza Pro","Times New Roman",serif;
+  --f-ui:"IBM Plex Sans Arabic","Segoe UI",Tahoma,sans-serif;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --paper:#121816; --sheet:#1a2220; --ink:#e4ebe8; --muted:#9aa8a2; --rule:#2c3733;
+  --accent:#4fbfae; --accent-soft:#1d3632; --target:#e3a15c; --target-soft:#3a2a19; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --paper:#121816; --sheet:#1a2220; --ink:#e4ebe8; --muted:#9aa8a2; --rule:#2c3733;
+  --accent:#4fbfae; --accent-soft:#1d3632; --target:#e3a15c; --target-soft:#3a2a19; color-scheme:dark}
+*{box-sizing:border-box}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--f-body);font-size:17px;line-height:1.75}
+.wrap{max-width:920px;margin:0 auto;padding:28px 16px 64px;display:grid;gap:22px}
+header h1{font-family:var(--f-display);font-size:clamp(28px,5vw,40px);margin:0;line-height:1.3}
+header h1 span{font-family:var(--f-ui);font-weight:500;font-size:.5em;color:var(--muted);margin-inline-start:.4em}
+header p{margin:.4em 0 0;color:var(--muted);font-family:var(--f-ui);font-size:15px}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:10px}
+.stat{background:var(--sheet);border:1px solid var(--rule);border-radius:10px;padding:12px 14px}
+.stat b{display:block;font-family:var(--f-ui);font-size:26px;font-weight:600;font-variant-numeric:tabular-nums;color:var(--accent)}
+.stat span{font-family:var(--f-ui);font-size:13px;color:var(--muted)}
+nav.tabs{display:flex;gap:6px;flex-wrap:wrap;border-bottom:1px solid var(--rule)}
+nav.tabs button{font-family:var(--f-ui);font-size:15px;background:none;border:0;border-bottom:3px solid transparent;color:var(--muted);padding:8px 14px;cursor:pointer}
+nav.tabs button[aria-selected="true"]{color:var(--ink);border-bottom-color:var(--accent);font-weight:600}
+section[hidden]{display:none}
+.box{background:var(--sheet);border:1px solid var(--rule);border-radius:12px;padding:16px}
+textarea,input[type=search]{width:100%;font-family:var(--f-body);font-size:21px;line-height:1.7;background:transparent;color:var(--ink);border:0;outline:0;resize:vertical}
+input[type=search]{font-size:18px;border-bottom:1px solid var(--rule);padding:4px 0}
+.row{display:flex;gap:10px;flex-wrap:wrap;align-items:center;margin-top:10px;font-family:var(--f-ui);font-size:14px}
+.row .grow{flex:1}
+button.go{font-family:var(--f-ui);font-size:15px;background:var(--accent);color:var(--sheet);border:0;border-radius:999px;padding:7px 20px;cursor:pointer}
+.chips button{font-family:var(--f-ui);font-size:13px;background:var(--paper);color:var(--ink);border:1px solid var(--rule);border-radius:999px;padding:3px 12px;cursor:pointer}
+label.mode{display:inline-flex;gap:5px;align-items:center;cursor:pointer}
+.stage{font-size:clamp(22px,4vw,28px);line-height:2.3;padding:6px 2px}
+.tok.hit{background:var(--target-soft);color:var(--target);border-bottom:2px solid var(--target);border-radius:4px;padding:0 3px;cursor:pointer;font-weight:700}
+.tok.hit.affix{border-bottom-style:dashed}
+.summary{display:flex;gap:16px;flex-wrap:wrap;font-family:var(--f-ui);font-size:14px;color:var(--muted)}
+.summary b{color:var(--ink);font-variant-numeric:tabular-nums}
+.card{background:var(--sheet);border:1px solid var(--rule);border-radius:12px;padding:16px;scroll-margin-top:12px}
+.card.flash{outline:2px solid var(--target)}
+.word{display:flex;gap:10px;align-items:baseline;flex-wrap:wrap}
+.word .w{font-size:24px;font-weight:700;color:var(--target)}
+.word .lemma{font-size:22px;font-weight:600}
+.pill{font-family:var(--f-ui);font-size:12px;border-radius:999px;padding:1px 10px;background:var(--accent-soft);color:var(--accent)}
+.pill.affix{background:var(--target-soft);color:var(--target)}
+.morph{display:flex;gap:14px;flex-wrap:wrap;font-family:var(--f-ui);font-size:14px;color:var(--muted);margin:6px 0 4px}
+.morph b{color:var(--ink);font-family:var(--f-body);font-size:16px}
+.frame{border-top:1px solid var(--rule);margin-top:12px;padding-top:10px}
+.frame h3{margin:0;font-family:var(--f-display);font-size:20px;font-weight:500}
+.frame h3 .en{font-family:var(--f-ui);font-size:13px;color:var(--muted);direction:ltr;unicode-bidi:isolate;margin:0 .7em}
+.card > .frame:first-child{border-top:0;margin-top:0;padding-top:0}
+.frame p{margin:.3em 0}
+.def{color:var(--muted);font-size:15px}
+.lu-line{font-size:16px}
+.en-lus{font-family:var(--f-ui);font-size:12px;color:var(--muted);direction:ltr;unicode-bidi:isolate}
+.fes-label{font-family:var(--f-ui);font-size:12px;color:var(--muted);margin-top:6px}
+.fe{display:inline-block;font-size:14px;border:1px solid var(--rule);border-radius:6px;padding:0 8px;margin:2px}
+.fe.core{background:var(--accent-soft);border-color:transparent}
+.empty{color:var(--muted);font-family:var(--f-ui);font-size:15px}
+.flist{display:grid;gap:8px}
+.fitem{display:flex;justify-content:space-between;gap:10px;background:var(--sheet);border:1px solid var(--rule);border-radius:10px;padding:8px 12px;cursor:pointer;text-align:start;font:inherit;color:inherit;width:100%}
+.fitem .en{font-family:var(--f-ui);font-size:13px;color:var(--muted);direction:ltr;unicode-bidi:isolate;margin:0 .6em}
+.fitem .n{font-family:var(--f-ui);font-size:13px;color:var(--muted)}
+.notes{font-family:var(--f-ui);font-size:14px;color:var(--muted)}
+.notes h2{font-family:var(--f-display);font-size:20px;color:var(--ink);margin:0 0 6px;font-weight:500}
+.notes ul{margin:0;padding-inline-start:20px}
+.notes code,pre{font-family:ui-monospace,Menlo,Consolas,monospace;font-size:13px;direction:ltr;unicode-bidi:isolate}
+pre{background:var(--paper);border:1px solid var(--rule);border-radius:8px;padding:10px;overflow:auto;text-align:left}
+footer{font-family:var(--f-ui);font-size:12px;color:var(--muted);border-top:1px solid var(--rule);padding-top:12px}
+footer code{direction:ltr;unicode-bidi:isolate;word-break:break-all}
+@media (prefers-reduced-motion:no-preference){.card{transition:outline-color .3s}}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+  <h1>الإطارات الدلالية العربية <span>Arabic FrameNet</span></h1>
+  <p>طبقة عربية فوق FrameNet 1.7. هذه الصفحة تعمل في المتصفح وحده، بلا خادم ولا ذكاء اصطناعي: بحث محدَّد في الإصدارات المجمَّدة.</p>
+</header>
+
+<div class="stats" id="stats"></div>
+
+<nav class="tabs" role="tablist">
+  <button role="tab" aria-selected="true" data-tab="analyze">تحليل جملة</button>
+  <button role="tab" aria-selected="false" data-tab="frames">تصفّح الأطر</button>
+  <button role="tab" aria-selected="false" data-tab="about">عن البيانات والحدود</button>
+</nav>
+
+<section id="tab-analyze">
+  <form class="box" id="form">
+    <textarea id="sentence" rows="2" aria-label="الجملة"></textarea>
+    <div class="row">
+      <button class="go" type="submit">حلّل الجملة</button>
+      <label class="mode"><input type="radio" name="mode" value="exact" checked> مطابقة تامة</label>
+      <label class="mode"><input type="radio" name="mode" value="affix"> مع تجريد اللواصق <span class="pill affix">غير مصدَّق</span></label>
+      <span class="grow"></span>
+    </div>
+    <div class="row chips" id="samples"></div>
+  </form>
+  <div class="box" style="margin-top:14px">
+    <div class="stage" id="stage"></div>
+    <div class="summary" id="summary"></div>
+  </div>
+  <div id="cards" style="display:grid;gap:14px;margin-top:14px"></div>
+</section>
+
+<section id="tab-frames" hidden>
+  <div class="box"><input type="search" id="fq" placeholder="ابحث باسم الإطار (عربي أو إنجليزي) أو بلفظ عربي…" aria-label="بحث في الأطر"></div>
+  <div class="row notes" id="fcount"></div>
+  <div class="flist" id="flist" style="margin-top:10px"></div>
+  <div id="fcard" style="margin-top:14px"></div>
+</section>
+
+<section id="tab-about" hidden>
+  <div class="box notes">
+    <h2>ماذا في المستودع</h2>
+    <ul>
+      <li><b>الطبقة الأولى</b> (<code>release/layer1_v3</code>): أسماء الأطر وعناصرها وعلاقاتها وتعريفاتها بالعربية، لكل أطر FrameNet 1.7.</li>
+      <li><b>الطبقة الثانية</b> (<code>release/layer2_v4</code>): وحدات معجمية عربية معتمدة. لكل وحدة اللفظ والقسم من قائمة مغلقة، والجذر والوزن من مخزون مصدَّق، وتعريف عربي مستقل، وربط بوحدات FrameNet الإنجليزية (كثير إلى كثير).</li>
+      <li><b>الـ API</b> (<code>api/afn_api.py</code>): خادم محلي بمكتبة بايثون القياسية وحدها، يتحقق من بصمات الإصدارات قبل أن يجيب.</li>
+    </ul>
+    <h2 style="margin-top:14px">ما ليس فيه</h2>
+    <ul id="limits"></ul>
+    <h2 style="margin-top:14px">تشغيل الـ API محلياً</h2>
+<pre>python3 api/afn_api.py                      # http://127.0.0.1:8765
+curl -X POST localhost:8765/analyze -H 'Content-Type: application/json' \
+     -d '{"text":"غضب التاجر ولبس قميصه","mode":"exact"}'
+python3 api/afn_api.py --cli "غضب التاجر ولبس قميصه" --affix</pre>
+    <p>هذه الصفحة تستعمل الفهرس نفسه وقواعد المطابقة نفسها التي في الـ API. يقيس <code>tests/parity_example_vs_api.js</code> تطابق النتيجتين.</p>
+  </div>
+</section>
+
+<footer id="foot"></footer>
+</div>
+
+<script>
+const D = __DATA__;
+const SAMPLES = __SAMPLES__;
+const $ = id => document.getElementById(id);
+const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const fmt = n => Number(n).toLocaleString("ar-EG");
+
+/* ---- matching: mirrors api/afn_api.py (norm, lookup, analyze). Keys come prebuilt from the API. ---- */
+const DIAC = /[ً-ٰٟـ]/g;
+const NMAP = {"أ":"ا","إ":"ا","آ":"ا","ٱ":"ا","ى":"ي","ة":"ه"};
+const norm = s => s.replace(DIAC, "").replace(/[أإآٱىة]/g, c => NMAP[c]);
+const SINGLE = new Map(Object.entries(D.single));
+function lookup(tok, mode){
+  const n = norm(tok);
+  if (SINGLE.has(n)) return [SINGLE.get(n), {method:"EXACT_NORMALIZED", stripped:null, lemma_key:n}];
+  if (mode !== "affix") return [null, null];
+  const pres = [""].concat(D.pref.filter(p => n.startsWith(p) && n.length - p.length >= 2));
+  for (const p of pres){
+    const a = n.slice(p.length);
+    const cands = [[a, ""]].concat(D.suf.filter(s => a.endsWith(s) && a.length - s.length >= 2).map(s => [a.slice(0, a.length - s.length), s]));
+    for (const [st, s] of cands){
+      if (st === n || st.length < 3) continue;
+      for (const c of [st, st + "ي", st + "ه"]){
+        const ids = (SINGLE.get(c) || []).filter(i => D.lus[i][1] !== "حرف");
+        if (ids.length) return [ids, {method:"AFFIX_STRIP", stripped:{prefix:p || null, suffix:s || null}, lemma_key:c}];
+      }
+    }
+  }
+  return [null, null];
+}
+function analyze(text, mode){
+  const toks = [...text.matchAll(/[؀-ۿݐ-ݿ]+/g)].map((m, k) => ({i:k, surface:m[0], start:m.index, end:m.index + m[0].length, norm:norm(m[0])}));
+  const hits = new Array(toks.length).fill(null);
+  for (let k = 0; k < toks.length; k++){
+    for (const [t, i] of D.multi){
+      const L = t.length;
+      if (k + L <= toks.length && t.every((w, j) => toks[k + j].norm === w) && !hits.slice(k, k + L).some(Boolean))
+        for (let j = 0; j < L; j++) hits[k + j] = [[i], {method:"EXACT_NORMALIZED_MULTIWORD", stripped:null, lemma_key:t.join(" ")}, [k, L]];
+    }
+  }
+  toks.forEach((tk, k) => { if (!hits[k]){ const [ids, how] = lookup(tk.surface, mode); if (ids) hits[k] = [ids, how, [k, 1]]; } });
+  const targets = [], seen = new Set();
+  hits.forEach(h => { if (!h || seen.has(h[2][0])) return; seen.add(h[2][0]); targets.push({span:h[2], ids:h[0], match:h[1]}); });
+  return {toks, hits, targets};
+}
+if (typeof module !== "undefined") module.exports = {analyze, norm};   // used by the parity test under node
+
+/* ---- UI ---- */
+if (typeof document !== "undefined"){
+const C = D.meta.counts;
+$("stats").innerHTML = [
+  [C.ar_lus_approved, "وحدة معجمية عربية معتمدة"], [C.frames, "إطاراً فيه وحدات عربية"],
+  [D.meta.frames_total, "إطاراً معرَّباً (الطبقة الأولى)"], [C.en_MAPPED, "وحدة إنجليزية لها مقابل عربي"]
+].map(([n, t]) => `<div class="stat"><b>${fmt(n)}</b><span>${t}</span></div>`).join("");
+$("limits").innerHTML = [
+  "لا إسناد لعناصر الإطار إلى أجزاء الجملة (تحديد الأدوار الدلالية): لا توجد طبقة تحليل تكافؤي أو جمل مشروحة بالعربية بعد.",
+  "لا تحليل صرفي كامل: المضارع وجموع التكسير لا تُطابَق إلا إن كانت لفظاً مستقلاً. تجريد اللواصق تقريبي وغير مصدَّق.",
+  `${fmt(C.ar_lus_evidence_gap_excluded)} وحدة جذرها «مكمِّل» مستبعدة من الإصدار (قرار D2)، فلا تظهر هنا.`,
+  `${fmt(D.meta.frames_total - C.frames)} إطاراً بلا وحدات عربية في هذا الإصدار. الكلمة غير المطابَقة «غير مغطّاة»، لا «بلا إطار».`,
+  "الإطار يصف نوع الحدث، وليس حكماً."
+].map(x => `<li>${x}</li>`).join("");
+$("foot").innerHTML = `الإصدارات:<br><span dir="ltr"><code>${esc(D.meta.layer1[0])}</code> MANIFEST <code>${esc(D.meta.layer1[1])}</code></span><br><span dir="ltr"><code>${esc(D.meta.layer2[0])}</code> MANIFEST <code>${esc(D.meta.layer2[1])}</code></span><br>
+بيانات FrameNet 1.7 مستعملة بترخيص CC BY 3.0 (ICSI, Berkeley؛ Fillmore &amp; Baker 2010). قاعدتا المطابقة: ${Object.keys(D.meta.rules).map(k => `<code>${k}</code>`).join(" و")}، وحالتهما DEFER (غير مصدَّقتين).`;
+
+function feBlock(F){
+  const core = F[3].filter(e => e[2]).map(e => `<span class="fe core" title="${esc(e[1])}">${esc(e[0])}</span>`).join("");
+  const non = F[3].filter(e => !e[2]);
+  const nonH = non.slice(0, 12).map(e => `<span class="fe" title="${esc(e[1])}">${esc(e[0])}</span>`).join("") + (non.length > 12 ? `<span class="fe">+${fmt(non.length - 12)}</span>` : "");
+  return `<div class="fes-label">العناصر الأساسية</div><div>${core || '<span class="fe">—</span>'}</div>` + (non.length ? `<div class="fes-label">عناصر غير أساسية</div><div>${nonH}</div>` : "");
+}
+function frameBlock(fid, luIds){
+  const F = D.frames[fid];
+  const lines = luIds.map(i => { const l = D.lus[i];
+    return `<p class="lu-line"><b>${esc(l[0])}</b> (${esc(l[1])}): ${esc(l[5])}${l[6] ? ` <span class="en-lus">${esc(l[6])}</span>` : ""}</p>`; }).join("");
+  return `<div class="frame"><h3>${esc(F[1])}<span class="en">${esc(F[0])}</span></h3><p class="def">${esc(F[2])}</p>${lines}${feBlock(F)}</div>`;
+}
+function render(){
+  const text = $("sentence").value.trim(), mode = document.querySelector("input[name=mode]:checked").value;
+  const {toks, hits, targets} = analyze(text, mode);
+  const tIndex = new Map(targets.map((t, gi) => [t.span[0], gi]));
+  let html = "", last = 0;
+  toks.forEach((tk, k) => {
+    html += esc(text.slice(last, tk.start)); last = tk.end;
+    const h = hits[k];
+    html += h ? `<span class="tok hit${h[1].method === "AFFIX_STRIP" ? " affix" : ""}" tabindex="0" data-g="${tIndex.get(h[2][0])}">${esc(tk.surface)}</span>` : `<span class="tok">${esc(tk.surface)}</span>`;
+  });
+  html += esc(text.slice(last));
+  $("stage").innerHTML = html || '<span class="empty">اكتب جملة ثم اضغط «حلّل الجملة».</span>';
+  const fset = new Set(); targets.forEach(t => t.ids.forEach(i => fset.add(D.lus[i][2])));
+  $("summary").innerHTML = text ? `<span>كلمات: <b>${fmt(toks.length)}</b></span><span>كلمات هدف: <b>${fmt(targets.length)}</b></span><span>أطر مستدعاة: <b>${fmt(fset.size)}</b></span><span>بتجريد اللواصق: <b>${fmt(targets.filter(t => t.match.method === "AFFIX_STRIP").length)}</b></span><span>غير مغطّاة: <b>${fmt(hits.filter(h => !h).length)}</b></span>` : "";
+  if (!targets.length){ $("cards").innerHTML = text ? '<div class="box empty">لم تُطابَق أي كلمة بوحدة معتمدة. جرّب «مع تجريد اللواصق»، أو تذكّر أن الكلمة غير المطابَقة «غير مغطّاة» لا «بلا إطار».</div>' : ""; return; }
+  $("cards").innerHTML = targets.map((t, gi) => {
+    const byF = new Map(); t.ids.forEach(i => { const f = D.lus[i][2]; if (!byF.has(f)) byF.set(f, []); byF.get(f).push(i); });
+    const l0 = D.lus[t.ids[0]], m = t.match;
+    const surface = toks.slice(t.span[0], t.span[0] + t.span[1]).map(x => x.surface).join(" ");
+    const pill = m.method === "AFFIX_STRIP" ? `<span class="pill affix">تقريبي · جُرِّد: ${esc([m.stripped.prefix, m.stripped.suffix].filter(Boolean).join(" + "))}</span>` : `<span class="pill">${m.method === "EXACT_NORMALIZED_MULTIWORD" ? "مطابقة تامة · تركيب" : "مطابقة تامة"}</span>`;
+    return `<article class="card" id="g${gi}"><div class="word"><span class="w">${esc(surface)}</span><span>←</span><span class="lemma">${esc(l0[0])}</span>${pill}</div>
+      <div class="morph"><span>القسم: <b>${esc(l0[1])}</b></span>${l0[3] ? `<span>الجذر: <b>${esc(l0[3])}</b></span>` : ""}${l0[4] ? `<span>الوزن: <b>${esc(l0[4])}</b></span>` : ""}<span>الأطر: <b>${fmt(byF.size)}</b></span></div>
+      ${[...byF.entries()].map(([f, ids]) => frameBlock(f, ids)).join("")}</article>`;
+  }).join("");
+  document.querySelectorAll(".tok.hit").forEach(el => {
+    const go = () => { const c = $("g" + el.dataset.g); if (!c) return; c.scrollIntoView({behavior: matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth", block:"start"}); c.classList.add("flash"); setTimeout(() => c.classList.remove("flash"), 1200); };
+    el.addEventListener("click", go); el.addEventListener("keydown", e => { if (e.key === "Enter") go(); });
+  });
+}
+$("samples").innerHTML = SAMPLES.map((s, i) => `<button type="button" data-i="${i}">مثال ${fmt(i + 1)}</button>`).join("");
+$("samples").addEventListener("click", e => { const b = e.target.closest("button"); if (!b) return; $("sentence").value = SAMPLES[+b.dataset.i]; render(); });
+$("form").addEventListener("submit", e => { e.preventDefault(); render(); });
+document.querySelectorAll("input[name=mode]").forEach(r => r.addEventListener("change", render));
+
+/* frame browser */
+const byFrame = new Map(); D.lus.forEach((l, i) => { if (!byFrame.has(l[2])) byFrame.set(l[2], []); byFrame.get(l[2]).push(i); });
+const FIDS = Object.keys(D.frames).map(Number).sort((a, b) => D.frames[a][1].localeCompare(D.frames[b][1], "ar"));
+function listFrames(){
+  const q = $("fq").value.trim(), qn = norm(q), ql = q.toLowerCase();
+  const hit = FIDS.filter(f => !q || D.frames[f][0].toLowerCase().includes(ql) || norm(D.frames[f][1]).includes(qn) || byFrame.get(f).some(i => norm(D.lus[i][0]) === qn));
+  $("fcount").textContent = `${fmt(hit.length)} إطاراً${hit.length > 60 ? " — يُعرض أول ٦٠" : ""}`;
+  $("flist").innerHTML = hit.slice(0, 60).map(f => `<button class="fitem" data-f="${f}"><span>${esc(D.frames[f][1])} <span class="en">${esc(D.frames[f][0])}</span></span><span class="n">${fmt(byFrame.get(f).length)} وحدة</span></button>`).join("");
+}
+$("fq").addEventListener("input", listFrames);
+$("flist").addEventListener("click", e => { const b = e.target.closest(".fitem"); if (!b) return; const f = +b.dataset.f;
+  $("fcard").innerHTML = `<article class="card">${frameBlock(f, byFrame.get(f))}</article>`; $("fcard").scrollIntoView({block:"start"}); });
+listFrames();
+
+document.querySelectorAll("nav.tabs button").forEach(b => b.addEventListener("click", () => {
+  document.querySelectorAll("nav.tabs button").forEach(x => x.setAttribute("aria-selected", x === b));
+  ["analyze", "frames", "about"].forEach(t => $("tab-" + t).hidden = t !== b.dataset.tab);
+}));
+$("sentence").value = SAMPLES[0];
+render();
+}
+</script>
+</body>
+</html>

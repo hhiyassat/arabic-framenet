@@ -23,6 +23,16 @@ python3 api/afn_api.py --cli "غضب التاجر ولبس قميصه"
 
 The API is a deterministic lookup over the releases (no AI at runtime, Python standard library only). It verifies every release file against its manifest before serving. See `HANDOFF_ARABIC_FRAMENET_USE.md` for schemas, usage rules and limits.
 
+## Live example · مثال تفاعلي
+
+`examples/index.html` is a self-contained page (no server, no AI) that runs the same lookup as the API in the browser:
+analyse an Arabic sentence (exact or affix-stripping mode), see each target word's lemma, part of speech, root, wazn,
+the frames it evokes with their Arabic definitions and frame elements, and browse all 986 frames that have Arabic LUs.
+Open it locally, or enable GitHub Pages (Settings → Pages → `main` / root) and visit `/examples/`.
+`node tests/parity_example_vs_api.js` checks that the page and `api/afn_api.py` return identical targets (2,188 cases, 0 mismatches at build time).
+
+صفحة مستقلة تحلّل الجملة العربية في المتصفح بالفهرس وقواعد المطابقة نفسها التي في الـ API، وتعرض لكل كلمة هدف لفظها وقسمها وجذرها ووزنها، والأطر التي تستدعيها بتعريفاتها وعناصرها، مع متصفّح لـ986 إطاراً.
+
 ## Scope and limits · الحدود
 
 - Arabic lexical units cover **986 of 1,221 frames** (1,073 frames have English LUs). A word not found is *not covered*, not "frameless".

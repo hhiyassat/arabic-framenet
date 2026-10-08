@@ -21,7 +21,7 @@ Matching (every hit reports how it matched; nothing is guessed silently):
   affix : additionally strips one common prefix (و ف ب ل ك ال …) and/or one suffix (ه ها هم ت ات ون …)  → match.method="AFFIX_STRIP"
   Both rules are NOT owner-ratified (status DEFER); they are reported in every response under "rules".
 Not available (no data in the releases): assignment of frame elements to sentence spans (semantic role labelling),
-valence patterns, annotated sentences, frames outside the 50 covered ones.
+valence patterns, annotated sentences, frames with no Arabic LUs in the release.
 """
 import csv, hashlib, json, pathlib, re, sys
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer

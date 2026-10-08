@@ -15,7 +15,8 @@ COPY = ["00_source/frames.jsonl", "00_source/fes.jsonl", "00_source/relations.js
         "03_lus_ar/l2_017_cand_raw.csv", "03_lus_ar/l2_017_cand_norm.csv", "03_lus_ar/l2_017_cand_norm2.csv", "03_lus_ar/l2_017_nae.csv", "03_lus_ar/l2_017_deferred.csv", "03_lus_ar/l2_027_redraft.csv",
         "api/afn_api.py", "HANDOFF_ARABIC_FRAMENET_USE.md", "frame_relations_ar.csv", "AGENT_PROMPT_v2.md", "CONTINUE_005.md", "CONTINUE_006.md"]
 COPY += [str(p.relative_to(ROOT)) for p in sorted((ROOT / "02_frames_ar").iterdir()) if p.is_file() and not p.name.startswith(".")]
-COPY += [str(p.relative_to(ROOT)) for p in sorted((ROOT / "scripts").iterdir()) if p.is_file() and p.suffix in (".py", ".sh")]
+COPY += [str(p.relative_to(ROOT)) for p in sorted((ROOT / "scripts").iterdir()) if p.is_file() and p.suffix in (".py", ".sh", ".html")]
+COPY += ["examples/index.html", "examples/parity_cases.json", "tests/parity_example_vs_api.js"]   # static demo + JS/API parity test
 for tag in ("layer1_v3", "layer2_v4"):   # layer2_v4 supersedes layer2_v3 (L2_020..L2_028)
     COPY += [str(p.relative_to(ROOT)) for p in sorted((ROOT / "release" / tag).iterdir()) if p.is_file()]
 OUT.mkdir(exist_ok=True)
