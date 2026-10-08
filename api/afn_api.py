@@ -3,7 +3,7 @@
 
 Reads ONLY the frozen, licensed releases (verified by sha256 before serving):
   release/layer1_v3  (frames, frame elements, relations — Arabic)
-  release/layer2_v3  (7533 APPROVED Arabic lexical units, 980 frames)
+  release/layer2_v4  (7623 APPROVED Arabic lexical units, 986 frames)
   03_lus_ar/lus_template.csv  (FrameNet 1.7 English LU list, for English equivalents)
 
 Run:   python3 api/afn_api.py                 # serves http://127.0.0.1:8765
@@ -30,7 +30,7 @@ from urllib.parse import urlparse, parse_qs
 ROOT = pathlib.Path(__file__).resolve().parents[1]
 REL = ROOT / "release"
 PIN = {"layer1_v3": "84c69ebbd0c125c2792d97b1f7b941c162d2dd6dd3dce433a72bdcd53c589cc1",
-       "layer2_v3": "2246dc4c11c481157726a015954f9e65c4e4d3ea0f583955a246d5caccbd90f7"}
+       "layer2_v4": "0f2c3e3db20ef022ddd9991d744a6529da07c85e62ff4f5149fce8750e7da400"}
 TEMPLATE_SHA = {"5616d5fadcd89b4f2e46f24a17f20e6499915782ec9a0e6bb2ae047c4020e980",   # full FrameNet LU list (local)
                 "75a240ae7dfc420c5c55c0ec238d146f4c27b7d4a6c6fa837b9c92602def1db9"}   # public copy: COD-sourced English definitions blanked
 sha = lambda p: hashlib.sha256(pathlib.Path(p).read_bytes()).hexdigest()
@@ -54,9 +54,9 @@ RELS = {}
 for r in jl(REL / "layer1_v3/frame_relations.jsonl"):
     RELS.setdefault(r["super_frame_id"], []).append(("sub", r))
     RELS.setdefault(r["sub_frame_id"], []).append(("super", r))
-LUS = list(csv.DictReader(open(REL / "layer2_v3/lus_ar.csv", encoding="utf-8")))
+LUS = list(csv.DictReader(open(REL / "layer2_v4/lus_ar.csv", encoding="utf-8")))
 EN = {r["lu_id"]: r for r in csv.DictReader(open(ROOT / "03_lus_ar/lus_template.csv", encoding="utf-8-sig"))}
-ENST = {r["en_lu_id"]: r["status"] for r in csv.DictReader(open(REL / "layer2_v3/lus_en_status.csv", encoding="utf-8"))}
+ENST = {r["en_lu_id"]: r["status"] for r in csv.DictReader(open(REL / "layer2_v4/lus_en_status.csv", encoding="utf-8"))}
 COVERED = {int(r["frame_id"]) for r in LUS}
 
 DIAC = re.compile("[ً-ٰٟـ]")
@@ -138,7 +138,7 @@ def analyze(text, mode="exact"):
                         "char_span": [toks[s]["start"], toks[s + L - 1]["end"]], "match": h[1],
                         "ambiguous_frames": len({lu["frame_id"] for lu in lus}) > 1, "lexical_units": lus})
     return {"input": text, "mode": mode, "engine": "deterministic lookup — no AI at runtime",
-            "release": {"layer1_v3": PIN["layer1_v3"], "layer2_v3": PIN["layer2_v3"]}, "rules": RULES,
+            "release": {"layer1_v3": PIN["layer1_v3"], "layer2_v4": PIN["layer2_v4"]}, "rules": RULES,
             "tokens": [{k: v for k, v in t.items()} for t in toks],
             "targets": targets,
             "frames": {str(f): frame_view(f) for f in fids},
@@ -148,7 +148,7 @@ def analyze(text, mode="exact"):
             "not_available": ["frame-element (semantic role) assignment to sentence spans — no Arabic valence/annotation layer",
                               "inflection analysis beyond affix stripping (present tense, broken plurals) — no morphological analyzer",
                               f"frames outside the {len(COVERED)} covered frames (of {len(FRAMES)})",
-                              "EVIDENCE_GAP lexical units (excluded from layer2_v3 by D2)"]}
+                              "EVIDENCE_GAP lexical units (excluded from layer2_v4 by D2)"]}
 
 
 INDEX_HTML = """<!doctype html><html lang="ar" dir="rtl"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
@@ -165,7 +165,7 @@ button{font:inherit;font-size:15px;background:var(--acc);color:var(--card);borde
 .m{color:var(--mut);font-size:14px}.fe{display:inline-block;font-size:13px;border:1px solid var(--rule);border-radius:6px;padding:0 8px;margin:2px}.fe.k{background:var(--asoft);border-color:transparent}
 h3{margin:.4em 0 .2em}pre{direction:ltr;text-align:left;overflow:auto;font-size:12px;max-height:420px;background:var(--bg);padding:10px;border-radius:8px}
 </style></head><body><div class="w"><h1>Arabic FrameNet API</h1>
-<div class="m">بحث محدّد بلا ذكاء اصطناعي، من release/layer1_v3 و layer2_v3. نقاط الـ API: POST /analyze · GET /analyze?text= · GET /frame/&lt;id&gt; · GET /lu?lemma= · GET /health</div>
+<div class="m">بحث محدّد بلا ذكاء اصطناعي، من release/layer1_v3 و layer2_v4. نقاط الـ API: POST /analyze · GET /analyze?text= · GET /frame/&lt;id&gt; · GET /lu?lemma= · GET /health</div>
 <form class="box" id="f"><textarea id="t">غضب التاجر من جاره، ثم لبس قميصه ومشى إلى السوق.</textarea>
 <div class="row"><button>حلّل</button><label><input type="radio" name="m" value="exact" checked> مطابقة تامة</label><label><input type="radio" name="m" value="affix"> مع تجريد اللواصق (غير معتمد)</label></div></form>
 <div id="o"></div></div><script>
@@ -220,5 +220,5 @@ if __name__ == "__main__":
         i = sys.argv.index("--cli"); mode = "affix" if "--affix" in sys.argv else "exact"
         print(json.dumps(analyze(sys.argv[i + 1], mode), ensure_ascii=False, indent=1)); sys.exit(0)
     port = int(sys.argv[sys.argv.index("--port") + 1]) if "--port" in sys.argv else 8765
-    print(f"Arabic FrameNet API on http://127.0.0.1:{port}  (verified layer1_v3 + layer2_v3)")
+    print(f"Arabic FrameNet API on http://127.0.0.1:{port}  (verified layer1_v3 + layer2_v4)")
     ThreadingHTTPServer(("127.0.0.1", port), H).serve_forever()

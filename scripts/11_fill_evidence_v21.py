@@ -7,7 +7,7 @@ ROOT = pathlib.Path(__file__).resolve().parents[1]
 IDX = ROOT / "03_lus_ar/v21_roots_index.csv"
 if hashlib.sha256(IDX.read_bytes()).hexdigest() != "6b8beda92318b93eaa160e2e152228cd7cb15f4c858c78cb9f2421bf494dd174": print("STOP index sha"); sys.exit(2)
 R2 = os.environ.get("R2_ROOTS", "/Users/husseinhiyassat/hokom-local-validation/taaqol-executor-wt/data/roots-4662-meaning.csv")
-K = lambda s: re.sub(r"[أإآؤئء]", "ء", re.sub(r"[\s\-‌‍ـ]", "", s or "")).replace("ى", "ي")
+K = lambda s: re.sub(r"[أإآؤئء]", "ء", re.sub(r"[\s\-‌‍ـ]", "", s or "")).replace("ى", "ي").replace("ک", "ك")   # ک→ك L2_020
 r2 = {K(r["الجذر"]) for r in csv.DictReader(open(R2, encoding="utf-8-sig"))}
 v21 = {r["key"]: r for r in csv.DictReader(open(IDX, encoding="utf-8-sig"))}
 p = ROOT / "03_lus_ar/lus_ar.csv"; rows = list(csv.DictReader(open(p, encoding="utf-8-sig"))); cols = list(rows[0])

@@ -9,7 +9,7 @@ ROOT = pathlib.Path(__file__).resolve().parents[1]
 R2 = os.environ.get("R2_ROOTS", "/Users/husseinhiyassat/hokom-local-validation/taaqol-executor-wt/data/roots-4662-meaning.csv")
 H = "1a711ffe9cc3286d87276b04a836b26756b67f3657f8a0904a0c7b4ac4d020da"
 if hashlib.sha256(open(R2, "rb").read()).hexdigest() != H: print("STOP R2 sha mismatch"); sys.exit(2)
-K = lambda s: re.sub(r"[أإآؤئء]", "ء", re.sub(r"[\s\-‌‍ـ]", "", s or "")).replace("ى", "ي")
+K = lambda s: re.sub(r"[أإآؤئء]", "ء", re.sub(r"[\s\-‌‍ـ]", "", s or "")).replace("ى", "ي").replace("ک", "ك")   # ک→ك L2_020
 src = {K(r["الجذر"]): r for r in csv.DictReader(open(R2, encoding="utf-8-sig"))}
 p = ROOT / "03_lus_ar/lus_ar.csv"
 rows = list(csv.DictReader(open(p, encoding="utf-8-sig"))); cols = list(rows[0].keys())

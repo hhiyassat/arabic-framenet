@@ -14,6 +14,7 @@ Rules enforced (each traced to an owner decision in 01_glossary/APPROVAL_LOG.txt
   L2_007 pos_ar +6 (اسم منسوب، اسم مكان، صيغة مبالغة، اسم مصدر، اسم آلة، اسم مرة); nisba wazn = pattern + ـِيّ ;
          L2_009 reject صيغة مبالغة ≠ فَعَّال(ة) ; alert when اسم مرة ≠ فَعْلَة
   L2_006 noun inventory also holds the regular derivatives of the ratified verb awzan (wazn_rules.DERIVED)
+  L2_022 pos_ar +اسم تفضيل (17) — wazn must be أَفْعَلُ (reject tafdil_not_afal)
   L2_004 root with المجموعة=مكمِّل → status must be EVIDENCE_GAP ; Sibawayh status=EXISTS only
   HANDOFF: owner_choice filled by owner only (CANDIDATE ⇒ empty; APPROVED ⇒ non-empty) · scope = FRAMES_FILE
 Reported but NOT enforced (no owner rule yet → OWNER_ALERT): root_not_in_R2, en_lu_frame_mismatch,
@@ -38,12 +39,12 @@ INTERNAL = {
     "03_lus_ar/v21_roots_index.csv":   "6b8beda92318b93eaa160e2e152228cd7cb15f4c858c78cb9f2421bf494dd174",   # L2_010
     "03_lus_ar/root_alert_waived.txt": "d51dc911a7e574a2801a9082f900267779c98ac1199c8d00b81e2db22ec577d7",   # L2_012
     "03_lus_ar/wazn_owner_l2_015.csv": "cbcfb88029c6588fb7919a0de7472df461e16571d61f84cdd864bf97de89f88a",   # L2_015
-    "03_lus_ar/pos_ar_closed.txt":     "e97aecc8c732257ab12629aa1452c6d1e3bf3e170edd0ccfc74fb09052fe6bf6",
+    "03_lus_ar/pos_ar_closed.txt":     "c82efc4cd9625799e73406e90ccb54df24d2ff3fee43c657d90e6319a0e9e8b7",   # L2_022 +اسم تفضيل (17)
 }
 AR_STATUS = {"CANDIDATE", "APPROVED", "EVIDENCE_GAP"}
 EN_STATUS = {"TODO", "MAPPED", "NO_ARABIC_EQUIVALENT"}
 NOUNLIKE = {"مصدر", "اسم فاعل", "اسم مفعول", "صفة مشبهة", "اسم جامد",
-            "اسم منسوب", "اسم مكان", "صيغة مبالغة", "اسم مصدر", "اسم آلة", "اسم مرة"}   # L2_007
+            "اسم منسوب", "اسم مكان", "صيغة مبالغة", "اسم مصدر", "اسم آلة", "اسم مرة", "اسم تفضيل"}   # L2_007 ; L2_022
 LATIN = re.compile(r"[A-Za-z]{3,}")
 QUOTED = re.compile(r"\([^()]*\)|\"[^\"]*\"|'[^']*'|«[^»]*»|“[^”]*”")
 AR_COLS = ["ar_lu_id", "lemma_ar", "pos_ar", "frame_id", "en_lu_ids", "definition_ar", "root", "wazn",
@@ -52,8 +53,8 @@ EN_COLS = ["en_lu_id", "status"]
 
 def sha(p): return hashlib.sha256(pathlib.Path(p).read_bytes()).hexdigest()
 def rows(p): return list(csv.DictReader(open(p, encoding="utf-8-sig")))
-def norm_root(r):  # join key K (roots project): أإآؤئء→ء ، ى→ي ; collision-free on roots-4662 (measured 0)
-    return re.sub(r"[أإآؤئء]", "ء", re.sub(r"[\s\-‌‍ـ]", "", r or "")).replace("ى", "ي")
+def norm_root(r):  # join key K (roots project): أإآؤئء→ء ، ى→ي ، ک→ك (L2_020) ; collision-free on roots-4662 (measured 0)
+    return re.sub(r"[أإآؤئء]", "ء", re.sub(r"[\s\-‌‍ـ]", "", r or "")).replace("ى", "ي").replace("ک", "ك")
 
 def load_refs(base):
     stop = []
@@ -122,6 +123,7 @@ def check(base, R):
             if pos == "صيغة مبالغة" and W.key(w) not in {W.key(x) for x in W.MUBALAGHA_WAZN}: P.append("mubalagha_not_faaal")   # L2_009
             if pos == "اسم مرة" and W.key(w) not in {W.key(x) for x in W.MARRA_WAZN}: warn["marra_wazn_not_falah"] += 1
             elif pos not in NOUNLIKE | {"فعل"}: warn["wazn_unchecked_pos"] += 1
+        if pos == "اسم تفضيل" and W.key(w) != W.key("أَفْعَلُ"): P.append("tafdil_not_afal")   # L2_022: اسم تفضيل وزنه أَفْعَلُ
         d = g("definition_ar")
         if s in ("CANDIDATE", "APPROVED") and not d: P.append("empty_definition")
         if [x for x in LATIN.findall(QUOTED.sub(" ", d))]: P.append("latin_leak")
@@ -205,6 +207,8 @@ def selftest(R):
         ("ok9",  {"pos_ar": "صيغة مبالغة", "wazn": "فَعَّالٌ", "en_lu_ids": ""}, None),
         ("ok7",  {"pos_ar": "اسم فاعل", "wazn": "مُتَفَعِّلَةٌ", "en_lu_ids": ""}, None),
         ("p16",  {"pos_ar": "اسم فاعل", "wazn": "مُفَعْلِيلٌ", "en_lu_ids": ""}, "wazn_not_in_inventory"),
+        ("p19",  {"pos_ar": "اسم تفضيل", "wazn": "فَعِيلٌ", "en_lu_ids": ""}, "tafdil_not_afal"),   # L2_022
+        ("ok10", {"pos_ar": "اسم تفضيل", "wazn": "أَفْعَلُ", "en_lu_ids": ""}, None),
     ]
     tmp = pathlib.Path(tempfile.mkdtemp()); (tmp / "03_lus_ar").mkdir()
     ar = []

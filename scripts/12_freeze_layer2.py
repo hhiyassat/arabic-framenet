@@ -63,7 +63,7 @@ RULE_OWNER = DR_HUSSEIN. Frozen {man['frozen_at']}. Builds on layer1_v1 (MANIFES
 Arabic lexical units for **{frames} frames**: {len(app)} APPROVED Arabic LUs (key = lemma_ar, pos_ar, frame_id), linked many-to-many to the
 {len(en)} English LUs of those frames ({enst['MAPPED']} MAPPED, {enst.get('NO_ARABIC_EQUIVALENT',0)} NO_ARABIC_EQUIVALENT, {enst.get('EVIDENCE_GAP_ONLY',0)} EVIDENCE_GAP_ONLY).
 Each LU carries root, wazn (from the ratified inventory: Sibawayh EXISTS + L2_005 feminine + L2_006 verb derivatives + L2_007 nisba + L2_015 owner patterns),
-pos_ar from a closed list of 16, an independent Arabic definition, and evidence pointers (roots-4662 / v21: المحكم، مقاييس، الأساس).
+pos_ar from a closed list of {sum(1 for l in open(ROOT / "03_lus_ar/pos_ar_closed.txt", encoding="utf-8") if l.strip())}, an independent Arabic definition, and evidence pointers (roots-4662 / v21: المحكم، مقاييس، الأساس).
 
 ## What this is NOT
 - Not all of FrameNet: {N_L1 - frames} of the {N_L1} Layer-1 frames carry no Arabic LUs here (most have no English LUs either); {enst.get('TODO',0)} English LUs are TODO and {N_DEF} Arabic candidates are deferred (03_lus_ar/l2_017_deferred.csv, not released).

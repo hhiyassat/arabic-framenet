@@ -21,13 +21,13 @@ RULE_OWNER = DR_HUSSEIN · كُتب 2026-10-05 · يُقرأ كاملاً قبل
 PROJECT = /Users/husseinhiyassat/arabic-net/FrameNet/FrameNet
 اقرأ فقط من:
   release/layer1_v3/   الأطر وعناصرها وعلاقاتها (عربي)          MANIFEST sha256 = 84c69ebbd0c125c2792d97b1f7b941c162d2dd6dd3dce433a72bdcd53c589cc1
-  release/layer2_v3/   الوحدات المعجمية العربية (980 إطاراً)      MANIFEST sha256 = 2246dc4c11c481157726a015954f9e65c4e4d3ea0f583955a246d5caccbd90f7
+  release/layer2_v4/   الوحدات المعجمية العربية (986 إطاراً)      MANIFEST sha256 = 0f2c3e3db20ef022ddd9991d744a6529da07c85e62ff4f5149fce8750e7da400
 ```
 
 - `layer1_v3` = `layer1_v2` بلا عمود `mac_dict_candidate` (معجم طرف ثالث)؛ استعمل v3.
 - `layer1_v1` و`layer2_v1` مطابقان في المحتوى بايتاً ببايت لكنهما **بلا ترخيص** (`license_verified=false`) — لا تستعملهما للتوزيع.
 - `02_frames_ar/` و`03_lus_ar/` و`scripts/` ملفات عمل للمالك، **ليست واجهة استهلاك**. لا تقرأ منها نتائج نهائية.
-- الإصدارات **غير قابلة للتعديل**. أي تصحيح = وسم جديد (`layer2_v3`…) بقرار المالك. الوكيل المستهلِك لا يكتب في `release/` أبداً.
+- الإصدارات **غير قابلة للتعديل**. أي تصحيح = وسم جديد (`layer2_v4`…) بقرار المالك. الوكيل المستهلِك لا يكتب في `release/` أبداً.
 
 ---
 
@@ -37,7 +37,7 @@ PROJECT = /Users/husseinhiyassat/arabic-net/FrameNet/FrameNet
 import hashlib, json, pathlib
 REL = pathlib.Path("/Users/husseinhiyassat/arabic-net/FrameNet/FrameNet/release")
 PIN = {"layer1_v3": "84c69ebbd0c125c2792d97b1f7b941c162d2dd6dd3dce433a72bdcd53c589cc1",
-       "layer2_v3": "2246dc4c11c481157726a015954f9e65c4e4d3ea0f583955a246d5caccbd90f7"}
+       "layer2_v4": "0f2c3e3db20ef022ddd9991d744a6529da07c85e62ff4f5149fce8750e7da400"}
 sha = lambda p: hashlib.sha256(p.read_bytes()).hexdigest()
 for tag, h in PIN.items():
     d = REL / tag
@@ -70,9 +70,9 @@ print("VERIFIED")
 
 ---
 
-## 4. الطبقة الثانية — `release/layer2_v3/`
+## 4. الطبقة الثانية — `release/layer2_v4/`
 
-### 4.1 `lus_ar.csv` — 7533 وحدة عربية، كلها `status=APPROVED`
+### 4.1 `lus_ar.csv` — 7623 وحدة عربية، كلها `status=APPROVED`
 
 | العمود | المعنى |
 |---|---|
@@ -97,10 +97,10 @@ print("VERIFIED")
 
 | الحالة | العدد | المعنى |
 |---|---|---|
-| `MAPPED` | 9318 | لها وحدة عربية معتمدة واحدة على الأقل |
+| `MAPPED` | 9445 | لها وحدة عربية معتمدة واحدة على الأقل |
 | `NO_ARABIC_EQUIVALENT` | 331 | لا لفظ عربي طبيعي في هذا الإطار — حالة مشروعة، **لا تخترع مقابلاً** |
-| `EVIDENCE_GAP_ONLY` | 3732 | لها مقابل عربي لكنه مستبعد من الإصدار (جذر «مكمِّل»، قرار D2) |
-| `TODO` | 191 | مقابلها العربي مؤجَّل لقرار المالك (03_lus_ar/l2_017_deferred.csv) — عاملها كغير مغطاة |
+| `EVIDENCE_GAP_ONLY` | 3791 | لها مقابل عربي لكنه مستبعد من الإصدار (جذر «مكمِّل»، قرار D2) |
+| `TODO` | 5 | مقابلها العربي مؤجَّل لقرار المالك (03_lus_ar/l2_017_deferred.csv) — عاملها كغير مغطاة |
 
 `en_lu_id` = `lu_id` في FrameNet 1.7. اللفظ الإنجليزي ليس في الإصدار؛ مصدره القالب `03_lus_ar/lus_template.csv` (sha256 `5616d5fa…`) أو FrameNet 1.7 نفسها.
 
@@ -113,9 +113,9 @@ print("VERIFIED")
 ## 5. حدود الاستعمال (BLOCK إن خولفت)
 
 1. **frame ≠ ruling**: الإطار يصف نوع حدث، لا حكماً شرعياً ولا قانونياً. لا تستنتج حكماً من إطار.
-2. **لفظ عربي → إطار** يُسمح به **فقط** عبر وحدة `APPROVED` في `layer2_v3/lus_ar.csv`. لا ربط من الجذر وحده (الجذر يتوزع على أطر كثيرة)، ولا من تشابه الهيكل (`SKELETON_MATCH_IS_NOT_A_ROOT_PROOF`).
-3. **التغطية 980 إطاراً** من 1221 (نطاق `02_frames_ar/l2_all_frames.txt` = 1073 إطاراً لها وحدات إنجليزية؛ 93 منها كل وحداتها مستبعدة أو مؤجلة؛ و191 وحدة إنجليزية بحالة `TODO`). غياب اللفظ ≠ عدم انتمائه للإطار؛ في الأطر الأخرى النتيجة = `NOT_COVERED` لا «لا يوجد».
-4. **EVIDENCE_GAP** (3614 وحدة) ليست في الإصدار؛ لا تستعملها ولا تستعِد قيمتها من ملفات العمل.
+2. **لفظ عربي → إطار** يُسمح به **فقط** عبر وحدة `APPROVED` في `layer2_v4/lus_ar.csv`. لا ربط من الجذر وحده (الجذر يتوزع على أطر كثيرة)، ولا من تشابه الهيكل (`SKELETON_MATCH_IS_NOT_A_ROOT_PROOF`).
+3. **التغطية 986 إطاراً** من 1221 (نطاق `02_frames_ar/l2_all_frames.txt` = 1073 إطاراً لها وحدات إنجليزية؛ 87 منها كل وحداتها مستبعدة أو مؤجلة؛ و5 وحدات إنجليزية بحالة `TODO`). القسم `pos_ar` من قائمة مغلقة من 17 (أُضيف «اسم تفضيل» بقرار L2_022). غياب اللفظ ≠ عدم انتمائه للإطار؛ في الأطر الأخرى النتيجة = `NOT_COVERED` لا «لا يوجد».
+4. **EVIDENCE_GAP** (3664 وحدة) ليست في الإصدار؛ لا تستعملها ولا تستعِد قيمتها من ملفات العمل.
 5. **evidence_* مؤشرات**: لاسترجاع النص اقرأ المصدر المجمَّد بالبصمة عبر وسيط؛ **لا تنسخ المصادر داخل المشروع ولا تعدّلها**:
    - `roots-4662-meaning.csv` sha256 `1a711ffe9cc3286d87276b04a836b26756b67f3657f8a0904a0c7b4ac4d020da`
    - `v21-معاني-حسب-الحرف/README.json` sha256 `ab0d42b4b205ee460bc3c4331e3c4fffe032c19c56d7a8a8f593cd5ca97e735d`
@@ -135,7 +135,7 @@ R = pathlib.Path("/Users/husseinhiyassat/arabic-net/FrameNet/FrameNet/release")
 frames = {j["frame_id"]: j for j in map(json.loads, open(R/"layer1_v3/frames_ar.jsonl", encoding="utf-8"))}
 fes = collections.defaultdict(list)
 for j in map(json.loads, open(R/"layer1_v3/frame_elements_ar.jsonl", encoding="utf-8")): fes[j["frame_id"]].append(j)
-lus = list(csv.DictReader(open(R/"layer2_v3/lus_ar.csv", encoding="utf-8")))
+lus = list(csv.DictReader(open(R/"layer2_v4/lus_ar.csv", encoding="utf-8")))
 
 # (أ) لفظ عربي → أطره (بالمطابقة التامة للفظ المضبوط؛ لا تطبيع ولا تخمين)
 def frames_of(lemma):
@@ -167,5 +167,5 @@ def lus_of_root(root): return [(r["lemma_ar"], r["pos_ar"], r["frame_id"]) for r
 
 ## 8. خط القرارات
 
-كل قرار مرقّم في `release/layer2_v3/APPROVAL_LOG.txt` (OWNER_DECISION_L2_001 … L2_019، OWNER_REVIEW_L2_001، OWNER_DELEGATION_L2_001).
+كل قرار مرقّم في `release/layer2_v4/APPROVAL_LOG.txt` (OWNER_DECISION_L2_001 … L2_028، OWNER_REVIEW_L2_001، OWNER_DELEGATION_L2_001).
 قرارات ما بعد التجميد (LAYER2_FROZEN، G0.1، RELEASES_RELICENSED، LAYER1_CHECK_FULL) في `01_glossary/APPROVAL_LOG.txt`.
